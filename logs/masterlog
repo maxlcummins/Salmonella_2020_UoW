@@ -1,0 +1,113 @@
+################################################################################################################################################
+########################       Log of removed strains                                          #################################################
+################################################################################################################################################
+
+#removed due to assembly size (Cut off at 8.2 mbp)
+-rw-r--r-- 1 malcummi AusGEM 9578573 Jan  8 13:42 Seagull_18_124_2_S27.fasta
+-rw-r--r-- 1 malcummi AusGEM 9669035 Jan  8 13:42 Seagull_18_116_S20.fasta
+-rw-r--r-- 1 malcummi AusGEM 9750944 Jan  8 16:09 SIML_2017_12.fasta
+-rw-r--r-- 1 malcummi AusGEM 9769862 Jan  8 13:42 Seagull_18_127_S28.fasta
+
+################################################################################################################################################
+########################       Shuvlord - Assembly                                             #################################################
+################################################################################################################################################
+
+#Shovill
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/shovill/nohup_shuvlord.out &
+#JOBID = 9574
+
+#Some of the samples had to be rerun as the wrong reads were being used - these were created with read index files rather than sequence read data.
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/shovill/nohup_shuvlord2.out &
+#JOBID = 5720
+
+################################################################################################################################################
+########################       Pangenomelord - Pangenomic analysis                               ###############################################
+################################################################################################################################################
+
+#Some of the samples had to be rerun as the wrong reads were being used - these were created with read index files rather than sequence read data.
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/pangenomelord/nohup_pangenomelord.out &
+#JOBID = 1724
+
+
+cd /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/pangenomelord/Roary.out
+mkdir ../initial_pangenome_211
+cp core_gene_alignment.aln ../initial_pangenome_211
+
+## WENT TO RUN THE step below but then found this in the logs when I couldnt locate the aln file...
+#Number of clusters (72887) exceeds limit (50000). Multifastas not created. Please check the spreadsheet for contamination from different species or increase the --group_limit parameter.
+#2021/01/12 14:37:04 Exiting early because number of clusters is too high
+## Run SNP-sites
+#source deactivate
+#source activate /home/malcummi/Data/pipelord/snplord/.snakemake/conda/88bf0609 # snp_sites from snplord
+#snp-sites -c core_gene_alignment.aln > ../initial_pangenome_211/core_gene_alignment_snp_sites.aln
+#source deactivate
+
+#Deleted genomes above 8.2MB in size, deleted ROARY output and reran pangenomelord
+cd /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/shovill/final_assemblies
+mkdir ../junk_assemblies
+mv Seagull_18_124_2_S27.fasta Seagull_18_116_S20.fasta SIML_2017_12.fasta Seagull_18_127_S28.fasta ../junk_assemblies/
+
+cd ../../shovill
+rm -rf Seagull_18_124_2_S27.out Seagull_18_116_S20.out SIML_2017_12.out Seagull_18_127_S28.out Roary.out
+
+cd ~/Data/pipelord/pangenomelord
+source deactivate
+source activate snakemake
+
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/pangenomelord/nohup_pangenomelord2.out &
+#JOBID = 28433
+
+#Same error:
+##Use of uninitialized value in require at /data/malcummi/pipelord/pangenomelord/.snakemake/conda/2a112bc4/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Encode.pm line 61.
+##Number of clusters (65766) exceeds limit (50000). Multifastas not created. Please check the spreadsheet for contamination from different species or increase the --group_limit parameter.
+##2021/01/12 16:06:59 Exiting early because number of clusters is too high
+
+#Reran the command with a new snakefile which has a different --group_limit parameter (70000) (Snakefile_Salmonella_group_lim_up)
+
+nohup snakemake -s Snakefile_Salmonella_group_lim_up -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/pangenomelord/nohup_pangenomelord3.out &
+#JobID = 29500
+
+
+## Ran SNP-sites
+snp-sites -c core_gene_alignment.aln > core_gene_alignment_snp_sites.aln
+source deactivate
+
+source activate /home/malcummi/Data/pipelord/snplord/.snakemake/conda/4ead7ed0 # snp_dists from snplord
+snp-dists -c core_gene_alignment_snp_sites.aln > core_gene_alignment_snp_sites_snp_dists.csv
+source deactivate
+
+#source activate /home/malcummi/Data/pipelord/snplord/.snakemake/conda/89835887 # fasttree from snplord
+#fasttree -gtr -nt ../output/core_gene_alignment_snp_sites.aln > ../output/core_gene_alignment_snp_sites.tree
+
+### Cam has suggested using IQtree on the core_gene_alignment.aln instead
+conda create -n iqtree -c bioconda iqtree
+source activate iqtree
+cd ../output
+
+#This was run again on the snp_sites
+nohup iqtree -s core_gene_alignment_snp_sites.aln -m MFP -bb 1000 -nt AUTO >iqtree_core_genome_snp_sites_aln.out 2>iqtree_core_genome_snp_sites_aln.err &
+#JOBID=13708
+
+#This was run again on the full alignment (rather than the snp_sites)
+nohup iqtree -s core_gene_alignment.aln -m MFP -bb 1000 -nt AUTO >iqtree_core_genome_aln.out 2>iqtree_core_genome_aln.err &
+#JOBID=32647
+
+################################################################################################################################################
+########################       sistrlord - serovar analysis                                      ###############################################
+################################################################################################################################################
+
+
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/sistrlord/nohup_sistrlord.out &
+#JOBID = 15401
+
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/sistrlord/nohup_sistrlord2.out &
+#JOBID =12906
+
+
+################################################################################################################################################
+########################       abricatelord - abricate analysis                                      ###############################################
+################################################################################################################################################
+
+
+nohup snakemake -j --use-conda  -p > /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/logs/abricate/nohup_abricatelord.out &
+#JOBID = 23304

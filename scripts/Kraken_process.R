@@ -98,11 +98,12 @@ serovar_table <-
         salmonellae_pass %>% group_by(serovar_cgmlst, strain_source) %>% summarise(counts = n()) %>% arrange(desc(counts))
 
 # Create a list of files for us to move to salmonella only folder
-salmonella_names <- paste0("output/UoW_Salmonella/shovill/salmonella/", salmonellae_pass$genome,".fasta")
+salmonella_names <- paste0("output/UoW_Salmonella/shovill/final_assemblies/", salmonellae_pass$genome,".fasta")
 
 #Move these Salmonella genomes over
 message("Found ",length(salmonella_names)," Salmonella which met qc controls")
 message("Copying them to output/UoW_Salmonella/shovill/salmonella")
+
 file.copy(from = salmonella_names,
           to = "output/UoW_Salmonella/shovill/salmonella",
           recursive = FALSE,

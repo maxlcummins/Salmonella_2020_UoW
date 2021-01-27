@@ -104,6 +104,16 @@ salmonella_names <- paste0("output/UoW_Salmonella/shovill/final_assemblies/", sa
 message("Found ",length(salmonella_names)," Salmonella which met qc controls")
 message("Copying them to output/UoW_Salmonella/shovill/salmonella")
 
+
+genus_pass_table <- non_salmonellae %>% group_by(Genus) %>% summarise(counts = n())
+
+genus_pass_table <- rbind(genus_pass_table, c("Salmonella", "145"))
+genus_pass_table <- rbind(genus_pass_table, c("Salmonella*", "7"))
+
+if(!dir.exists("output/UoW_Salmonella/shovill/salmonella")){
+        dir.create("output/UoW_Salmonella/shovill/salmonella")
+}
+
 file.copy(from = salmonella_names,
           to = "output/UoW_Salmonella/shovill/salmonella",
           recursive = FALSE,
@@ -124,3 +134,6 @@ write_csv(fail_salmonellae, "delims/salmonellae_fail.csv")
 
 # Write Salmonella pass qc table
 write_csv(non_salmonellae, "delims/non_salmonellae.csv")
+
+# Write Salmonella pass qc table
+write_csv(genus_pass_table, "delims/genus_pass_table")

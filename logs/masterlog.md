@@ -137,7 +137,76 @@ PROCESS_ID=$!
 echo "$dt" "$PWD" "JOB_ID =" "$PROCESS_ID" >> ${PROJ_DIR}/logs/${TASK}/JOB_IDs
 ```
 
-# Downstream Processing
+## Sistr - Serovar/ Species identification
+We will couple sistr analysis with kraken data to determine species ID and qc our assemblies.
+
+sistr version: 
+
+sistr yaml: /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/snakemake/sistr/sistr.yaml
+
+```
+# Set the task variable for our output names
+TASK=sistr
+
+# Change to the pipelord directory
+cd ${PIPELORD_DIR}/${TASK}lord
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/snakemake/${TASK}
+
+#Change Snakefile config variable to our master config
+perl -p -i -e "s@^configfile.*@configfile: \"${MASTER_CONF}\"@g" Snakefile
+
+# Copy the Snakefile and Environment yaml/s to our project directory
+cp Snakefile config/*.yaml ${PROJ_DIR}/snakemake/${TASK}
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/logs/${TASK}
+
+# Run task
+nohup snakemake -j --use-conda  -p > ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.err 2> ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.out &
+
+# Save our job ID
+PROCESS_ID=$!
+echo "$dt" "$PWD" "JOB_ID =" "$PROCESS_ID" >> ${PROJ_DIR}/logs/${TASK}/JOB_IDs
+```
+
+## Genotyping with abricate
+We can start out genotyping as we can filter out non-Salmonella later anyway quite readily and computationally it doesnt hurt to do the extra strains.
+
+abricate version: 
+
+abricate yaml: /projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/snakemake/abricate/abricate.yaml
+
+```
+# Set the task variable for our output names
+TASK=abricate
+
+# Change to the pipelord directory
+cd ${PIPELORD_DIR}/${TASK}lord
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/snakemake/${TASK}
+
+#Change Snakefile config variable to our master config
+perl -p -i -e "s@^configfile.*@configfile: \"${MASTER_CONF}\"@g" Snakefile
+
+# Copy the Snakefile and Environment yaml/s to our project directory
+cp Snakefile config/*.yaml ${PROJ_DIR}/snakemake/${TASK}
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/logs/${TASK}
+
+# Run task
+nohup snakemake -j --use-conda  -p > ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.err 2> ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.out &
+
+# Save our job ID
+PROCESS_ID=$!
+echo "$dt" "$PWD" "JOB_ID =" "$PROCESS_ID" >> ${PROJ_DIR}/logs/${TASK}/JOB_IDs
+```
+
+# Downstream analysis and species ID
+
 
 
 

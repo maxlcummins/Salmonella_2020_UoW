@@ -119,7 +119,7 @@ write_csv(serovar_table, "delims/serovar_table.csv")
 write_csv(salmonellae_pass, "delims/salmonellae_pass.csv")
 
 # Write Salmonella pass qc table
-write_csv(salmonellae_fail, "delims/salmonellae_fail.csv")
+write_csv(fail_salmonellae, "delims/salmonellae_fail.csv")
 
 # Write Salmonella pass qc table
 write_csv(non_salmonellae, "delims/non_salmonellae.csv")

@@ -108,6 +108,10 @@ file.copy(from = salmonella_names,
           recursive = FALSE,
           copy.mode = TRUE)
 
+if(!dir.exists("delims")){
+        dir.create("delims")
+}
+
 #Write CSV table
 write_csv(serovar_table, "delims/serovar_table.csv")
 

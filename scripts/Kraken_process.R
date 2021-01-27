@@ -100,9 +100,7 @@ serovar_table <-
 # Create a list of files for us to move to salmonella only folder
 salmonella_names <- paste0("output/UoW_Salmonella/shovill/final_assemblies/", salmonellae_pass$genome,".fasta")
 
-#Move these Salmonella genomes over
-message("Found ",length(salmonella_names)," Salmonella which met qc controls")
-message("Copying them to output/UoW_Salmonella/shovill/salmonella")
+
 
 
 genus_pass_table <- non_salmonellae %>% group_by(Genus) %>% summarise(counts = n())
@@ -114,10 +112,16 @@ if(!dir.exists("output/UoW_Salmonella/shovill/salmonella")){
         dir.create("output/UoW_Salmonella/shovill/salmonella")
 }
 
-file.copy(from = salmonella_names,
-          to = "output/UoW_Salmonella/shovill/salmonella",
-          recursive = FALSE,
-          copy.mode = TRUE)
+if(!file.exists(salmonella_names[1])){
+        #Move these Salmonella genomes over
+        message("Found ",length(salmonella_names)," Salmonella which met qc controls")
+        message("Copying them to output/UoW_Salmonella/shovill/salmonella")
+        
+        file.copy(from = salmonella_names,
+                  to = "output/UoW_Salmonella/shovill/salmonella",
+                  recursive = FALSE,
+                  copy.mode = TRUE)
+}
 
 if(!dir.exists("delims")){
         dir.create("delims")

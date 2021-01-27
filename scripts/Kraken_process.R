@@ -101,6 +101,8 @@ serovar_table <-
 salmonella_names <- paste0("output/UoW_Salmonella/shovill/salmonella/", salmonellae$genome,".fasta")
 
 #Move these Salmonella genomes over
+message("Found ",length(salmonella_names)," Salmonella which met qc controls")
+message("Copying them to output/UoW_Salmonella/shovill/salmonella")
 file.copy(from = salmonella_names,
           to = "output/UoW_Salmonella/shovill/salmonella",
           recursive = FALSE,

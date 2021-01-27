@@ -107,3 +107,15 @@ file.copy(from = salmonella_names,
           to = "output/UoW_Salmonella/shovill/salmonella",
           recursive = FALSE,
           copy.mode = TRUE)
+
+#Write CSV table
+write_csv(serovar_table, "delims/serovar_table.csv")
+
+# Write Salmonella pass qc table
+write_csv(salmonellae_pass, "delims/salmonellae_pass.csv")
+
+# Write Salmonella pass qc table
+write_csv(salmonellae_fail, "delims/salmonellae_fail.csv")
+
+# Write Salmonella pass qc table
+write_csv(non_salmonellae, "delims/non_salmonellae.csv")

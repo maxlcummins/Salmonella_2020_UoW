@@ -1,17 +1,12 @@
-library(ggtree)
-library(phytools)
-library(tidyr)
 library(readr)
 library(magrittr)
 library(dplyr)
 
 #### Variable setting ####
-# Path to wd()
-workdir <-
 # Path to serovar data
-serovar_data <-
+serovar_data <- "output/UoW_Salmonella/sistr/serovars.csv"
 # Path to kraken data
-kraken_data <-
+kraken_data <- "output/UoW_Salmonella/kraken2/kraken2_report.txt"
 
 # Define our 'not in' command
 '%nin%' <- Negate('%in%')
@@ -57,13 +52,13 @@ kraken <- kraken %>% filter(name_file != "name_file")
 kraken2 <- kraken %>% filter(grepl("^G$", R))
 
 # Select only the best hit for genus
-simple_genus <- kraken2[!duplicated(kraken2$name_file),]
+simple_genus <- kraken2[!duplicated(kraken2$name_file), ]
 
 # Select only species level hits
 kraken3 <- kraken %>% filter(grepl("^S", R))
 
 # Select only the best hit for species
-simple_species <- kraken3[!duplicated(kraken3$name_file),]
+simple_species <- kraken3[!duplicated(kraken3$name_file), ]
 
 # Combine our genus and species hits
 IDs <- left_join(simple_genus, simple_species, by = "name_file")
@@ -78,11 +73,35 @@ IDs <-
                 "Species" = root.y,
                 "Perc_frags_genus" = `100.00.x`,
                 "Perc_frags_species" = `100.00.y`,
-                "genome" = name_file)
+                "genome" = name_file
+        )
 
 # Join kraken and serovar data
-IDs <- left_join(IDs, serovars_simple, by = "name_file")
+IDs <- left_join(IDs, serovars_simple, by = "genome")
 
-# Pull out our Salmonella
-salmonellae <-
+# Produce simple
+
+# Pull out our Salmonella which passed QC
+salmonellae_pass <-
         IDs %>% filter(!grepl("WARNING|FAIL", qc_status), Genus == "Salmonella")
+
+# Pull out our non-Salmonella
+non_salmonellae <-
+        IDs %>% filter(Genus != "Salmonella")
+
+# Pull out our Salmonella which failed QC or had warnings
+fail_salmonellae <-
+        IDs %>% filter(grepl("WARNING|FAIL", qc_status), Genus == "Salmonella")
+
+# Create a table listing serovar counts
+serovar_table <-
+        salmonellae_pass %>% group_by(serovar_cgmlst, strain_source) %>% summarise(counts = n()) %>% arrange(desc(counts))
+
+# Create a list of files for us to move to salmonella only folder
+salmonella_names <- paste0("output/UoW_Salmonella/shovill/salmonella/", salmonellae$genome,".fasta")
+
+#Move these Salmonella genomes over
+file.copy(from = salmonella_names,
+          to = "output/UoW_Salmonella/shovill/salmonella",
+          recursive = FALSE,
+          copy.mode = TRUE)

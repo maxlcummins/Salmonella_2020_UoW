@@ -1,0 +1,61 @@
+import re
+import subprocess
+import os
+
+configfile: "/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/snakemake/masterconfig.yaml"
+    #"config_files/config.yaml"
+
+# Get reads
+sample_ids, = glob_wildcards(config['assemblies']+"/{sample}.fasta")
+prefix = config['prefix']
+maxthreads = snakemake.utils.available_cpu_count()
+
+print(config['krakendb'])
+print(sample_ids)
+
+# one rule to rule them all
+rule all:
+    input:
+        expand(config['outdir']+"/{prefix}/kraken2/{sample}.out",
+               sample=sample_ids, prefix=prefix),
+        expand(config['outdir']+"/{prefix}/kraken2/{sample}.report",sample=sample_ids, prefix=prefix),
+        expand(config['outdir']+"/{prefix}/kraken2/kraken2_report.txt", prefix=prefix),
+
+
+rule run_kraken2:
+    input:
+        db = config['krakendb'],
+        assembly = config['assemblies']+"/{sample}.fasta",
+    output:
+        out = config['outdir']+"/{prefix}/kraken2/{sample}.out",
+        report = config['outdir']+"/{prefix}/kraken2/{sample}.report"
+    conda:
+        "config/kraken2.yaml"
+    threads: maxthreads
+    shell:
+        """
+        kraken2 --db {input.db} --use-names --report {output.report} --output {output.out} {input.assembly}
+        """
+
+rule clean:
+    input:
+        config['outdir']+"/{prefix}/kraken2/{sample}.report"
+    output:
+        config['outdir']+"/{prefix}/kraken2/{sample}_clean.report"
+
+    shell:
+        """
+        awk 'NR == 1 {{print "name_file\t" $0; next;}}{{print FILENAME "\t" $0;}}' {input} > {output}
+        perl -p -i -e 's@\.report@@g' {}
+        """
+
+rule combine:
+    input:
+        expand(config['outdir']+"/{prefix}/kraken2/{sample}_clean.report",sample=sample_ids, prefix=prefix)
+    output:
+        config['outdir']+"/{prefix}/kraken2/kraken2_report.txt"
+
+    shell:
+        """
+        cat {input} > {output}
+        """

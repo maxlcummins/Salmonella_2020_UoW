@@ -1,3 +1,6 @@
+library(ggtree)
+library(phytools)
+library(tidyr)
 library(readr)
 library(magrittr)
 library(dplyr)
@@ -7,6 +10,13 @@ library(dplyr)
 serovar_data <- "output/UoW_Salmonella/sistr/serovars.csv"
 # Path to kraken data
 kraken_data <- "output/UoW_Salmonella/kraken2/kraken2_report.txt"
+
+# Path to wd()
+workdir <-
+# Path to serovar data
+serovar_data <-
+# Path to kraken data
+kraken_data <-
 
 # Define our 'not in' command
 '%nin%' <- Negate('%in%')
@@ -59,6 +69,7 @@ kraken3 <- kraken %>% filter(grepl("^S", R))
 
 # Select only the best hit for species
 simple_species <- kraken3[!duplicated(kraken3$name_file), ]
+
 
 # Combine our genus and species hits
 IDs <- left_join(simple_genus, simple_species, by = "name_file")
@@ -141,3 +152,12 @@ write_csv(non_salmonellae, "delims/non_salmonellae.csv")
 
 # Write Salmonella pass qc table
 write_csv(genus_pass_table, "delims/genus_pass_table")
+=======
+                "genome" = name_file)
+
+# Join kraken and serovar data
+IDs <- left_join(IDs, serovars_simple, by = "name_file")
+
+# Pull out our Salmonella
+salmonellae <-
+        IDs %>% filter(!grepl("WARNING|FAIL", qc_status), Genus == "Salmonella")

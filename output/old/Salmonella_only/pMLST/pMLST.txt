@@ -1,0 +1,1016 @@
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_14/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_H11/results_tab.tsv
+FIA	100.0	100.0	383	383	0	FIA_18	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_4_S118/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_89_S8/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FII	100.0	100.0	156	156	0	FII_46	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_2_S17/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_01/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_124_1_S26/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_F11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_19/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_9_S80/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_B11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_12_S101/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_29/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_233_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_2_S30/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_3_S117/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_05/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_07/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_06/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_7_S96/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_10/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116.05_E.coli/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_02/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_13_S102/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_13_S84/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_15_S86/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_22/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_08/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_10/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_16_S87/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_2_S43/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_17_S106/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_4_S93/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_02/results_tab.tsv
+FIA	100.0	100.0	383	383	0	FIA_8	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_18_S89/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FII	100.0	100.0	156	156	0	FII_46	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_100_1_S16/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_21/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_10_S99/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_6_S119/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIIS	100.0	100.0	213	213	0	FIIS_3	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_22/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_154_S34/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_02/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_09/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_15_S104/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_284_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_07/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_05/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_292_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_116_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_11_S100/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_17/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_09/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_18/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_27/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_400_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_7_S78/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_334_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_171_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_12/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_30/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_01/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_1_S21/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_16/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_2_S91/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_5_S94/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_132_1_S29/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_084_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_09/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_2_S15/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_15/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_06/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_12_S83/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_255_S68/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_269_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_2_S38/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_14/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_2_S59/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_6_S95/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_288_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_21/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_14_S85/results_tab.tsv
+FIA	100.0	100.0	383	383	0	FIA_8	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_25/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_8_S97/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_2_S10/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_03/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_9_S98/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_15/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_238_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_190_1_S42/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_3_S92/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_13/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_220_S109/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_206_S47/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_397_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_16_S105/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_20/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_10/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_19/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_18/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_8_S79/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FII	100.0	100.0	156	156	0	FII_46	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_08/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_90_1_S9/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_13/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_03/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_2_S116/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_240_1_S58/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_14/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_03/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_24/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_172_S40/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_15/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_11_S82/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_10_S81/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_04/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_380_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_13/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_23/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_3_S23/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_298_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_117_2_S22/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_96_1_S14/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_5_S77/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_04/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_327_Sal/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_14_S103/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_163_1_S37/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_07/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_16/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_04/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/Seagull_18_165_S107/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_D11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_05/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2017_23/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_22	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SIML_2019_12/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/SG19_182_Sal/results_tab.tsv
+FIA	100.0	100.0	383	383	0	FIA_8	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_24/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_28/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/W_1_G11/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2017_17_S88/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIB						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_08/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2019_06/results_tab.tsv
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_17	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FII						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FIIS	100.0	100.0	215	215	0	FIIS_1	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/UoW_Salmonella_all/output/Salmonella_only/pMLST/ISLHD_2018_1_S90/results_tab.tsv

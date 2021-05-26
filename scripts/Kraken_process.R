@@ -108,6 +108,14 @@ genus_pass_table <- non_salmonellae %>% group_by(Genus) %>% summarise(counts = n
 genus_pass_table <- rbind(genus_pass_table, c("Salmonella", "145"))
 genus_pass_table <- rbind(genus_pass_table, c("Salmonella*", "7"))
 
+serovar_count_table <- salmonellae_pass %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+gull_serovars <- salmonellae_pass %>% filter(strain_source == "Gull") %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+human_serovars <- salmonellae_pass %>% filter(strain_source == "Human") %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+
+overlap <- human_serovars$serovar_cgmlst[human_serovars$serovar_cgmlst %in% gull_serovars$serovar_cgmlst]
+
+salmonellae_pass %>% filter(serovar_cgmlst %in% overlap) %>% group_by(strain_source, serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(serovar_cgmlst)
+
 if(!dir.exists("output/UoW_Salmonella/shovill/salmonella")){
         dir.create("output/UoW_Salmonella/shovill/salmonella")
 }

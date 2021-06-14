@@ -64,6 +64,7 @@ ISLHD_2018_16_S105	 92.00	69	27	S	28901	                Salmonella enterica
 SG19_238_Sal	 91.93	148	48	S	28901	                Salmonella enterica
 ISLHD_2018_11_S100	 91.92	91	49	S	28901	                Salmonella enterica
 ISLHD_2018_4_S93	 91.89	34	15	S	28901	                Salmonella enterica
+MD_6_F11	 91.73	122	56	S	28901	                Salmonella enterica
 W_1_G11	 91.67	33	13	S	28901	                Salmonella enterica
 SIML_2019_05	 91.36	74	27	S	28901	                Salmonella enterica
 ISLHD_2017_11_S82	 91.27	115	56	S	28901	                Salmonella enterica
@@ -72,6 +73,7 @@ ISLHD_2018_10_S99	 91.21	83	34	S	28901	                Salmonella enterica
 ISLHD_2018_1_S90	 91.11	82	40	S	28901	                Salmonella enterica
 SG19_233_Sal	 90.91	60	20	S	28901	                Salmonella enterica
 ISLHD_2017_5_S77	 90.91	80	22	S	28901	                Salmonella enterica
+MD_6_F9	 90.59	77	17	S	28901	                Salmonella enterica
 ISLHD_2017_13_S84	 90.38	47	16	S	28901	                Salmonella enterica
 ISLHD_2017_14_S85	 90.32	56	11	S	28901	                Salmonella enterica
 ISLHD_2017_12_S83	 90.20	46	16	S	28901	                Salmonella enterica
@@ -90,9 +92,13 @@ SG19_171_Sal	 89.55	60	25	S	28901	                Salmonella enterica
 W_1_E11	 89.47	51	13	S	28901	                Salmonella enterica
 SG19_380_Sal	 89.47	68	27	S	28901	                Salmonella enterica
 ISLHD_2018_15_S104	 89.47	51	24	S	28901	                Salmonella enterica
+MD_6_D10	 89.39	59	24	S	28901	                Salmonella enterica
+MD_7_G2	 89.36	42	17	S	28901	                Salmonella enterica
 SIML_2017_03	 89.02	73	36	S	28901	                Salmonella enterica
 ISLHD_2019_06	 88.89	64	27	S	28901	                Salmonella enterica
+MD_6_F10	 88.73	63	27	S	28901	                Salmonella enterica
 SG19_116_Sal	 88.33	53	19	S	28901	                Salmonella enterica
+MD_6_H11	 88.31	68	30	S	28901	                Salmonella enterica
 ISLHD_2019_03	 88.24	45	17	S	28901	                Salmonella enterica
 ISLHD_2018_2_S91	 88.24	45	15	S	28901	                Salmonella enterica
 SIML_2017_01	 88.17	872	647	S	28901	                Salmonella enterica
@@ -100,6 +106,9 @@ Seagull_18_217_S52	 88.14	52	31	S	584	                Proteus mirabilis
 SIML_2019_12	 88.10	37	17	S	28901	                Salmonella enterica
 SG19_116_05_E_coli	 88.06	59	20	S	28901	                Salmonella enterica
 ISLHD_2017_10_S81	 87.93	51	25	S	28901	                Salmonella enterica
+MD_7_D2	 87.84	65	26	S	28901	                Salmonella enterica
+MD_6_E11	 87.84	65	26	S	28901	                Salmonella enterica
+MD_6_B11	 87.84	65	28	S	28901	                Salmonella enterica
 SIML_2017_22	 87.80	72	34	S	28901	                Salmonella enterica
 SIML_2017_02	 87.76	43	18	S	28901	                Salmonella enterica
 ISLHD_2019_11	 87.64	78	19	S	28901	                Salmonella enterica
@@ -112,33 +121,62 @@ ISLHD_2019_15	 87.18	68	28	S	28901	                Salmonella enterica
 Seagull_18_254_S112	 87.10	27	18	S	569	                Hafnia alvei
 ISLHD_2019_05	 87.04	47	19	S	28901	                Salmonella enterica
 SIML_2017_18	 87.01	67	30	S	28901	                Salmonella enterica
+MD_6_A10	 86.96	40	15	S	28901	                Salmonella enterica
+MD_7_F1	 86.90	73	33	S	28901	                Salmonella enterica
 SIML_2019_06	 86.84	33	13	S	28901	                Salmonella enterica
+MD_7_B2	 86.84	66	26	S	28901	                Salmonella enterica
+MD_7_A1	 86.84	66	27	S	28901	                Salmonella enterica
+MD_6_G9	 86.84	66	26	S	28901	                Salmonella enterica
+MD_6_G10	 86.84	66	28	S	28901	                Salmonella enterica
+MD_6_C10	 86.84	66	27	S	28901	                Salmonella enterica
 Seagull_18_244_S61	 86.75	72	48	S	584	                Proteus mirabilis
+MD_6_D8	 86.49	64	28	S	28901	                Salmonella enterica
+MD_6_A9	 86.42	70	29	S	28901	                Salmonella enterica
+MD_6_A8	 86.42	70	29	S	28901	                Salmonella enterica
 Seagull_18_242_S60	 86.36	38	27	S	569	                Hafnia alvei
+MD_6_D11	 86.30	63	29	S	28901	                Salmonella enterica
 Seagull_18_96_2_S15	 86.27	44	17	S	28901	                Salmonella enterica
+MD_7_A2	 86.25	69	29	S	28901	                Salmonella enterica
+MD_6_G8	 86.25	69	31	S	28901	                Salmonella enterica
 ISLHD_2019_10	 86.05	37	15	S	28901	                Salmonella enterica
 SIML_2017_19	 85.92	61	25	S	28901	                Salmonella enterica
+MD_6_B8	 85.90	67	27	S	28901	                Salmonella enterica
 ISLHD_2019_26	 85.86	1360	930	S	28901	                Salmonella enterica
 ISLHD_2017_2_S116	 85.71	42	7	S	28901	                Salmonella enterica
 Seagull_18_93_S12	 85.51	1068	1048	S	569	                Hafnia alvei
 Seagull_18_132_2_S30	 85.37	35	13	S	28901	                Salmonella enterica
+MD_6_A11	 85.37	70	30	S	28901	                Salmonella enterica
 Seagull_18_124_1_S26	 85.29	29	8	S	28901	                Salmonella enterica
 Seagull_18_202_2_S46	 85.11	40	40	S	61646	                Lelliottia amnigena
+MD_6_B10	 84.81	67	27	S	28901	                Salmonella enterica
+MD_7_C1	 84.62	66	27	S	28901	                Salmonella enterica
+MD_7_A3	 84.62	66	29	S	28901	                Salmonella enterica
 ISLHD_2019_01	 84.62	44	18	S	28901	                Salmonella enterica
+MD_6_D12	 84.38	54	23	S	28901	                Salmonella enterica
 ISLHD_2019_20	 84.21	48	7	S	28901	                Salmonella enterica
 ISLHD_2017_6_S119	 84.00	42	17	S	28901	                Salmonella enterica
+MD_6_C11	 83.72	72	38	S	28901	                Salmonella enterica
+MD_6_E8	 83.61	51	24	S	28901	                Salmonella enterica
+MD_7_F2	 83.56	61	26	S	28901	                Salmonella enterica
+MD_7_B1	 83.56	61	33	S	28901	                Salmonella enterica
 SIML_2017_21	 83.33	55	23	S	28901	                Salmonella enterica
+MD_7_E2	 83.33	45	11	S	28901	                Salmonella enterica
+MD_6_C12	 83.33	65	24	S	28901	                Salmonella enterica
 SIML_2019_11	 83.05	49	18	S	28901	                Salmonella enterica
 ISLHD_2017_7_S78	 83.05	49	19	S	28901	                Salmonella enterica
 SG19_327_Sal	 82.86	58	36	S	28901	                Salmonella enterica
 SIML_2017_12	 82.80	12032	11114	S	28901	                Salmonella enterica
 Seagull_18_249_S65	 82.80	77	60	S	584	                Proteus mirabilis
+MD_7_G1	 82.67	62	27	S	28901	                Salmonella enterica
 SG19_269_Sal	 82.61	38	15	S	28901	                Salmonella enterica
 Seagull_18_202_1_S45	 82.22	37	37	S	61646	                Lelliottia amnigena
 SG19_182_Sal	 82.14	46	17	S	28901	                Salmonella enterica
 Seagull_18_265_S115	 82.14	46	46	S	67827	                  Citrobacter werkmanii
 SG19_288_Sal	 81.82	36	14	S	28901	                Salmonella enterica
+MD_6_C8	 81.82	45	24	S	28901	                Salmonella enterica
+MD_6_E10	 81.67	49	13	S	28901	                Salmonella enterica
 Seagull_18_251_S66	 81.25	143	110	S	562	                Escherichia coli
+MD_7_H2	 81.25	39	20	S	28901	                Salmonella enterica
 Seagull_18_116_S20	 81.15	452	452	S	1702170	                Citrobacter sp. FDAARGOS_156
 SIML_2017_11	 80.88	55	30	S	28901	                Salmonella enterica
 SIML_2017_04	 80.85	38	23	S	28901	                Salmonella enterica
@@ -146,6 +184,8 @@ W_1_B11	 80.74	109	31	S	28901	                Salmonella enterica
 ISLHD_2019_30	 80.43	37	17	S	28901	                Salmonella enterica
 SIML_2019_14	 80.39	41	18	S	28901	                Salmonella enterica
 Seagull_18_132_1_S29	 80.39	41	18	S	28901	                Salmonella enterica
+MD_6_B9	 80.23	69	30	S	28901	                Salmonella enterica
+MD_6_H7	 80.00	40	20	S	28901	                Salmonella enterica
 Seagull_18_259_S71	 79.89	147	103	S	562	                Escherichia coli
 ISLHD_2017_3_S117	 79.79	75	35	S	28901	                Salmonella enterica
 SG19_284_Sal	 79.71	55	24	S	28901	                Salmonella enterica
@@ -159,40 +199,54 @@ ISLHD_2019_16	 79.21	80	17	S	28901	                Salmonella enterica
 SIML_2017_09	 79.17	38	11	S	28901	                Salmonella enterica
 Seagull_18_94_S13	 79.17	38	38	S	693444	                  Enterobacteriaceae bacterium strain FGI 57
 Seagull_18_92_S11	 78.92	131	115	S	569	                Hafnia alvei
+MD_6_H8	 78.57	44	11	S	28901	                Salmonella enterica
 SIML_2017_24	 78.48	62	27	S	28901	                Salmonella enterica
 ISLHD_2019_22	 78.38	29	10	S	28901	                Salmonella enterica
 ISLHD_2019_08	 78.26	36	21	S	28901	                Salmonella enterica
 Seagull_18_127_S28	 78.21	341	341	S	1702170	                Citrobacter sp. FDAARGOS_156
 Seagull_18_234_S55	 78.12	75	60	S	584	                Proteus mirabilis
 SIML_2019_13	 77.89	74	33	S	28901	                Salmonella enterica
+MD_6_F12	 77.78	35	16	S	28901	                Salmonella enterica
 ISLHD_2019_14	 77.78	63	27	S	28901	                Salmonella enterica
 SIML_2017_08	 77.55	38	19	S	28901	                Salmonella enterica
 SG19_397_Sal	 77.36	41	16	S	28901	                Salmonella enterica
 ISLHD_2019_27	 77.27	34	17	S	28901	                Salmonella enterica
+MD_6_H10	 77.24	95	16	S	28901	                Salmonella enterica
 SIML_2017_05	 76.53	75	38	S	28901	                Salmonella enterica
 SG19_292_Sal	 76.47	39	16	S	28901	                Salmonella enterica
+MD_6_B12	 76.40	68	31	S	28901	                Salmonella enterica
+MD_6_E12	 76.00	38	16	S	28901	                Salmonella enterica
 Seagull_18_100_2_S17	 75.00	84	43	S	28901	                Salmonella enterica
+MD_6_E9	 75.00	42	20	S	28901	                Salmonella enterica
 ISLHD_2017_1_S76	 75.00	39	20	S	28901	                Salmonella enterica
 SIML_2017_13	 74.60	47	15	S	28901	                Salmonella enterica
+MD_6_G11	 74.51	38	10	S	28901	                Salmonella enterica
 Seagull_18_248_S64	 74.42	64	29	S	584	                Proteus mirabilis
 SIML_2017_17	 73.82	1303	956	S	28901	                Salmonella enterica
+MD_6_C9	 73.81	31	8	S	28901	                Salmonella enterica
 ISLHD_2019_07	 73.47	36	21	S	28901	                Salmonella enterica
 Seagull_18_258_S70	 73.33	33	33	S	82983	                Obesumbacterium proteus
 Seagull_18_252_S67	 73.24	52	38	S	569	                Hafnia alvei
 ISLHD_2018_12_S101	 73.15	79	19	S	28901	                Salmonella enterica
 Seagull_18_100_1_S16	 73.04	84	43	S	28901	                Salmonella enterica
+MD_6_D9	 72.73	32	10	S	28901	                Salmonella enterica
+MD_6_A12	 72.41	42	18	S	28901	                Salmonella enterica
+MD_7_C2	 72.34	68	31	S	28901	                Salmonella enterica
 SG19_084_Sal	 71.93	41	18	S	28901	                Salmonella enterica
 ISLHD_2017_4_S118	 69.88	58	17	S	28901	                Salmonella enterica
 SIML_2017_10	 69.81	37	10	S	28901	                Salmonella enterica
 Seagull_18_208_S48	 69.57	16	16	S	61646	                Lelliottia amnigena
 ISLHD_2019_17	 68.12	47	13	S	28901	                Salmonella enterica
 Seagull_18_223_S110	 67.74	21	21	S	1702170	                Citrobacter sp. FDAARGOS_156
+MD_6_F8	 67.69	88	18	S	28901	                Salmonella enterica
 Seagull_18_136_S31	 66.67	44	44	S	61646	                Lelliottia amnigena
 ISLHD_2019_12	 66.22	49	14	S	28901	                Salmonella enterica
 ISLHD_2019_13	 66.18	45	12	S	28901	                Salmonella enterica
 Seagull_18_138_2_S33	 65.52	19	19	S	1702170	                Citrobacter sp. FDAARGOS_156
+MD_6_H9	 64.18	43	9	S	28901	                Salmonella enterica
 Seagull_18_138_1_S32	 63.33	19	19	S	1702170	                Citrobacter sp. FDAARGOS_156
 Seagull_18_100_2_S18	 62.86	22	22	S	1702170	                Citrobacter sp. FDAARGOS_156
+MD_7_D1	 61.19	41	20	S	28901	                Salmonella enterica
 SIML_2019_08	 60.68	71	32	S	28901	                Salmonella enterica
 Seagull_18_227_S53	 59.46	22	22	S	1702170	                Citrobacter sp. FDAARGOS_156
 Seagull_18_262_S113	 57.50	23	23	S	881260	                Enterobacter bugandensis
@@ -202,6 +256,7 @@ ISLHD_2019_25	 55.84	43	18	S	28901	                Salmonella enterica
 Seagull_18_119_S25	 55.77	29	19	S	569	                Hafnia alvei
 Seagull_18_156_S35	 55.32	26	26	S	69218	                  Enterobacter cancerogenus
 Seagull_18_109_2_S19	 55.26	21	21	S	1702170	                Citrobacter sp. FDAARGOS_156
+MD_7_H1	 54.95	50	25	S	28901	                Salmonella enterica
 Seagull_18_124_2_S27	 54.31	252	252	S	1702170	                Citrobacter sp. FDAARGOS_156
 Seagull_18_42_S4	 52.63	20	20	S	1702170	                Citrobacter sp. FDAARGOS_156
 Seagull_18_89_S8	 52.22	47	18	S	28901	                Salmonella enterica
@@ -209,4 +264,5 @@ Seagull_18_49_S5	 50.00	27	19	S	569	                Hafnia alvei
 Seagull_18_154_S34	 50.00	45	17	S	28901	                Salmonella enterica
 W_1_F11	 46.49	53	15	S	28901	                Salmonella enterica
 ISLHD_2019_24	 46.38	32	12	S	28901	                Salmonella enterica
+MD_7_E1	 44.86	83	76	S	562	                Escherichia coli
 Seagull_18_229_S54	 44.26	27	27	S	1702170	                Citrobacter sp. FDAARGOS_156

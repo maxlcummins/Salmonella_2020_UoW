@@ -2166,6 +2166,1560 @@ ISLHD_2019_30	  2.17	1	1	S3	1454583	                      Salmonella enterica su
 ISLHD_2019_30	  2.17	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
 ISLHD_2019_30	  2.17	1	0	S2	600	                    Salmonella enterica subsp. enterica serovar Thompson
 ISLHD_2019_30	  2.17	1	1	S3	935705	                      Salmonella enterica subsp. enterica serovar Thompson str. ATCC 8391
+MD_6_A10	100.00	46	0	R	1	root
+MD_6_A10	100.00	46	0	R1	131567	  cellular organisms
+MD_6_A10	100.00	46	0	D	2	    Bacteria
+MD_6_A10	100.00	46	0	P	1224	      Proteobacteria
+MD_6_A10	100.00	46	1	C	1236	        Gammaproteobacteria
+MD_6_A10	 97.83	45	1	O	91347	          Enterobacterales
+MD_6_A10	 95.65	44	3	F	543	            Enterobacteriaceae
+MD_6_A10	 89.13	41	1	G	590	              Salmonella
+MD_6_A10	 86.96	40	15	S	28901	                Salmonella enterica
+MD_6_A10	 54.35	25	4	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_A10	 26.09	12	11	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_6_A10	  2.17	1	1	S3	1454612	                      Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2013K-0218
+MD_6_A10	  2.17	1	0	S2	149386	                    Salmonella enterica subsp. enterica serovar Chester
+MD_6_A10	  2.17	1	1	S3	941190	                      Salmonella enterica subsp. enterica serovar Chester str. ATCC 11997
+MD_6_A10	  2.17	1	1	S2	70803	                    Salmonella enterica subsp. enterica serovar Minnesota
+MD_6_A10	  2.17	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_A10	  2.17	1	0	S2	1242078	                    Salmonella enterica subsp. enterica serovar Antsalova
+MD_6_A10	  2.17	1	1	S3	1242087	                      Salmonella enterica subsp. enterica serovar Antsalova str. S01-0511
+MD_6_A10	  2.17	1	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_6_A10	  2.17	1	1	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_6_A10	  2.17	1	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_6_A10	  2.17	1	1	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_6_A10	  2.17	1	0	S2	1242083	                    Salmonella enterica subsp. enterica serovar Koessen
+MD_6_A10	  2.17	1	1	S3	1242105	                      Salmonella enterica subsp. enterica serovar Koessen str. S-1501
+MD_6_A10	  2.17	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_A10	  2.17	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_A10	  2.17	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_6_A10	  2.17	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_6_A11	100.00	82	0	R	1	root
+MD_6_A11	100.00	82	0	R1	131567	  cellular organisms
+MD_6_A11	100.00	82	0	D	2	    Bacteria
+MD_6_A11	100.00	82	0	P	1224	      Proteobacteria
+MD_6_A11	100.00	82	0	C	1236	        Gammaproteobacteria
+MD_6_A11	100.00	82	1	O	91347	          Enterobacterales
+MD_6_A11	 97.56	80	9	F	543	            Enterobacteriaceae
+MD_6_A11	 86.59	71	1	G	590	              Salmonella
+MD_6_A11	 85.37	70	30	S	28901	                Salmonella enterica
+MD_6_A11	 48.78	40	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_A11	 31.71	26	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_A11	  3.66	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_A11	  2.44	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_A11	  2.44	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_A11	  1.22	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_A11	  1.22	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_A11	  4.88	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_A11	  2.44	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_A11	  1.22	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_A11	  1.22	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_A11	  1.22	1	0	F	1903409	            Erwiniaceae
+MD_6_A11	  1.22	1	0	G	53335	              Pantoea
+MD_6_A11	  1.22	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_A12	100.00	58	0	R	1	root
+MD_6_A12	100.00	58	0	R1	131567	  cellular organisms
+MD_6_A12	100.00	58	0	D	2	    Bacteria
+MD_6_A12	100.00	58	0	P	1224	      Proteobacteria
+MD_6_A12	100.00	58	0	C	1236	        Gammaproteobacteria
+MD_6_A12	100.00	58	4	O	91347	          Enterobacterales
+MD_6_A12	 93.10	54	10	F	543	            Enterobacteriaceae
+MD_6_A12	 74.14	43	1	G	590	              Salmonella
+MD_6_A12	 72.41	42	18	S	28901	                Salmonella enterica
+MD_6_A12	 41.38	24	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_A12	 10.34	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_A12	  8.62	5	4	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_A12	  1.72	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_A12	  3.45	2	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_A12	  1.72	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_6_A12	  1.72	1	0	S2	260368	                    Salmonella enterica subsp. enterica serovar Bergen
+MD_6_A12	  1.72	1	1	S3	1240708	                      Salmonella enterica subsp. enterica serovar Bergen str. ST350
+MD_6_A12	  1.72	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_A12	  1.72	1	1	S3	796731	                      Salmonella enterica subsp. enterica serovar Newport str. CVM 21538
+MD_6_A12	  1.72	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_A12	  1.72	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_A12	  1.72	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_A12	  1.72	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_A12	  1.72	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_A12	  1.72	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_A12	  1.72	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_A12	  1.72	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_A12	  1.72	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_A12	  1.72	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_6_A12	  1.72	1	0	G	561	              Escherichia
+MD_6_A12	  1.72	1	1	S	562	                Escherichia coli
+MD_6_A8	100.00	81	0	R	1	root
+MD_6_A8	100.00	81	0	R1	131567	  cellular organisms
+MD_6_A8	100.00	81	0	D	2	    Bacteria
+MD_6_A8	100.00	81	0	P	1224	      Proteobacteria
+MD_6_A8	100.00	81	0	C	1236	        Gammaproteobacteria
+MD_6_A8	100.00	81	1	O	91347	          Enterobacterales
+MD_6_A8	 97.53	79	9	F	543	            Enterobacteriaceae
+MD_6_A8	 86.42	70	0	G	590	              Salmonella
+MD_6_A8	 86.42	70	29	S	28901	                Salmonella enterica
+MD_6_A8	 50.62	41	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_A8	 32.10	26	19	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_A8	  3.70	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_A8	  1.23	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_A8	  1.23	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_A8	  1.23	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_A8	  1.23	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_A8	  4.94	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_A8	  2.47	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_A8	  1.23	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_A8	  1.23	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_A8	  1.23	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_A8	  1.23	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_A8	  1.23	1	0	F	1903409	            Erwiniaceae
+MD_6_A8	  1.23	1	0	G	53335	              Pantoea
+MD_6_A8	  1.23	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_A9	  1.23	1	1	U	0	unclassified
+MD_6_A9	 98.77	80	0	R	1	root
+MD_6_A9	 98.77	80	0	R1	131567	  cellular organisms
+MD_6_A9	 98.77	80	0	D	2	    Bacteria
+MD_6_A9	 98.77	80	0	P	1224	      Proteobacteria
+MD_6_A9	 98.77	80	0	C	1236	        Gammaproteobacteria
+MD_6_A9	 98.77	80	0	O	91347	          Enterobacterales
+MD_6_A9	 97.53	79	8	F	543	            Enterobacteriaceae
+MD_6_A9	 87.65	71	1	G	590	              Salmonella
+MD_6_A9	 86.42	70	29	S	28901	                Salmonella enterica
+MD_6_A9	 50.62	41	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_A9	 32.10	26	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_A9	  3.70	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_A9	  2.47	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_A9	  2.47	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_A9	  1.23	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_A9	  1.23	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_A9	  4.94	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_A9	  2.47	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_A9	  1.23	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_A9	  1.23	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_A9	  1.23	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_A9	  1.23	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_A9	  1.23	1	0	F	1903409	            Erwiniaceae
+MD_6_A9	  1.23	1	0	G	53335	              Pantoea
+MD_6_A9	  1.23	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_B10	100.00	79	1	R	1	root
+MD_6_B10	 98.73	78	0	R1	131567	  cellular organisms
+MD_6_B10	 98.73	78	0	D	2	    Bacteria
+MD_6_B10	 98.73	78	0	P	1224	      Proteobacteria
+MD_6_B10	 98.73	78	0	C	1236	        Gammaproteobacteria
+MD_6_B10	 98.73	78	1	O	91347	          Enterobacterales
+MD_6_B10	 97.47	77	7	F	543	            Enterobacteriaceae
+MD_6_B10	 84.81	67	0	G	590	              Salmonella
+MD_6_B10	 84.81	67	27	S	28901	                Salmonella enterica
+MD_6_B10	 50.63	40	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_B10	 31.65	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_B10	  3.80	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_B10	  1.27	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_B10	  1.27	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_B10	  1.27	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_B10	  1.27	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_B10	  5.06	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_B10	  2.53	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_B10	  1.27	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
+MD_6_B10	  1.27	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_B10	  1.27	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_B10	  1.27	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_B10	  3.80	3	0	G	561	              Escherichia
+MD_6_B10	  3.80	3	2	S	562	                Escherichia coli
+MD_6_B10	  1.27	1	1	S1	439855	                  Escherichia coli SMS-3-5
+MD_6_B11	100.00	74	0	R	1	root
+MD_6_B11	100.00	74	0	R1	131567	  cellular organisms
+MD_6_B11	100.00	74	0	D	2	    Bacteria
+MD_6_B11	100.00	74	0	P	1224	      Proteobacteria
+MD_6_B11	100.00	74	0	C	1236	        Gammaproteobacteria
+MD_6_B11	100.00	74	0	O	91347	          Enterobacterales
+MD_6_B11	 98.65	73	7	F	543	            Enterobacteriaceae
+MD_6_B11	 89.19	66	1	G	590	              Salmonella
+MD_6_B11	 87.84	65	28	S	28901	                Salmonella enterica
+MD_6_B11	 50.00	37	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_B11	 32.43	24	15	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_B11	  4.05	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_B11	  2.70	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_B11	  2.70	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_B11	  1.35	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_B11	  1.35	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_B11	  4.05	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_B11	  2.70	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_B11	  1.35	1	1	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_6_B11	  1.35	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_B11	  1.35	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_B11	  1.35	1	0	F	1903409	            Erwiniaceae
+MD_6_B11	  1.35	1	0	G	53335	              Pantoea
+MD_6_B11	  1.35	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_B12	100.00	89	0	R	1	root
+MD_6_B12	100.00	89	0	R1	131567	  cellular organisms
+MD_6_B12	100.00	89	0	D	2	    Bacteria
+MD_6_B12	100.00	89	0	P	1224	      Proteobacteria
+MD_6_B12	100.00	89	0	C	1236	        Gammaproteobacteria
+MD_6_B12	100.00	89	0	O	91347	          Enterobacterales
+MD_6_B12	 98.88	88	11	F	543	            Enterobacteriaceae
+MD_6_B12	 77.53	69	1	G	590	              Salmonella
+MD_6_B12	 76.40	68	31	S	28901	                Salmonella enterica
+MD_6_B12	 41.57	37	5	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_B12	 28.09	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_B12	  3.37	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_B12	  1.12	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_B12	  1.12	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_B12	  1.12	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_B12	  1.12	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_B12	  4.49	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_B12	  2.25	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_B12	  1.12	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_B12	  1.12	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_B12	  6.74	6	0	G	561	              Escherichia
+MD_6_B12	  6.74	6	5	S	562	                Escherichia coli
+MD_6_B12	  1.12	1	1	S1	1038927	                  Escherichia coli O104:H4
+MD_6_B12	  2.25	2	0	G	547	              Enterobacter
+MD_6_B12	  2.25	2	2	G1	354276	                Enterobacter cloacae complex
+MD_6_B12	  1.12	1	0	F	1903409	            Erwiniaceae
+MD_6_B12	  1.12	1	0	G	53335	              Pantoea
+MD_6_B12	  1.12	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_B8	100.00	78	1	R	1	root
+MD_6_B8	 98.72	77	0	R1	131567	  cellular organisms
+MD_6_B8	 98.72	77	0	D	2	    Bacteria
+MD_6_B8	 98.72	77	0	P	1224	      Proteobacteria
+MD_6_B8	 98.72	77	0	C	1236	        Gammaproteobacteria
+MD_6_B8	 98.72	77	0	O	91347	          Enterobacterales
+MD_6_B8	 98.72	77	9	F	543	            Enterobacteriaceae
+MD_6_B8	 87.18	68	1	G	590	              Salmonella
+MD_6_B8	 85.90	67	27	S	28901	                Salmonella enterica
+MD_6_B8	 51.28	40	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_B8	 32.05	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_B8	  3.85	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_B8	  1.28	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_B8	  1.28	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_B8	  1.28	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_B8	  1.28	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_B8	  3.85	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_B8	  2.56	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_B8	  1.28	1	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
+MD_6_B8	  1.28	1	1	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+MD_6_B8	  1.28	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_B8	  1.28	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_B8	  1.28	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_B9	  1.16	1	1	U	0	unclassified
+MD_6_B9	 98.84	85	0	R	1	root
+MD_6_B9	 98.84	85	0	R1	131567	  cellular organisms
+MD_6_B9	 98.84	85	0	D	2	    Bacteria
+MD_6_B9	 98.84	85	0	P	1224	      Proteobacteria
+MD_6_B9	 98.84	85	0	C	1236	        Gammaproteobacteria
+MD_6_B9	 98.84	85	0	O	91347	          Enterobacterales
+MD_6_B9	 97.67	84	14	F	543	            Enterobacteriaceae
+MD_6_B9	 81.40	70	1	G	590	              Salmonella
+MD_6_B9	 80.23	69	30	S	28901	                Salmonella enterica
+MD_6_B9	 45.35	39	5	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_B9	 29.07	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_B9	  3.49	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_B9	  1.16	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_B9	  1.16	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_B9	  1.16	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_B9	  1.16	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_B9	  4.65	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_B9	  2.33	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_B9	  1.16	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
+MD_6_B9	  1.16	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_B9	  1.16	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_B9	  1.16	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_B9	  1.16	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_B9	  1.16	1	0	F	1903409	            Erwiniaceae
+MD_6_B9	  1.16	1	0	G	53335	              Pantoea
+MD_6_B9	  1.16	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_C10	100.00	76	0	R	1	root
+MD_6_C10	100.00	76	0	R1	131567	  cellular organisms
+MD_6_C10	100.00	76	0	D	2	    Bacteria
+MD_6_C10	100.00	76	0	P	1224	      Proteobacteria
+MD_6_C10	100.00	76	0	C	1236	        Gammaproteobacteria
+MD_6_C10	100.00	76	1	O	91347	          Enterobacterales
+MD_6_C10	 98.68	75	8	F	543	            Enterobacteriaceae
+MD_6_C10	 88.16	67	1	G	590	              Salmonella
+MD_6_C10	 86.84	66	27	S	28901	                Salmonella enterica
+MD_6_C10	 51.32	39	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_C10	 32.89	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_C10	  3.95	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_C10	  1.32	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_C10	  1.32	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_C10	  1.32	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_C10	  1.32	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_C10	  5.26	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_C10	  2.63	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_C10	  1.32	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_C10	  1.32	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_C10	  1.32	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_C11	100.00	86	3	R	1	root
+MD_6_C11	 96.51	83	0	R1	131567	  cellular organisms
+MD_6_C11	 96.51	83	0	D	2	    Bacteria
+MD_6_C11	 96.51	83	0	P	1224	      Proteobacteria
+MD_6_C11	 96.51	83	0	C	1236	        Gammaproteobacteria
+MD_6_C11	 96.51	83	1	O	91347	          Enterobacterales
+MD_6_C11	 95.35	82	8	F	543	            Enterobacteriaceae
+MD_6_C11	 83.72	72	0	G	590	              Salmonella
+MD_6_C11	 83.72	72	38	S	28901	                Salmonella enterica
+MD_6_C11	 39.53	34	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_C11	 26.74	23	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_C11	 22.09	19	19	S3	1454639	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1899
+MD_6_C11	  1.16	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_C11	  1.16	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_C11	  2.33	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_C11	  1.16	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_C11	  1.16	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_C11	  1.16	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_C11	  1.16	1	0	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_C11	  1.16	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_6_C11	  1.16	1	0	S2	28146	                    Salmonella enterica subsp. enterica serovar Moscow
+MD_6_C11	  1.16	1	1	S3	1243579	                      Salmonella enterica subsp. enterica serovar Moscow str. S-1843
+MD_6_C11	  1.16	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_C11	  1.16	1	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_6_C11	  1.16	1	0	G	561	              Escherichia
+MD_6_C11	  1.16	1	1	S	562	                Escherichia coli
+MD_6_C11	  1.16	1	0	G	544	              Citrobacter
+MD_6_C11	  1.16	1	0	S	67825	                Citrobacter rodentium
+MD_6_C11	  1.16	1	1	S1	637910	                  Citrobacter rodentium ICC168
+MD_6_C12	100.00	78	2	R	1	root
+MD_6_C12	 97.44	76	0	R1	131567	  cellular organisms
+MD_6_C12	 97.44	76	0	D	2	    Bacteria
+MD_6_C12	 97.44	76	0	P	1224	      Proteobacteria
+MD_6_C12	 97.44	76	0	C	1236	        Gammaproteobacteria
+MD_6_C12	 97.44	76	1	O	91347	          Enterobacterales
+MD_6_C12	 96.15	75	8	F	543	            Enterobacteriaceae
+MD_6_C12	 84.62	66	1	G	590	              Salmonella
+MD_6_C12	 83.33	65	24	S	28901	                Salmonella enterica
+MD_6_C12	 52.56	41	8	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_C12	 32.05	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_C12	  3.85	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_C12	  1.28	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_C12	  1.28	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_C12	  1.28	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_C12	  1.28	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_C12	  5.13	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_C12	  2.56	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_C12	  1.28	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_C12	  1.28	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_C12	  1.28	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_C12	  1.28	1	0	G	561	              Escherichia
+MD_6_C12	  1.28	1	0	S	562	                Escherichia coli
+MD_6_C12	  1.28	1	1	S1	1050617	                  Escherichia coli UMNF18
+MD_6_C8	100.00	55	0	R	1	root
+MD_6_C8	100.00	55	0	R1	131567	  cellular organisms
+MD_6_C8	100.00	55	0	D	2	    Bacteria
+MD_6_C8	100.00	55	0	P	1224	      Proteobacteria
+MD_6_C8	100.00	55	0	C	1236	        Gammaproteobacteria
+MD_6_C8	100.00	55	2	O	91347	          Enterobacterales
+MD_6_C8	 96.36	53	4	F	543	            Enterobacteriaceae
+MD_6_C8	 89.09	49	4	G	590	              Salmonella
+MD_6_C8	 81.82	45	24	S	28901	                Salmonella enterica
+MD_6_C8	 38.18	21	2	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_C8	 21.82	12	11	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_C8	  1.82	1	1	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_C8	  3.64	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_C8	  3.64	2	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_C8	  1.82	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_C8	  1.82	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_C8	  1.82	1	1	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_6_C8	  1.82	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_C8	  1.82	1	1	S3	930779	                      Salmonella enterica subsp. enterica serovar Newport str. Levine 15
+MD_6_C9	100.00	42	0	R	1	root
+MD_6_C9	100.00	42	0	R1	131567	  cellular organisms
+MD_6_C9	100.00	42	0	D	2	    Bacteria
+MD_6_C9	100.00	42	0	P	1224	      Proteobacteria
+MD_6_C9	100.00	42	0	C	1236	        Gammaproteobacteria
+MD_6_C9	100.00	42	0	O	91347	          Enterobacterales
+MD_6_C9	100.00	42	6	F	543	            Enterobacteriaceae
+MD_6_C9	 83.33	35	4	G	590	              Salmonella
+MD_6_C9	 73.81	31	8	S	28901	                Salmonella enterica
+MD_6_C9	 54.76	23	4	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_C9	 35.71	15	0	S2	149386	                    Salmonella enterica subsp. enterica serovar Chester
+MD_6_C9	 35.71	15	15	S3	941190	                      Salmonella enterica subsp. enterica serovar Chester str. ATCC 11997
+MD_6_C9	  2.38	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_C9	  2.38	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_C9	  2.38	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_C9	  2.38	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_C9	  2.38	1	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_6_C9	  2.38	1	0	G	561	              Escherichia
+MD_6_C9	  2.38	1	1	S	562	                Escherichia coli
+MD_6_D10	100.00	66	2	R	1	root
+MD_6_D10	 96.97	64	0	R1	131567	  cellular organisms
+MD_6_D10	 96.97	64	0	D	2	    Bacteria
+MD_6_D10	 96.97	64	0	P	1224	      Proteobacteria
+MD_6_D10	 96.97	64	0	C	1236	        Gammaproteobacteria
+MD_6_D10	 96.97	64	0	O	91347	          Enterobacterales
+MD_6_D10	 96.97	64	5	F	543	            Enterobacteriaceae
+MD_6_D10	 89.39	59	0	G	590	              Salmonella
+MD_6_D10	 89.39	59	24	S	28901	                Salmonella enterica
+MD_6_D10	 53.03	35	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_D10	 33.33	22	15	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_D10	  4.55	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_D10	  1.52	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_D10	  1.52	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_D10	  1.52	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_D10	  1.52	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_D10	  4.55	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_D10	  3.03	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_D10	  1.52	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_D10	  1.52	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_D10	  1.52	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_D11	100.00	73	0	R	1	root
+MD_6_D11	100.00	73	0	R1	131567	  cellular organisms
+MD_6_D11	100.00	73	0	D	2	    Bacteria
+MD_6_D11	100.00	73	0	P	1224	      Proteobacteria
+MD_6_D11	100.00	73	0	C	1236	        Gammaproteobacteria
+MD_6_D11	100.00	73	0	O	91347	          Enterobacterales
+MD_6_D11	 98.63	72	8	F	543	            Enterobacteriaceae
+MD_6_D11	 87.67	64	1	G	590	              Salmonella
+MD_6_D11	 86.30	63	29	S	28901	                Salmonella enterica
+MD_6_D11	 46.58	34	5	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_D11	 32.88	24	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_D11	  4.11	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_D11	  1.37	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_D11	  1.37	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_D11	  1.37	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_D11	  1.37	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_D11	  2.74	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_D11	  2.74	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_D11	  1.37	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_D11	  1.37	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_D11	  1.37	1	0	F	1903409	            Erwiniaceae
+MD_6_D11	  1.37	1	0	G	53335	              Pantoea
+MD_6_D11	  1.37	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_D12	100.00	64	0	R	1	root
+MD_6_D12	100.00	64	0	R1	131567	  cellular organisms
+MD_6_D12	100.00	64	0	D	2	    Bacteria
+MD_6_D12	100.00	64	0	P	1224	      Proteobacteria
+MD_6_D12	100.00	64	2	C	1236	        Gammaproteobacteria
+MD_6_D12	 96.88	62	4	O	91347	          Enterobacterales
+MD_6_D12	 90.62	58	4	F	543	            Enterobacteriaceae
+MD_6_D12	 84.38	54	0	G	590	              Salmonella
+MD_6_D12	 84.38	54	23	S	28901	                Salmonella enterica
+MD_6_D12	 48.44	31	2	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_D12	  9.38	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_D12	  9.38	6	0	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_6_D12	  9.38	6	6	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_6_D12	  4.69	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_D12	  1.56	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_D12	  3.12	2	2	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_D12	  1.56	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_6_D12	  1.56	1	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_6_D12	  1.56	1	1	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_6_D12	  1.56	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_6_D12	  1.56	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_6_D12	  1.56	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_6_D12	  1.56	1	1	S3	1454583	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783
+MD_6_D12	  1.56	1	1	S2	58101	                    Salmonella enterica subsp. enterica serovar Waycross
+MD_6_D12	  1.56	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_D12	  1.56	1	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_6_D12	  1.56	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+MD_6_D12	  1.56	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_6_D12	  1.56	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_6_D12	  1.56	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_D12	  1.56	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_D12	  1.56	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_D12	  1.56	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_D12	  1.56	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_D8	100.00	74	1	R	1	root
+MD_6_D8	 98.65	73	0	R1	131567	  cellular organisms
+MD_6_D8	 97.30	72	0	D	2	    Bacteria
+MD_6_D8	 97.30	72	0	P	1224	      Proteobacteria
+MD_6_D8	 97.30	72	0	C	1236	        Gammaproteobacteria
+MD_6_D8	 97.30	72	1	O	91347	          Enterobacterales
+MD_6_D8	 95.95	71	7	F	543	            Enterobacteriaceae
+MD_6_D8	 86.49	64	0	G	590	              Salmonella
+MD_6_D8	 86.49	64	28	S	28901	                Salmonella enterica
+MD_6_D8	 48.65	36	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_D8	 31.08	23	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_D8	  4.05	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_D8	  1.35	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_D8	  1.35	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_D8	  1.35	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_D8	  1.35	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_D8	  2.70	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_D8	  2.70	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_D8	  1.35	1	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
+MD_6_D8	  1.35	1	1	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+MD_6_D8	  1.35	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_D8	  1.35	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_D8	  1.35	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_D8	  1.35	1	0	D	2759	    Eukaryota
+MD_6_D8	  1.35	1	0	D1	33154	      Opisthokonta
+MD_6_D8	  1.35	1	0	K	33208	        Metazoa
+MD_6_D8	  1.35	1	0	K1	6072	          Eumetazoa
+MD_6_D8	  1.35	1	0	K2	33213	            Bilateria
+MD_6_D8	  1.35	1	0	K3	33511	              Deuterostomia
+MD_6_D8	  1.35	1	0	P	7711	                Chordata
+MD_6_D8	  1.35	1	0	P1	89593	                  Craniata
+MD_6_D8	  1.35	1	0	P2	7742	                    Vertebrata
+MD_6_D8	  1.35	1	0	P3	7776	                      Gnathostomata
+MD_6_D8	  1.35	1	0	P4	117570	                        Teleostomi
+MD_6_D8	  1.35	1	0	P5	117571	                          Euteleostomi
+MD_6_D8	  1.35	1	0	P6	8287	                            Sarcopterygii
+MD_6_D8	  1.35	1	0	P7	1338369	                              Dipnotetrapodomorpha
+MD_6_D8	  1.35	1	0	P8	32523	                                Tetrapoda
+MD_6_D8	  1.35	1	0	P9	32524	                                  Amniota
+MD_6_D8	  1.35	1	0	C	40674	                                    Mammalia
+MD_6_D8	  1.35	1	0	C1	32525	                                      Theria
+MD_6_D8	  1.35	1	0	C2	9347	                                        Eutheria
+MD_6_D8	  1.35	1	0	C3	1437010	                                          Boreoeutheria
+MD_6_D8	  1.35	1	0	C4	314146	                                            Euarchontoglires
+MD_6_D8	  1.35	1	0	O	9443	                                              Primates
+MD_6_D8	  1.35	1	0	O1	376913	                                                Haplorrhini
+MD_6_D8	  1.35	1	0	O2	314293	                                                  Simiiformes
+MD_6_D8	  1.35	1	0	O3	9526	                                                    Catarrhini
+MD_6_D8	  1.35	1	0	O4	314295	                                                      Hominoidea
+MD_6_D8	  1.35	1	0	F	9604	                                                        Hominidae
+MD_6_D8	  1.35	1	0	F1	207598	                                                          Homininae
+MD_6_D8	  1.35	1	0	G	9605	                                                            Homo
+MD_6_D8	  1.35	1	1	S	9606	                                                              Homo sapiens
+MD_6_D9	100.00	44	1	R	1	root
+MD_6_D9	 97.73	43	0	R1	131567	  cellular organisms
+MD_6_D9	 97.73	43	0	D	2	    Bacteria
+MD_6_D9	 97.73	43	0	P	1224	      Proteobacteria
+MD_6_D9	 97.73	43	0	C	1236	        Gammaproteobacteria
+MD_6_D9	 97.73	43	0	O	91347	          Enterobacterales
+MD_6_D9	 97.73	43	6	F	543	            Enterobacteriaceae
+MD_6_D9	 81.82	36	4	G	590	              Salmonella
+MD_6_D9	 72.73	32	10	S	28901	                Salmonella enterica
+MD_6_D9	 50.00	22	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_D9	 34.09	15	0	S2	149386	                    Salmonella enterica subsp. enterica serovar Chester
+MD_6_D9	 34.09	15	15	S3	941190	                      Salmonella enterica subsp. enterica serovar Chester str. ATCC 11997
+MD_6_D9	  2.27	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_6_D9	  2.27	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_6_D9	  2.27	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_D9	  2.27	1	0	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_6_D9	  2.27	1	1	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_6_D9	  2.27	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_D9	  2.27	1	0	G	561	              Escherichia
+MD_6_D9	  2.27	1	1	S	562	                Escherichia coli
+MD_6_E10	100.00	60	0	R	1	root
+MD_6_E10	100.00	60	0	R1	131567	  cellular organisms
+MD_6_E10	100.00	60	0	D	2	    Bacteria
+MD_6_E10	100.00	60	0	P	1224	      Proteobacteria
+MD_6_E10	100.00	60	1	C	1236	        Gammaproteobacteria
+MD_6_E10	 98.33	59	3	O	91347	          Enterobacterales
+MD_6_E10	 93.33	56	6	F	543	            Enterobacteriaceae
+MD_6_E10	 83.33	50	1	G	590	              Salmonella
+MD_6_E10	 81.67	49	13	S	28901	                Salmonella enterica
+MD_6_E10	 60.00	36	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_E10	 58.33	35	0	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_E10	 58.33	35	35	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_E11	100.00	74	1	R	1	root
+MD_6_E11	 98.65	73	0	R1	131567	  cellular organisms
+MD_6_E11	 98.65	73	0	D	2	    Bacteria
+MD_6_E11	 98.65	73	0	P	1224	      Proteobacteria
+MD_6_E11	 98.65	73	0	C	1236	        Gammaproteobacteria
+MD_6_E11	 98.65	73	0	O	91347	          Enterobacterales
+MD_6_E11	 98.65	73	7	F	543	            Enterobacteriaceae
+MD_6_E11	 89.19	66	1	G	590	              Salmonella
+MD_6_E11	 87.84	65	26	S	28901	                Salmonella enterica
+MD_6_E11	 52.70	39	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_E11	 33.78	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_E11	  4.05	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_E11	  1.35	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_E11	  1.35	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_E11	  1.35	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_E11	  1.35	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_E11	  5.41	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_E11	  2.70	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_E11	  1.35	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_E11	  1.35	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_E11	  1.35	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_E12	100.00	50	0	R	1	root
+MD_6_E12	100.00	50	0	R1	131567	  cellular organisms
+MD_6_E12	100.00	50	0	D	2	    Bacteria
+MD_6_E12	100.00	50	0	P	1224	      Proteobacteria
+MD_6_E12	100.00	50	0	C	1236	        Gammaproteobacteria
+MD_6_E12	100.00	50	4	O	91347	          Enterobacterales
+MD_6_E12	 92.00	46	4	F	543	            Enterobacteriaceae
+MD_6_E12	 78.00	39	1	G	590	              Salmonella
+MD_6_E12	 76.00	38	16	S	28901	                Salmonella enterica
+MD_6_E12	 44.00	22	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_E12	 12.00	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_E12	  6.00	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_E12	  2.00	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_E12	  4.00	2	2	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_E12	  2.00	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_E12	  2.00	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_E12	  2.00	1	0	S2	90370	                    Salmonella enterica subsp. enterica serovar Typhi
+MD_6_E12	  2.00	1	1	S3	220341	                      Salmonella enterica subsp. enterica serovar Typhi str. CT18
+MD_6_E12	  2.00	1	0	S2	82689	                    Salmonella enterica subsp. enterica serovar Muenster
+MD_6_E12	  2.00	1	1	S3	1124958	                      Salmonella enterica subsp. enterica serovar Muenster str. 0315
+MD_6_E12	  2.00	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_E12	  2.00	1	1	S3	1454620	                      Salmonella enterica subsp. enterica serovar Newport str. USDA-ARS-USMARC-1927
+MD_6_E12	  2.00	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_E12	  2.00	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_E12	  2.00	1	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_6_E12	  2.00	1	1	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_6_E12	  2.00	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_6_E12	  2.00	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_E12	  2.00	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_E12	  2.00	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_E12	  2.00	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_6_E12	  6.00	3	0	G	561	              Escherichia
+MD_6_E12	  6.00	3	3	S	562	                Escherichia coli
+MD_6_E8	100.00	61	0	R	1	root
+MD_6_E8	100.00	61	0	R1	131567	  cellular organisms
+MD_6_E8	100.00	61	0	D	2	    Bacteria
+MD_6_E8	100.00	61	0	P	1224	      Proteobacteria
+MD_6_E8	100.00	61	0	C	1236	        Gammaproteobacteria
+MD_6_E8	100.00	61	2	O	91347	          Enterobacterales
+MD_6_E8	 96.72	59	5	F	543	            Enterobacteriaceae
+MD_6_E8	 88.52	54	3	G	590	              Salmonella
+MD_6_E8	 83.61	51	24	S	28901	                Salmonella enterica
+MD_6_E8	 44.26	27	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_E8	 18.03	11	10	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_E8	  1.64	1	1	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_E8	  3.28	2	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_E8	  1.64	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_E8	  3.28	2	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_E8	  1.64	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_6_E8	  3.28	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_E8	  3.28	2	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_E8	  1.64	1	1	S3	796731	                      Salmonella enterica subsp. enterica serovar Newport str. CVM 21538
+MD_6_E8	  1.64	1	1	S3	930779	                      Salmonella enterica subsp. enterica serovar Newport str. Levine 15
+MD_6_E8	  1.64	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_6_E8	  1.64	1	1	S3	1454585	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1735
+MD_6_E8	  1.64	1	1	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_6_E8	  1.64	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_E8	  1.64	1	0	S2	913074	                    Salmonella enterica subsp. enterica serovar Inverness
+MD_6_E8	  1.64	1	1	S3	941187	                      Salmonella enterica subsp. enterica serovar Inverness str. ATCC 10720
+MD_6_E8	  1.64	1	0	S2	28146	                    Salmonella enterica subsp. enterica serovar Moscow
+MD_6_E8	  1.64	1	1	S3	1243579	                      Salmonella enterica subsp. enterica serovar Moscow str. S-1843
+MD_6_E9	100.00	56	0	R	1	root
+MD_6_E9	100.00	56	0	R1	131567	  cellular organisms
+MD_6_E9	100.00	56	0	D	2	    Bacteria
+MD_6_E9	100.00	56	0	P	1224	      Proteobacteria
+MD_6_E9	100.00	56	0	C	1236	        Gammaproteobacteria
+MD_6_E9	100.00	56	4	O	91347	          Enterobacterales
+MD_6_E9	 92.86	52	10	F	543	            Enterobacteriaceae
+MD_6_E9	 75.00	42	0	G	590	              Salmonella
+MD_6_E9	 75.00	42	20	S	28901	                Salmonella enterica
+MD_6_E9	 39.29	22	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_E9	 10.71	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_E9	  8.93	5	4	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_E9	  1.79	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_E9	  1.79	1	0	S2	260368	                    Salmonella enterica subsp. enterica serovar Bergen
+MD_6_E9	  1.79	1	1	S3	1240708	                      Salmonella enterica subsp. enterica serovar Bergen str. ST350
+MD_6_E9	  1.79	1	0	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_E9	  1.79	1	1	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_E9	  1.79	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_E9	  1.79	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_E9	  1.79	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_E9	  1.79	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_E9	  1.79	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_E9	  1.79	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_E9	  1.79	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_E9	  1.79	1	0	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_E9	  1.79	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_6_E9	  1.79	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_E9	  1.79	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_F10	100.00	71	1	R	1	root
+MD_6_F10	 98.59	70	0	R1	131567	  cellular organisms
+MD_6_F10	 98.59	70	0	D	2	    Bacteria
+MD_6_F10	 98.59	70	0	P	1224	      Proteobacteria
+MD_6_F10	 98.59	70	0	C	1236	        Gammaproteobacteria
+MD_6_F10	 98.59	70	0	O	91347	          Enterobacterales
+MD_6_F10	 98.59	70	6	F	543	            Enterobacteriaceae
+MD_6_F10	 90.14	64	1	G	590	              Salmonella
+MD_6_F10	 88.73	63	27	S	28901	                Salmonella enterica
+MD_6_F10	 50.70	36	5	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_F10	 32.39	23	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_F10	  4.23	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_F10	  1.41	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_F10	  1.41	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_F10	  1.41	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_F10	  1.41	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_F10	  5.63	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_F10	  2.82	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_F10	  1.41	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_F10	  1.41	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_F10	  1.41	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_F11	100.00	133	0	R	1	root
+MD_6_F11	100.00	133	0	R1	131567	  cellular organisms
+MD_6_F11	100.00	133	0	D	2	    Bacteria
+MD_6_F11	100.00	133	0	P	1224	      Proteobacteria
+MD_6_F11	100.00	133	1	C	1236	        Gammaproteobacteria
+MD_6_F11	 99.25	132	3	O	91347	          Enterobacterales
+MD_6_F11	 96.99	129	6	F	543	            Enterobacteriaceae
+MD_6_F11	 92.48	123	1	G	590	              Salmonella
+MD_6_F11	 91.73	122	56	S	28901	                Salmonella enterica
+MD_6_F11	 49.62	66	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_F11	 42.11	56	0	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_F11	 42.11	56	56	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_F11	  0.75	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_F11	  0.75	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_F11	  0.75	1	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
+MD_6_F11	  0.75	1	1	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+MD_6_F12	100.00	45	0	R	1	root
+MD_6_F12	100.00	45	0	R1	131567	  cellular organisms
+MD_6_F12	 97.78	44	0	D	2	    Bacteria
+MD_6_F12	 97.78	44	0	P	1224	      Proteobacteria
+MD_6_F12	 97.78	44	0	C	1236	        Gammaproteobacteria
+MD_6_F12	 97.78	44	4	O	91347	          Enterobacterales
+MD_6_F12	 88.89	40	4	F	543	            Enterobacteriaceae
+MD_6_F12	 80.00	36	1	G	590	              Salmonella
+MD_6_F12	 77.78	35	16	S	28901	                Salmonella enterica
+MD_6_F12	 42.22	19	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_F12	 11.11	5	5	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_F12	  6.67	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_F12	  2.22	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_F12	  2.22	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_6_F12	  2.22	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_F12	  2.22	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_F12	  2.22	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_F12	  2.22	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_F12	  2.22	1	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_6_F12	  2.22	1	1	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_6_F12	  2.22	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_F12	  2.22	1	1	S3	1454620	                      Salmonella enterica subsp. enterica serovar Newport str. USDA-ARS-USMARC-1927
+MD_6_F12	  2.22	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_F12	  2.22	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_F12	  2.22	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_F12	  2.22	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_F12	  2.22	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_6_F12	  2.22	1	0	S2	82689	                    Salmonella enterica subsp. enterica serovar Muenster
+MD_6_F12	  2.22	1	1	S3	1124958	                      Salmonella enterica subsp. enterica serovar Muenster str. 0315
+MD_6_F12	  2.22	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_F12	  2.22	1	0	D	2759	    Eukaryota
+MD_6_F12	  2.22	1	0	D1	33154	      Opisthokonta
+MD_6_F12	  2.22	1	0	K	33208	        Metazoa
+MD_6_F12	  2.22	1	0	K1	6072	          Eumetazoa
+MD_6_F12	  2.22	1	0	K2	33213	            Bilateria
+MD_6_F12	  2.22	1	0	K3	33511	              Deuterostomia
+MD_6_F12	  2.22	1	0	P	7711	                Chordata
+MD_6_F12	  2.22	1	0	P1	89593	                  Craniata
+MD_6_F12	  2.22	1	0	P2	7742	                    Vertebrata
+MD_6_F12	  2.22	1	0	P3	7776	                      Gnathostomata
+MD_6_F12	  2.22	1	0	P4	117570	                        Teleostomi
+MD_6_F12	  2.22	1	0	P5	117571	                          Euteleostomi
+MD_6_F12	  2.22	1	0	P6	8287	                            Sarcopterygii
+MD_6_F12	  2.22	1	0	P7	1338369	                              Dipnotetrapodomorpha
+MD_6_F12	  2.22	1	0	P8	32523	                                Tetrapoda
+MD_6_F12	  2.22	1	0	P9	32524	                                  Amniota
+MD_6_F12	  2.22	1	0	C	40674	                                    Mammalia
+MD_6_F12	  2.22	1	0	C1	32525	                                      Theria
+MD_6_F12	  2.22	1	0	C2	9347	                                        Eutheria
+MD_6_F12	  2.22	1	0	C3	1437010	                                          Boreoeutheria
+MD_6_F12	  2.22	1	0	C4	314146	                                            Euarchontoglires
+MD_6_F12	  2.22	1	0	O	9443	                                              Primates
+MD_6_F12	  2.22	1	0	O1	376913	                                                Haplorrhini
+MD_6_F12	  2.22	1	0	O2	314293	                                                  Simiiformes
+MD_6_F12	  2.22	1	0	O3	9526	                                                    Catarrhini
+MD_6_F12	  2.22	1	0	O4	314295	                                                      Hominoidea
+MD_6_F12	  2.22	1	0	F	9604	                                                        Hominidae
+MD_6_F12	  2.22	1	0	F1	207598	                                                          Homininae
+MD_6_F12	  2.22	1	0	G	9605	                                                            Homo
+MD_6_F12	  2.22	1	1	S	9606	                                                              Homo sapiens
+MD_6_F8	 18.46	24	24	U	0	unclassified
+MD_6_F8	 81.54	106	0	R	1	root
+MD_6_F8	 81.54	106	0	R1	131567	  cellular organisms
+MD_6_F8	 81.54	106	0	D	2	    Bacteria
+MD_6_F8	 80.77	105	0	P	1224	      Proteobacteria
+MD_6_F8	 80.77	105	2	C	1236	        Gammaproteobacteria
+MD_6_F8	 79.23	103	2	O	91347	          Enterobacterales
+MD_6_F8	 76.92	100	5	F	543	            Enterobacteriaceae
+MD_6_F8	 69.23	90	2	G	590	              Salmonella
+MD_6_F8	 67.69	88	18	S	28901	                Salmonella enterica
+MD_6_F8	 51.54	67	4	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_F8	 27.69	36	0	S2	486994	                    Salmonella enterica subsp. enterica serovar Hvittingfoss
+MD_6_F8	 27.69	36	36	S3	1242097	                      Salmonella enterica subsp. enterica serovar Hvittingfoss str. SA20014981
+MD_6_F8	  3.08	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_F8	  3.08	4	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_6_F8	  3.08	4	4	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_6_F8	  2.31	3	0	S2	260368	                    Salmonella enterica subsp. enterica serovar Bergen
+MD_6_F8	  2.31	3	3	S3	1240708	                      Salmonella enterica subsp. enterica serovar Bergen str. ST350
+MD_6_F8	  1.54	2	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_F8	  0.77	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_F8	  1.54	2	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_6_F8	  0.77	1	1	S3	1454610	                      Salmonella enterica subsp. enterica serovar Montevideo str. CDC 2011K-1674
+MD_6_F8	  1.54	2	1	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_6_F8	  0.77	1	1	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_6_F8	  0.77	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
+MD_6_F8	  0.77	1	0	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_6_F8	  0.77	1	1	S3	1410916	                      Salmonella enterica subsp. enterica serovar Cerro str. CFSAN001588
+MD_6_F8	  0.77	1	0	S2	1243577	                    Salmonella enterica subsp. enterica serovar Milwaukee
+MD_6_F8	  0.77	1	1	S3	1243578	                      Salmonella enterica subsp. enterica serovar Milwaukee str. SA19950795
+MD_6_F8	  0.77	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_6_F8	  0.77	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_6_F8	  0.77	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_F8	  0.77	1	1	S2	70803	                    Salmonella enterica subsp. enterica serovar Minnesota
+MD_6_F8	  0.77	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_F8	  0.77	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_F8	  0.77	1	1	S2	600	                    Salmonella enterica subsp. enterica serovar Thompson
+MD_6_F8	  0.77	1	0	S2	1243599	                    Salmonella enterica subsp. enterica serovar Yovokome
+MD_6_F8	  0.77	1	1	S3	1243600	                      Salmonella enterica subsp. enterica serovar Yovokome str. S-1850
+MD_6_F8	  0.77	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_F8	  0.77	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_F8	  1.54	2	1	S1	59204	                  Salmonella enterica subsp. diarizonae
+MD_6_F8	  0.77	1	0	S2	1243611	                    Salmonella enterica subsp. diarizonae serovar 50:k:z
+MD_6_F8	  0.77	1	1	S3	1243612	                      Salmonella enterica subsp. diarizonae serovar 50:k:z str. MZ0080
+MD_6_F8	  0.77	1	0	S1	59202	                  Salmonella enterica subsp. salamae
+MD_6_F8	  0.77	1	1	S2	1710356	                    Salmonella enterica subsp. salamae serovar 57:z29:z42
+MD_6_F8	  3.85	5	0	G	561	              Escherichia
+MD_6_F8	  3.85	5	3	S	562	                Escherichia coli
+MD_6_F8	  0.77	1	1	S1	439855	                  Escherichia coli SMS-3-5
+MD_6_F8	  0.77	1	1	S1	696406	                  Escherichia coli UMNK88
+MD_6_F8	  0.77	1	0	F	1903411	            Yersiniaceae
+MD_6_F8	  0.77	1	0	G	613	              Serratia
+MD_6_F8	  0.77	1	1	S	615	                Serratia marcescens
+MD_6_F8	  0.77	1	0	D1	1783270	      FCB group
+MD_6_F8	  0.77	1	0	D2	68336	        Bacteroidetes/Chlorobi group
+MD_6_F8	  0.77	1	0	P	976	          Bacteroidetes
+MD_6_F8	  0.77	1	0	C	117743	            Flavobacteriia
+MD_6_F8	  0.77	1	0	O	200644	              Flavobacteriales
+MD_6_F8	  0.77	1	0	F	49546	                Flavobacteriaceae
+MD_6_F8	  0.77	1	0	G	52959	                  Polaribacter
+MD_6_F8	  0.77	1	1	S	1774273	                    Polaribacter vadi
+MD_6_F9	100.00	85	0	R	1	root
+MD_6_F9	100.00	85	0	R1	131567	  cellular organisms
+MD_6_F9	100.00	85	0	D	2	    Bacteria
+MD_6_F9	100.00	85	0	P	1224	      Proteobacteria
+MD_6_F9	100.00	85	0	C	1236	        Gammaproteobacteria
+MD_6_F9	100.00	85	1	O	91347	          Enterobacterales
+MD_6_F9	 98.82	84	6	F	543	            Enterobacteriaceae
+MD_6_F9	 91.76	78	1	G	590	              Salmonella
+MD_6_F9	 90.59	77	17	S	28901	                Salmonella enterica
+MD_6_F9	 70.59	60	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_F9	 32.94	28	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_6_F9	 32.94	28	28	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_6_F9	 18.82	16	16	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_F9	  3.53	3	0	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_6_F9	  3.53	3	3	S3	596155	                      Salmonella enterica subsp. enterica serovar Infantis str. SARB27
+MD_6_F9	  2.35	2	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_6_F9	  2.35	2	2	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_6_F9	  1.18	1	0	S2	211968	                    Salmonella enterica subsp. enterica serovar Albany
+MD_6_F9	  1.18	1	1	S3	1173798	                      Salmonella enterica subsp. enterica serovar Albany str. ATCC 51960
+MD_6_F9	  1.18	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_F9	  1.18	1	1	S2	593905	                    Salmonella enterica subsp. enterica serovar Corvallis
+MD_6_F9	  1.18	1	0	S2	1243577	                    Salmonella enterica subsp. enterica serovar Milwaukee
+MD_6_F9	  1.18	1	1	S3	1243578	                      Salmonella enterica subsp. enterica serovar Milwaukee str. SA19950795
+MD_6_F9	  1.18	1	0	S2	55400	                    Salmonella enterica subsp. enterica serovar Borreze
+MD_6_F9	  1.18	1	1	S3	1242089	                      Salmonella enterica subsp. enterica serovar Borreze str. SA20041063
+MD_6_G10	100.00	76	0	R	1	root
+MD_6_G10	100.00	76	0	R1	131567	  cellular organisms
+MD_6_G10	100.00	76	0	D	2	    Bacteria
+MD_6_G10	100.00	76	0	P	1224	      Proteobacteria
+MD_6_G10	100.00	76	0	C	1236	        Gammaproteobacteria
+MD_6_G10	100.00	76	0	O	91347	          Enterobacterales
+MD_6_G10	 98.68	75	8	F	543	            Enterobacteriaceae
+MD_6_G10	 88.16	67	1	G	590	              Salmonella
+MD_6_G10	 86.84	66	28	S	28901	                Salmonella enterica
+MD_6_G10	 50.00	38	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_G10	 31.58	24	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_G10	  3.95	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_G10	  1.32	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_G10	  1.32	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_G10	  1.32	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_G10	  1.32	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_G10	  3.95	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_G10	  2.63	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_G10	  1.32	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_G10	  1.32	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_G10	  1.32	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_G10	  1.32	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_G10	  1.32	1	0	F	1903409	            Erwiniaceae
+MD_6_G10	  1.32	1	0	G	53335	              Pantoea
+MD_6_G10	  1.32	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_G11	  3.92	2	2	U	0	unclassified
+MD_6_G11	 96.08	49	0	R	1	root
+MD_6_G11	 96.08	49	0	R1	131567	  cellular organisms
+MD_6_G11	 94.12	48	0	D	2	    Bacteria
+MD_6_G11	 94.12	48	0	P	1224	      Proteobacteria
+MD_6_G11	 94.12	48	0	C	1236	        Gammaproteobacteria
+MD_6_G11	 94.12	48	2	O	91347	          Enterobacterales
+MD_6_G11	 86.27	44	3	F	543	            Enterobacteriaceae
+MD_6_G11	 78.43	40	2	G	590	              Salmonella
+MD_6_G11	 74.51	38	10	S	28901	                Salmonella enterica
+MD_6_G11	 54.90	28	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_G11	  7.84	4	0	S2	149386	                    Salmonella enterica subsp. enterica serovar Chester
+MD_6_G11	  7.84	4	4	S3	941190	                      Salmonella enterica subsp. enterica serovar Chester str. ATCC 11997
+MD_6_G11	  3.92	2	1	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_6_G11	  1.96	1	1	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_6_G11	  3.92	2	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_6_G11	  3.92	2	2	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_6_G11	  3.92	2	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_6_G11	  3.92	2	2	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_6_G11	  3.92	2	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
+MD_6_G11	  3.92	2	2	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+MD_6_G11	  3.92	2	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_6_G11	  3.92	2	2	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_6_G11	  1.96	1	1	S2	46626	                    Salmonella enterica subsp. enterica serovar Give
+MD_6_G11	  1.96	1	1	S2	90370	                    Salmonella enterica subsp. enterica serovar Typhi
+MD_6_G11	  1.96	1	0	S2	913076	                    Salmonella enterica subsp. enterica serovar Johannesburg
+MD_6_G11	  1.96	1	1	S3	1242101	                      Salmonella enterica subsp. enterica serovar Johannesburg str. ST203
+MD_6_G11	  1.96	1	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_6_G11	  1.96	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_6_G11	  1.96	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_6_G11	  1.96	1	0	S2	486994	                    Salmonella enterica subsp. enterica serovar Hvittingfoss
+MD_6_G11	  1.96	1	1	S3	1242097	                      Salmonella enterica subsp. enterica serovar Hvittingfoss str. SA20014981
+MD_6_G11	  1.96	1	1	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_G11	  1.96	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_6_G11	  1.96	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_6_G11	  1.96	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_G11	  1.96	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_G11	  1.96	1	0	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_6_G11	  1.96	1	1	S3	1410916	                      Salmonella enterica subsp. enterica serovar Cerro str. CFSAN001588
+MD_6_G11	  1.96	1	0	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_6_G11	  1.96	1	1	S3	596155	                      Salmonella enterica subsp. enterica serovar Infantis str. SARB27
+MD_6_G11	  1.96	1	0	G	547	              Enterobacter
+MD_6_G11	  1.96	1	0	G1	354276	                Enterobacter cloacae complex
+MD_6_G11	  1.96	1	0	S	158836	                  Enterobacter hormaechei
+MD_6_G11	  1.96	1	1	S1	1296536	                    Enterobacter hormaechei subsp. xiangfangensis
+MD_6_G11	  3.92	2	0	F	1903409	            Erwiniaceae
+MD_6_G11	  3.92	2	0	G	53335	              Pantoea
+MD_6_G11	  3.92	2	0	S	66269	                Pantoea stewartii
+MD_6_G11	  3.92	2	0	S1	66271	                  Pantoea stewartii subsp. stewartii
+MD_6_G11	  3.92	2	2	S2	660596	                    Pantoea stewartii subsp. stewartii DC283
+MD_6_G11	  1.96	1	0	D	2759	    Eukaryota
+MD_6_G11	  1.96	1	0	D1	33154	      Opisthokonta
+MD_6_G11	  1.96	1	0	K	33208	        Metazoa
+MD_6_G11	  1.96	1	0	K1	6072	          Eumetazoa
+MD_6_G11	  1.96	1	0	K2	33213	            Bilateria
+MD_6_G11	  1.96	1	0	K3	33511	              Deuterostomia
+MD_6_G11	  1.96	1	0	P	7711	                Chordata
+MD_6_G11	  1.96	1	0	P1	89593	                  Craniata
+MD_6_G11	  1.96	1	0	P2	7742	                    Vertebrata
+MD_6_G11	  1.96	1	0	P3	7776	                      Gnathostomata
+MD_6_G11	  1.96	1	0	P4	117570	                        Teleostomi
+MD_6_G11	  1.96	1	0	P5	117571	                          Euteleostomi
+MD_6_G11	  1.96	1	0	P6	8287	                            Sarcopterygii
+MD_6_G11	  1.96	1	0	P7	1338369	                              Dipnotetrapodomorpha
+MD_6_G11	  1.96	1	0	P8	32523	                                Tetrapoda
+MD_6_G11	  1.96	1	0	P9	32524	                                  Amniota
+MD_6_G11	  1.96	1	0	C	40674	                                    Mammalia
+MD_6_G11	  1.96	1	0	C1	32525	                                      Theria
+MD_6_G11	  1.96	1	0	C2	9347	                                        Eutheria
+MD_6_G11	  1.96	1	0	C3	1437010	                                          Boreoeutheria
+MD_6_G11	  1.96	1	0	C4	314146	                                            Euarchontoglires
+MD_6_G11	  1.96	1	0	O	9443	                                              Primates
+MD_6_G11	  1.96	1	0	O1	376913	                                                Haplorrhini
+MD_6_G11	  1.96	1	0	O2	314293	                                                  Simiiformes
+MD_6_G11	  1.96	1	0	O3	9526	                                                    Catarrhini
+MD_6_G11	  1.96	1	0	O4	314295	                                                      Hominoidea
+MD_6_G11	  1.96	1	0	F	9604	                                                        Hominidae
+MD_6_G11	  1.96	1	0	F1	207598	                                                          Homininae
+MD_6_G11	  1.96	1	0	G	9605	                                                            Homo
+MD_6_G11	  1.96	1	1	S	9606	                                                              Homo sapiens
+MD_6_G8	100.00	80	0	R	1	root
+MD_6_G8	100.00	80	0	R1	131567	  cellular organisms
+MD_6_G8	100.00	80	0	D	2	    Bacteria
+MD_6_G8	100.00	80	0	P	1224	      Proteobacteria
+MD_6_G8	100.00	80	0	C	1236	        Gammaproteobacteria
+MD_6_G8	100.00	80	1	O	91347	          Enterobacterales
+MD_6_G8	 97.50	78	8	F	543	            Enterobacteriaceae
+MD_6_G8	 87.50	70	1	G	590	              Salmonella
+MD_6_G8	 86.25	69	31	S	28901	                Salmonella enterica
+MD_6_G8	 47.50	38	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_G8	 31.25	25	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_G8	  3.75	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_G8	  2.50	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_G8	  2.50	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_G8	  1.25	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_G8	  1.25	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_G8	  5.00	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_G8	  2.50	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_G8	  1.25	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_G8	  1.25	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_G8	  1.25	1	0	F	1903409	            Erwiniaceae
+MD_6_G8	  1.25	1	0	G	53335	              Pantoea
+MD_6_G8	  1.25	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_G9	100.00	76	0	R	1	root
+MD_6_G9	100.00	76	0	R1	131567	  cellular organisms
+MD_6_G9	100.00	76	0	D	2	    Bacteria
+MD_6_G9	100.00	76	0	P	1224	      Proteobacteria
+MD_6_G9	100.00	76	0	C	1236	        Gammaproteobacteria
+MD_6_G9	100.00	76	0	O	91347	          Enterobacterales
+MD_6_G9	 98.68	75	8	F	543	            Enterobacteriaceae
+MD_6_G9	 88.16	67	1	G	590	              Salmonella
+MD_6_G9	 86.84	66	26	S	28901	                Salmonella enterica
+MD_6_G9	 52.63	40	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_G9	 34.21	26	19	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_G9	  3.95	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_G9	  1.32	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_G9	  1.32	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_G9	  1.32	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_G9	  1.32	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_G9	  5.26	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_G9	  2.63	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_G9	  1.32	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_G9	  1.32	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_G9	  1.32	1	0	F	1903409	            Erwiniaceae
+MD_6_G9	  1.32	1	0	G	53335	              Pantoea
+MD_6_G9	  1.32	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_H10	100.00	123	0	R	1	root
+MD_6_H10	100.00	123	0	R1	131567	  cellular organisms
+MD_6_H10	100.00	123	0	D	2	    Bacteria
+MD_6_H10	100.00	123	0	P	1224	      Proteobacteria
+MD_6_H10	100.00	123	1	C	1236	        Gammaproteobacteria
+MD_6_H10	 99.19	122	6	O	91347	          Enterobacterales
+MD_6_H10	 94.31	116	16	F	543	            Enterobacteriaceae
+MD_6_H10	 78.05	96	1	G	590	              Salmonella
+MD_6_H10	 77.24	95	16	S	28901	                Salmonella enterica
+MD_6_H10	 64.23	79	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_H10	 56.10	69	67	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_6_H10	  1.63	2	2	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_6_H10	  1.63	2	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
+MD_6_H10	  0.81	1	1	S3	1124936	                      Salmonella enterica subsp. enterica serovar Heidelberg str. 41578
+MD_6_H10	  0.81	1	1	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_H10	  0.81	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_H10	  3.25	4	0	G	561	              Escherichia
+MD_6_H10	  3.25	4	4	S	562	                Escherichia coli
+MD_6_H11	100.00	77	0	R	1	root
+MD_6_H11	100.00	77	0	R1	131567	  cellular organisms
+MD_6_H11	100.00	77	0	D	2	    Bacteria
+MD_6_H11	100.00	77	0	P	1224	      Proteobacteria
+MD_6_H11	100.00	77	0	C	1236	        Gammaproteobacteria
+MD_6_H11	100.00	77	1	O	91347	          Enterobacterales
+MD_6_H11	 97.40	75	6	F	543	            Enterobacteriaceae
+MD_6_H11	 89.61	69	1	G	590	              Salmonella
+MD_6_H11	 88.31	68	30	S	28901	                Salmonella enterica
+MD_6_H11	 49.35	38	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_H11	 29.87	23	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_H11	  3.90	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_H11	  1.30	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_6_H11	  1.30	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_6_H11	  1.30	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_6_H11	  1.30	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_6_H11	  5.19	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_H11	  2.60	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_H11	  1.30	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_H11	  1.30	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_H11	  1.30	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_6_H11	  1.30	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_6_H11	  1.30	1	0	F	1903409	            Erwiniaceae
+MD_6_H11	  1.30	1	0	G	53335	              Pantoea
+MD_6_H11	  1.30	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_6_H7	100.00	50	0	R	1	root
+MD_6_H7	100.00	50	0	R1	131567	  cellular organisms
+MD_6_H7	100.00	50	0	D	2	    Bacteria
+MD_6_H7	100.00	50	0	P	1224	      Proteobacteria
+MD_6_H7	100.00	50	0	C	1236	        Gammaproteobacteria
+MD_6_H7	100.00	50	2	O	91347	          Enterobacterales
+MD_6_H7	 96.00	48	3	F	543	            Enterobacteriaceae
+MD_6_H7	 90.00	45	5	G	590	              Salmonella
+MD_6_H7	 80.00	40	20	S	28901	                Salmonella enterica
+MD_6_H7	 40.00	20	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_H7	 26.00	13	12	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_H7	  2.00	1	1	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_H7	  4.00	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_6_H7	  2.00	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_6_H7	  2.00	1	1	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_6_H7	  2.00	1	0	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_6_H7	  2.00	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_6_H7	  2.00	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_6_H7	  2.00	1	1	S3	930779	                      Salmonella enterica subsp. enterica serovar Newport str. Levine 15
+MD_6_H8	100.00	56	0	R	1	root
+MD_6_H8	100.00	56	0	R1	131567	  cellular organisms
+MD_6_H8	100.00	56	0	D	2	    Bacteria
+MD_6_H8	100.00	56	0	P	1224	      Proteobacteria
+MD_6_H8	100.00	56	1	C	1236	        Gammaproteobacteria
+MD_6_H8	 98.21	55	3	O	91347	          Enterobacterales
+MD_6_H8	 92.86	52	6	F	543	            Enterobacteriaceae
+MD_6_H8	 80.36	45	1	G	590	              Salmonella
+MD_6_H8	 78.57	44	11	S	28901	                Salmonella enterica
+MD_6_H8	 58.93	33	0	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_H8	 58.93	33	0	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_6_H8	 58.93	33	33	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_6_H8	  1.79	1	0	G	570	              Klebsiella
+MD_6_H8	  1.79	1	0	S	573	                Klebsiella pneumoniae
+MD_6_H8	  1.79	1	1	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
+MD_6_H9	100.00	67	0	R	1	root
+MD_6_H9	100.00	67	0	R1	131567	  cellular organisms
+MD_6_H9	100.00	67	0	D	2	    Bacteria
+MD_6_H9	100.00	67	0	P	1224	      Proteobacteria
+MD_6_H9	100.00	67	0	C	1236	        Gammaproteobacteria
+MD_6_H9	100.00	67	0	O	91347	          Enterobacterales
+MD_6_H9	100.00	67	14	F	543	            Enterobacteriaceae
+MD_6_H9	 70.15	47	4	G	590	              Salmonella
+MD_6_H9	 64.18	43	9	S	28901	                Salmonella enterica
+MD_6_H9	 50.75	34	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_6_H9	 46.27	31	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_6_H9	 46.27	31	31	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_6_H9	  8.96	6	0	G	561	              Escherichia
+MD_6_H9	  8.96	6	5	S	562	                Escherichia coli
+MD_6_H9	  1.49	1	1	S1	1038927	                  Escherichia coli O104:H4
+MD_7_A1	100.00	76	0	R	1	root
+MD_7_A1	100.00	76	0	R1	131567	  cellular organisms
+MD_7_A1	100.00	76	0	D	2	    Bacteria
+MD_7_A1	100.00	76	0	P	1224	      Proteobacteria
+MD_7_A1	100.00	76	0	C	1236	        Gammaproteobacteria
+MD_7_A1	100.00	76	0	O	91347	          Enterobacterales
+MD_7_A1	 98.68	75	8	F	543	            Enterobacteriaceae
+MD_7_A1	 88.16	67	1	G	590	              Salmonella
+MD_7_A1	 86.84	66	27	S	28901	                Salmonella enterica
+MD_7_A1	 51.32	39	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_A1	 34.21	26	19	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_A1	  3.95	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_A1	  1.32	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_A1	  1.32	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_A1	  1.32	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_A1	  1.32	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_A1	  3.95	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_A1	  2.63	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_A1	  1.32	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_7_A1	  1.32	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_7_A1	  1.32	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_A1	  1.32	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_A1	  1.32	1	0	F	1903409	            Erwiniaceae
+MD_7_A1	  1.32	1	0	G	53335	              Pantoea
+MD_7_A1	  1.32	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_7_A2	100.00	80	0	R	1	root
+MD_7_A2	100.00	80	0	R1	131567	  cellular organisms
+MD_7_A2	100.00	80	0	D	2	    Bacteria
+MD_7_A2	100.00	80	0	P	1224	      Proteobacteria
+MD_7_A2	100.00	80	0	C	1236	        Gammaproteobacteria
+MD_7_A2	100.00	80	0	O	91347	          Enterobacterales
+MD_7_A2	 98.75	79	9	F	543	            Enterobacteriaceae
+MD_7_A2	 87.50	70	1	G	590	              Salmonella
+MD_7_A2	 86.25	69	29	S	28901	                Salmonella enterica
+MD_7_A2	 50.00	40	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_A2	 32.50	26	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_A2	  3.75	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_A2	  2.50	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_A2	  2.50	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_A2	  1.25	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_A2	  1.25	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_A2	  5.00	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_A2	  2.50	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_A2	  1.25	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_A2	  1.25	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_A2	  1.25	1	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
+MD_7_A2	  1.25	1	1	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+MD_7_A2	  1.25	1	0	F	1903409	            Erwiniaceae
+MD_7_A2	  1.25	1	0	G	53335	              Pantoea
+MD_7_A2	  1.25	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_7_A3	100.00	78	0	R	1	root
+MD_7_A3	100.00	78	0	R1	131567	  cellular organisms
+MD_7_A3	100.00	78	0	D	2	    Bacteria
+MD_7_A3	100.00	78	0	P	1224	      Proteobacteria
+MD_7_A3	100.00	78	1	C	1236	        Gammaproteobacteria
+MD_7_A3	 98.72	77	5	O	91347	          Enterobacterales
+MD_7_A3	 92.31	72	5	F	543	            Enterobacteriaceae
+MD_7_A3	 85.90	67	1	G	590	              Salmonella
+MD_7_A3	 84.62	66	29	S	28901	                Salmonella enterica
+MD_7_A3	 47.44	37	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_A3	  8.97	7	7	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_A3	  8.97	7	0	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_7_A3	  8.97	7	7	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_7_A3	  3.85	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_A3	  1.28	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_A3	  2.56	2	2	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_A3	  2.56	2	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_7_A3	  1.28	1	1	S3	295319	                      Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150
+MD_7_A3	  1.28	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_A3	  1.28	1	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_7_A3	  1.28	1	1	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_7_A3	  1.28	1	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_7_A3	  1.28	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_7_A3	  1.28	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_7_A3	  1.28	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_A3	  1.28	1	1	S3	1454583	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783
+MD_7_A3	  1.28	1	1	S2	58101	                    Salmonella enterica subsp. enterica serovar Waycross
+MD_7_A3	  1.28	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_7_A3	  1.28	1	0	S2	1242084	                    Salmonella enterica subsp. enterica serovar Krefeld
+MD_7_A3	  1.28	1	1	S3	1242106	                      Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536
+MD_7_A3	  1.28	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_7_A3	  1.28	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_7_A3	  1.28	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+MD_7_A3	  1.28	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_A3	  1.28	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_7_A3	  1.28	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_7_A3	  1.28	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_7_A3	  1.28	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_7_B1	100.00	73	1	R	1	root
+MD_7_B1	 98.63	72	0	R1	131567	  cellular organisms
+MD_7_B1	 98.63	72	0	D	2	    Bacteria
+MD_7_B1	 98.63	72	0	P	1224	      Proteobacteria
+MD_7_B1	 98.63	72	0	C	1236	        Gammaproteobacteria
+MD_7_B1	 98.63	72	5	O	91347	          Enterobacterales
+MD_7_B1	 91.78	67	5	F	543	            Enterobacteriaceae
+MD_7_B1	 84.93	62	1	G	590	              Salmonella
+MD_7_B1	 83.56	61	33	S	28901	                Salmonella enterica
+MD_7_B1	 38.36	28	2	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_B1	  9.59	7	4	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_B1	  1.37	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_B1	  1.37	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_B1	  1.37	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_B1	  8.22	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_B1	  4.11	3	2	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_7_B1	  1.37	1	1	S3	1454600	                      Salmonella enterica subsp. enterica serovar Montevideo str. USDA-ARS-USMARC-1912
+MD_7_B1	  2.74	2	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_7_B1	  2.74	2	2	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_7_B1	  1.37	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_B1	  1.37	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_B1	  1.37	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_7_B1	  1.37	1	1	S2	90370	                    Salmonella enterica subsp. enterica serovar Typhi
+MD_7_B1	  1.37	1	1	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_B1	  1.37	1	1	S2	932733	                    Salmonella enterica subsp. enterica serovar Bardo
+MD_7_B1	  1.37	1	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_7_B1	  1.37	1	0	S2	1242080	                    Salmonella enterica subsp. enterica serovar Djakarta
+MD_7_B1	  1.37	1	1	S3	1242091	                      Salmonella enterica subsp. enterica serovar Djakarta str. S-1087
+MD_7_B1	  1.37	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_B2	100.00	76	2	R	1	root
+MD_7_B2	 97.37	74	0	R1	131567	  cellular organisms
+MD_7_B2	 97.37	74	0	D	2	    Bacteria
+MD_7_B2	 97.37	74	0	P	1224	      Proteobacteria
+MD_7_B2	 97.37	74	0	C	1236	        Gammaproteobacteria
+MD_7_B2	 97.37	74	1	O	91347	          Enterobacterales
+MD_7_B2	 96.05	73	7	F	543	            Enterobacteriaceae
+MD_7_B2	 86.84	66	0	G	590	              Salmonella
+MD_7_B2	 86.84	66	26	S	28901	                Salmonella enterica
+MD_7_B2	 52.63	40	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_B2	 32.89	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_B2	  3.95	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_B2	  1.32	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_B2	  1.32	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_B2	  1.32	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_B2	  1.32	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_B2	  5.26	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_B2	  2.63	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_B2	  1.32	1	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
+MD_7_B2	  1.32	1	1	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+MD_7_B2	  1.32	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_B2	  1.32	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_B2	  1.32	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_C1	100.00	78	1	R	1	root
+MD_7_C1	 98.72	77	0	R1	131567	  cellular organisms
+MD_7_C1	 98.72	77	0	D	2	    Bacteria
+MD_7_C1	 98.72	77	0	P	1224	      Proteobacteria
+MD_7_C1	 98.72	77	0	C	1236	        Gammaproteobacteria
+MD_7_C1	 98.72	77	1	O	91347	          Enterobacterales
+MD_7_C1	 97.44	76	9	F	543	            Enterobacteriaceae
+MD_7_C1	 85.90	67	1	G	590	              Salmonella
+MD_7_C1	 84.62	66	27	S	28901	                Salmonella enterica
+MD_7_C1	 50.00	39	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_C1	 30.77	24	17	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_C1	  3.85	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_C1	  1.28	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_C1	  1.28	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_C1	  1.28	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_C1	  1.28	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_C1	  5.13	4	4	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_C1	  2.56	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_C1	  1.28	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_C1	  1.28	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_C1	  1.28	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_C2	100.00	94	0	R	1	root
+MD_7_C2	100.00	94	0	R1	131567	  cellular organisms
+MD_7_C2	100.00	94	0	D	2	    Bacteria
+MD_7_C2	100.00	94	0	P	1224	      Proteobacteria
+MD_7_C2	100.00	94	0	C	1236	        Gammaproteobacteria
+MD_7_C2	100.00	94	1	O	91347	          Enterobacterales
+MD_7_C2	 97.87	92	19	F	543	            Enterobacteriaceae
+MD_7_C2	 73.40	69	1	G	590	              Salmonella
+MD_7_C2	 72.34	68	31	S	28901	                Salmonella enterica
+MD_7_C2	 39.36	37	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_C2	 26.60	25	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_C2	  3.19	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_C2	  2.13	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_C2	  2.13	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_C2	  1.06	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_C2	  1.06	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_C2	  2.13	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_C2	  2.13	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_C2	  1.06	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_C2	  1.06	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_C2	  4.26	4	0	G	561	              Escherichia
+MD_7_C2	  4.26	4	2	S	562	                Escherichia coli
+MD_7_C2	  1.06	1	1	S1	1038927	                  Escherichia coli O104:H4
+MD_7_C2	  1.06	1	0	S1	1072458	                  Escherichia coli O7:K1
+MD_7_C2	  1.06	1	1	S2	1072459	                    Escherichia coli O7:K1 str. CE10
+MD_7_C2	  1.06	1	0	F	1903409	            Erwiniaceae
+MD_7_C2	  1.06	1	0	G	53335	              Pantoea
+MD_7_C2	  1.06	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_7_D1	100.00	67	1	R	1	root
+MD_7_D1	 98.51	66	0	R1	131567	  cellular organisms
+MD_7_D1	 98.51	66	0	D	2	    Bacteria
+MD_7_D1	 98.51	66	0	P	1224	      Proteobacteria
+MD_7_D1	 98.51	66	1	C	1236	        Gammaproteobacteria
+MD_7_D1	 97.01	65	4	O	91347	          Enterobacterales
+MD_7_D1	 91.04	61	8	F	543	            Enterobacteriaceae
+MD_7_D1	 62.69	42	1	G	590	              Salmonella
+MD_7_D1	 61.19	41	20	S	28901	                Salmonella enterica
+MD_7_D1	 31.34	21	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_D1	  7.46	5	5	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_D1	  4.48	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_D1	  1.49	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_D1	  1.49	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_D1	  1.49	1	0	S2	82689	                    Salmonella enterica subsp. enterica serovar Muenster
+MD_7_D1	  1.49	1	1	S3	1124958	                      Salmonella enterica subsp. enterica serovar Muenster str. 0315
+MD_7_D1	  1.49	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_D1	  1.49	1	1	S3	1454620	                      Salmonella enterica subsp. enterica serovar Newport str. USDA-ARS-USMARC-1927
+MD_7_D1	  1.49	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_D1	  1.49	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_7_D1	  1.49	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_7_D1	  1.49	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_7_D1	  1.49	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_7_D1	  1.49	1	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_7_D1	  1.49	1	1	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_7_D1	  1.49	1	1	S2	192955	                    Salmonella enterica subsp. enterica serovar Kentucky
+MD_7_D1	  1.49	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_7_D1	  1.49	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_7_D1	  1.49	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_7_D1	  1.49	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_7_D1	  1.49	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_D1	  1.49	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_7_D1	 14.93	10	0	G	561	              Escherichia
+MD_7_D1	 14.93	10	9	S	562	                Escherichia coli
+MD_7_D1	  1.49	1	1	S1	439855	                  Escherichia coli SMS-3-5
+MD_7_D1	  1.49	1	0	G	570	              Klebsiella
+MD_7_D1	  1.49	1	1	S	573	                Klebsiella pneumoniae
+MD_7_D2	100.00	74	0	R	1	root
+MD_7_D2	100.00	74	0	R1	131567	  cellular organisms
+MD_7_D2	100.00	74	0	D	2	    Bacteria
+MD_7_D2	100.00	74	0	P	1224	      Proteobacteria
+MD_7_D2	100.00	74	0	C	1236	        Gammaproteobacteria
+MD_7_D2	100.00	74	0	O	91347	          Enterobacterales
+MD_7_D2	100.00	74	8	F	543	            Enterobacteriaceae
+MD_7_D2	 89.19	66	1	G	590	              Salmonella
+MD_7_D2	 87.84	65	26	S	28901	                Salmonella enterica
+MD_7_D2	 52.70	39	7	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_D2	 33.78	25	18	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_D2	  4.05	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_D2	  1.35	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_D2	  1.35	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_D2	  1.35	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_D2	  1.35	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_D2	  4.05	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_D2	  2.70	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_D2	  1.35	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_D2	  1.35	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_D2	  1.35	1	1	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_E1	100.00	185	0	R	1	root
+MD_7_E1	100.00	185	0	R1	131567	  cellular organisms
+MD_7_E1	100.00	185	0	D	2	    Bacteria
+MD_7_E1	100.00	185	0	P	1224	      Proteobacteria
+MD_7_E1	100.00	185	0	C	1236	        Gammaproteobacteria
+MD_7_E1	100.00	185	0	O	91347	          Enterobacterales
+MD_7_E1	 99.46	184	17	F	543	            Enterobacteriaceae
+MD_7_E1	 46.49	86	3	G	561	              Escherichia
+MD_7_E1	 44.86	83	76	S	562	                Escherichia coli
+MD_7_E1	  0.54	1	0	S1	83333	                  Escherichia coli K-12
+MD_7_E1	  0.54	1	0	S2	511145	                    Escherichia coli str. K-12 substr. MG1655
+MD_7_E1	  0.54	1	1	S3	879462	                      Escherichia coli str. K-12 substr. MG1655star
+MD_7_E1	  0.54	1	0	S1	2233553	                  Escherichia coli O43
+MD_7_E1	  0.54	1	1	S2	1055541	                    Escherichia coli O43 str. RM10042
+MD_7_E1	  0.54	1	0	S1	1072458	                  Escherichia coli O7:K1
+MD_7_E1	  0.54	1	1	S2	1072459	                    Escherichia coli O7:K1 str. CE10
+MD_7_E1	  0.54	1	0	S1	1055537	                  Escherichia coli O121
+MD_7_E1	  0.54	1	1	S2	1055543	                    Escherichia coli O121 str. RM8352
+MD_7_E1	  0.54	1	1	S1	930406	                  Escherichia coli O157:H16
+MD_7_E1	  0.54	1	1	S1	585034	                  Escherichia coli IAI1
+MD_7_E1	  0.54	1	1	S1	439855	                  Escherichia coli SMS-3-5
+MD_7_E1	 43.78	81	1	G	590	              Salmonella
+MD_7_E1	 43.24	80	38	S	28901	                Salmonella enterica
+MD_7_E1	 22.70	42	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_E1	 16.22	30	22	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_E1	  1.62	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_E1	  0.54	1	1	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_E1	  0.54	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_E1	  0.54	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_E1	  0.54	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_E1	  0.54	1	1	S3	1454638	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1898
+MD_7_E1	  1.62	3	3	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_E1	  1.08	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_E1	  0.54	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_E1	  0.54	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_E1	  0.54	1	0	F	1903409	            Erwiniaceae
+MD_7_E1	  0.54	1	0	G	53335	              Pantoea
+MD_7_E1	  0.54	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_7_E2	100.00	54	0	R	1	root
+MD_7_E2	100.00	54	0	R1	131567	  cellular organisms
+MD_7_E2	100.00	54	0	D	2	    Bacteria
+MD_7_E2	100.00	54	0	P	1224	      Proteobacteria
+MD_7_E2	100.00	54	1	C	1236	        Gammaproteobacteria
+MD_7_E2	 98.15	53	2	O	91347	          Enterobacterales
+MD_7_E2	 94.44	51	5	F	543	            Enterobacteriaceae
+MD_7_E2	 85.19	46	1	G	590	              Salmonella
+MD_7_E2	 83.33	45	11	S	28901	                Salmonella enterica
+MD_7_E2	 62.96	34	2	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_E2	 59.26	32	0	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_E2	 59.26	32	32	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_7_F1	100.00	84	0	R	1	root
+MD_7_F1	100.00	84	0	R1	131567	  cellular organisms
+MD_7_F1	100.00	84	0	D	2	    Bacteria
+MD_7_F1	100.00	84	0	P	1224	      Proteobacteria
+MD_7_F1	100.00	84	0	C	1236	        Gammaproteobacteria
+MD_7_F1	100.00	84	0	O	91347	          Enterobacterales
+MD_7_F1	 98.81	83	8	F	543	            Enterobacteriaceae
+MD_7_F1	 88.10	74	1	G	590	              Salmonella
+MD_7_F1	 86.90	73	33	S	28901	                Salmonella enterica
+MD_7_F1	 47.62	40	6	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_F1	 29.76	25	16	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_F1	  3.57	3	3	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_F1	  2.38	2	2	S3	1454647	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1810
+MD_7_F1	  2.38	2	2	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_F1	  1.19	1	1	S3	996633	                      Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553
+MD_7_F1	  1.19	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_F1	  5.95	5	5	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_F1	  2.38	2	2	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_F1	  1.19	1	0	S2	57045	                    Salmonella enterica subsp. enterica serovar Paratyphi B
+MD_7_F1	  1.19	1	1	S3	1016998	                      Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7
+MD_7_F1	  1.19	1	0	S2	363569	                    Salmonella enterica subsp. enterica serovar Javiana
+MD_7_F1	  1.19	1	1	S3	1267753	                      Salmonella enterica subsp. enterica serovar Javiana str. CFSAN001992
+MD_7_F1	  1.19	1	0	G	561	              Escherichia
+MD_7_F1	  1.19	1	1	S	562	                Escherichia coli
+MD_7_F1	  1.19	1	0	F	1903409	            Erwiniaceae
+MD_7_F1	  1.19	1	0	G	53335	              Pantoea
+MD_7_F1	  1.19	1	1	S	1484157	                Pantoea sp. PSNIH2
+MD_7_F2	100.00	73	0	R	1	root
+MD_7_F2	100.00	73	0	R1	131567	  cellular organisms
+MD_7_F2	100.00	73	0	D	2	    Bacteria
+MD_7_F2	100.00	73	0	P	1224	      Proteobacteria
+MD_7_F2	100.00	73	1	C	1236	        Gammaproteobacteria
+MD_7_F2	 98.63	72	5	O	91347	          Enterobacterales
+MD_7_F2	 91.78	67	5	F	543	            Enterobacteriaceae
+MD_7_F2	 84.93	62	0	G	590	              Salmonella
+MD_7_F2	 83.56	61	26	S	28901	                Salmonella enterica
+MD_7_F2	 47.95	35	4	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_F2	  9.59	7	7	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_F2	  8.22	6	0	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_7_F2	  8.22	6	6	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_7_F2	  4.11	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_F2	  1.37	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_F2	  2.74	2	2	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_F2	  2.74	2	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_7_F2	  2.74	2	2	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_7_F2	  1.37	1	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_F2	  1.37	1	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_7_F2	  1.37	1	1	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_7_F2	  1.37	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_7_F2	  1.37	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_7_F2	  1.37	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_F2	  1.37	1	1	S3	1454583	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783
+MD_7_F2	  1.37	1	1	S2	58101	                    Salmonella enterica subsp. enterica serovar Waycross
+MD_7_F2	  1.37	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_7_F2	  1.37	1	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_7_F2	  1.37	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_7_F2	  1.37	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_7_F2	  1.37	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+MD_7_F2	  1.37	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_F2	  1.37	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_7_F2	  1.37	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_7_F2	  1.37	1	0	S	54736	                Salmonella bongori
+MD_7_F2	  1.37	1	1	S1	1197719	                  Salmonella bongori N268-08
+MD_7_G1	100.00	75	0	R	1	root
+MD_7_G1	100.00	75	0	R1	131567	  cellular organisms
+MD_7_G1	100.00	75	0	D	2	    Bacteria
+MD_7_G1	100.00	75	0	P	1224	      Proteobacteria
+MD_7_G1	100.00	75	1	C	1236	        Gammaproteobacteria
+MD_7_G1	 98.67	74	7	O	91347	          Enterobacterales
+MD_7_G1	 89.33	67	5	F	543	            Enterobacteriaceae
+MD_7_G1	 82.67	62	0	G	590	              Salmonella
+MD_7_G1	 82.67	62	27	S	28901	                Salmonella enterica
+MD_7_G1	 46.67	35	4	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_G1	  9.33	7	7	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_G1	  4.00	3	0	S2	913070	                    Salmonella enterica subsp. enterica serovar Gaminara
+MD_7_G1	  4.00	3	3	S3	1242094	                      Salmonella enterica subsp. enterica serovar Gaminara str. SA20063285
+MD_7_G1	  4.00	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_G1	  1.33	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_G1	  2.67	2	2	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_G1	  2.67	2	2	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_G1	  2.67	2	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_7_G1	  2.67	2	2	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_7_G1	  1.33	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_G1	  1.33	1	1	S3	1454583	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1783
+MD_7_G1	  1.33	1	0	S2	436295	                    Salmonella enterica subsp. enterica serovar Poona
+MD_7_G1	  1.33	1	1	S3	1124962	                      Salmonella enterica subsp. enterica serovar Poona str. ATCC BAA-1673
+MD_7_G1	  1.33	1	1	S2	115981	                    Salmonella enterica subsp. enterica serovar Montevideo
+MD_7_G1	  1.33	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_7_G1	  1.33	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_7_G1	  1.33	1	1	S2	58101	                    Salmonella enterica subsp. enterica serovar Waycross
+MD_7_G1	  1.33	1	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_7_G1	  1.33	1	1	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_7_G1	  1.33	1	0	S2	1243583	                    Salmonella enterica subsp. Enterica serovar Onderstepoort
+MD_7_G1	  1.33	1	1	S3	1243584	                      Salmonella enterica subsp. enterica serovar Onderstepoort str. SA20060086
+MD_7_G1	  1.33	1	0	S2	28147	                    Salmonella enterica subsp. enterica serovar Oranienburg
+MD_7_G1	  1.33	1	1	S3	997333	                      Salmonella enterica subsp. enterica serovar Oranienburg str. 0250
+MD_7_G1	  1.33	1	0	S2	1242084	                    Salmonella enterica subsp. enterica serovar Krefeld
+MD_7_G1	  1.33	1	1	S3	1242106	                      Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536
+MD_7_G1	  1.33	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_G1	  1.33	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+MD_7_G2	100.00	47	0	R	1	root
+MD_7_G2	100.00	47	0	R1	131567	  cellular organisms
+MD_7_G2	100.00	47	0	D	2	    Bacteria
+MD_7_G2	100.00	47	0	P	1224	      Proteobacteria
+MD_7_G2	100.00	47	0	C	1236	        Gammaproteobacteria
+MD_7_G2	100.00	47	1	O	91347	          Enterobacterales
+MD_7_G2	 97.87	46	4	F	543	            Enterobacteriaceae
+MD_7_G2	 89.36	42	0	G	590	              Salmonella
+MD_7_G2	 89.36	42	17	S	28901	                Salmonella enterica
+MD_7_G2	 53.19	25	5	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_G2	 12.77	6	6	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_G2	  6.38	3	2	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_G2	  2.13	1	1	S3	596155	                      Salmonella enterica subsp. enterica serovar Infantis str. SARB27
+MD_7_G2	  6.38	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_G2	  2.13	1	1	S3	1008297	                      Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+MD_7_G2	  4.26	2	2	S2	54388	                    Salmonella enterica subsp. enterica serovar Paratyphi A
+MD_7_G2	  2.13	1	1	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_G2	  2.13	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_7_G2	  2.13	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_7_G2	  2.13	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_G2	  2.13	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_7_G2	  2.13	1	1	S2	28150	                    Salmonella enterica subsp. enterica serovar Senftenberg
+MD_7_G2	  2.13	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_7_G2	  2.13	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_H1	100.00	91	1	R	1	root
+MD_7_H1	 98.90	90	0	R1	131567	  cellular organisms
+MD_7_H1	 98.90	90	1	D	2	    Bacteria
+MD_7_H1	 97.80	89	0	P	1224	      Proteobacteria
+MD_7_H1	 97.80	89	0	C	1236	        Gammaproteobacteria
+MD_7_H1	 97.80	89	4	O	91347	          Enterobacterales
+MD_7_H1	 93.41	85	17	F	543	            Enterobacteriaceae
+MD_7_H1	 59.34	54	4	G	590	              Salmonella
+MD_7_H1	 54.95	50	25	S	28901	                Salmonella enterica
+MD_7_H1	 27.47	25	3	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_H1	  9.89	9	8	S2	90105	                    Salmonella enterica subsp. enterica serovar Saintpaul
+MD_7_H1	  1.10	1	1	S3	702982	                      Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26
+MD_7_H1	  2.20	2	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_H1	  1.10	1	1	S3	1454636	                      Salmonella enterica subsp. enterica serovar Typhimurium str. USDA-ARS-USMARC-1896
+MD_7_H1	  2.20	2	1	S2	57743	                    Salmonella enterica subsp. enterica serovar Weltevreden
+MD_7_H1	  1.10	1	1	S3	1173939	                      Salmonella enterica subsp. enterica serovar Weltevreden str. 1655
+MD_7_H1	  2.20	2	2	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_H1	  1.10	1	1	S2	340188	                    Salmonella enterica subsp. enterica serovar Cerro
+MD_7_H1	  1.10	1	0	S2	58712	                    Salmonella enterica subsp. enterica serovar Anatum
+MD_7_H1	  1.10	1	1	S3	1454585	                      Salmonella enterica subsp. enterica serovar Anatum str. USDA-ARS-USMARC-1735
+MD_7_H1	  1.10	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
+MD_7_H1	  1.10	1	1	S2	611	                    Salmonella enterica subsp. enterica serovar Heidelberg
+MD_7_H1	  1.10	1	1	S2	90370	                    Salmonella enterica subsp. enterica serovar Typhi
+MD_7_H1	  1.10	1	0	S2	913074	                    Salmonella enterica subsp. enterica serovar Inverness
+MD_7_H1	  1.10	1	1	S3	941187	                      Salmonella enterica subsp. enterica serovar Inverness str. ATCC 10720
+MD_7_H1	  1.10	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_H1	  1.10	1	1	S3	930779	                      Salmonella enterica subsp. enterica serovar Newport str. Levine 15
+MD_7_H1	 10.99	10	0	G	561	              Escherichia
+MD_7_H1	 10.99	10	10	S	562	                Escherichia coli
+MD_7_H1	  4.40	4	0	G	544	              Citrobacter
+MD_7_H1	  3.30	3	0	G1	1344959	                Citrobacter freundii complex
+MD_7_H1	  2.20	2	2	S	546	                  Citrobacter freundii
+MD_7_H1	  1.10	1	1	S	2077148	                  Citrobacter freundii complex sp. CFNIH4
+MD_7_H1	  1.10	1	1	S	1703250	                Citrobacter sp. CRE-46
+MD_7_H2	100.00	48	0	R	1	root
+MD_7_H2	100.00	48	0	R1	131567	  cellular organisms
+MD_7_H2	100.00	48	0	D	2	    Bacteria
+MD_7_H2	100.00	48	0	P	1224	      Proteobacteria
+MD_7_H2	100.00	48	0	C	1236	        Gammaproteobacteria
+MD_7_H2	100.00	48	4	O	91347	          Enterobacterales
+MD_7_H2	 91.67	44	4	F	543	            Enterobacteriaceae
+MD_7_H2	 83.33	40	1	G	590	              Salmonella
+MD_7_H2	 81.25	39	20	S	28901	                Salmonella enterica
+MD_7_H2	 39.58	19	1	S1	59201	                  Salmonella enterica subsp. enterica
+MD_7_H2	 10.42	5	5	S2	149539	                    Salmonella enterica subsp. enterica serovar Enteritidis
+MD_7_H2	  6.25	3	2	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+MD_7_H2	  2.08	1	1	S3	1454640	                      Salmonella enterica subsp. enterica serovar Typhimurium str. CDC H2662
+MD_7_H2	  4.17	2	1	S2	595	                    Salmonella enterica subsp. enterica serovar Infantis
+MD_7_H2	  2.08	1	1	S3	596155	                      Salmonella enterica subsp. enterica serovar Infantis str. SARB27
+MD_7_H2	  2.08	1	0	S2	913085	                    Salmonella enterica subsp. enterica serovar Wandsworth
+MD_7_H2	  2.08	1	1	S3	1243595	                      Salmonella enterica subsp. enterica serovar Wandsworth str. SA20092095
+MD_7_H2	  2.08	1	0	S2	181798	                    Salmonella enterica subsp. enterica serovar Sloterdijk
+MD_7_H2	  2.08	1	1	S3	938141	                      Salmonella enterica subsp. enterica serovar Sloterdijk str. ATCC 15791
+MD_7_H2	  2.08	1	0	S2	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+MD_7_H2	  2.08	1	1	S3	904139	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+MD_7_H2	  2.08	1	0	S2	108619	                    Salmonella enterica subsp. enterica serovar Newport
+MD_7_H2	  2.08	1	1	S3	1454620	                      Salmonella enterica subsp. enterica serovar Newport str. USDA-ARS-USMARC-1927
+MD_7_H2	  2.08	1	0	S2	1242081	                    Salmonella enterica subsp. enterica serovar Hillingdon
+MD_7_H2	  2.08	1	1	S3	1242096	                      Salmonella enterica subsp. enterica serovar Hillingdon str. N1529-D3
+MD_7_H2	  2.08	1	0	S2	1242085	                    Salmonella enterica subsp. enterica serovar Macclesfield
+MD_7_H2	  2.08	1	1	S3	1242107	                      Salmonella enterica subsp. enterica serovar Macclesfield str. S-1643
+MD_7_H2	  2.08	1	1	S2	1243585	                    Salmonella enterica subsp. enterica serovar Ouakam
+MD_7_H2	  2.08	1	1	S2	594	                    Salmonella enterica subsp. enterica serovar Gallinarum
 Seagull_18_100_1_S16	100.00	115	5	R	1	root
 Seagull_18_100_1_S16	 95.65	110	0	R1	131567	  cellular organisms
 Seagull_18_100_1_S16	 95.65	110	5	D	2	    Bacteria

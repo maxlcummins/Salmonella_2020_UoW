@@ -21,10 +21,10 @@ rm(assembly_stats)
 
 #Load paths to files needed for the script
 #tree_path <- "output/Salmonella_only/pangenome/roary_99/accessory_binary_genes.fa.newick"
-tree_path <- "output/new_output/all/CGA_snp_sites.treefile"
-abricate_path <- "output/new_output/genotype.txt"
-pointfinder_path <- "output/new_output/pointfinder.txt"
-pMLST_data <- "output/new_output/pMLST.txt"
+tree_path <- "output/trees/May_all_Salm/CGA_snp_sites.treefile"
+abricate_path <- "output/summaries/genotype.txt"
+pointfinder_path <- "output/summaries/pointfinder.txt"
+pMLST_data <- "output/summaries/pMLST.txt"
 
 output_name <- "UoW_new"
 
@@ -111,17 +111,17 @@ names(db_cols) <- db_vals
 
 
 
-genotype_vals <- as.factor(c(
-        0,
-        1,
-        2,
-        3,
-        18,
-        29))
+#genotype_vals <- as.factor(c(
+#        0,
+#        1,
+#        2,
+#        3,
+#        18,
+#        29))
 
 
-genotype_cols <-
-        c("white", "#fb8072", "blue", "black", "red", "green")
+#genotype_cols <-
+#        c("white", "#fb8072", "blue", "black", "red", "green")
 
 names(genotype_cols) <- genotype_vals
 
@@ -173,7 +173,6 @@ df_plot <-
         df_plot %>% mutate_at(vars(contains('vfdb_')), funs(paste0(., "_vir")))
 df_plot <-
         df_plot %>% mutate_at(vars(contains('pointfinder_')), funs(paste0(., "_amr")))
-
 
 heatmap <- gheatmap(
         p = p,

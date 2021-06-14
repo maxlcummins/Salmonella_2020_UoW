@@ -1,22 +1,21 @@
-library(ggtree)
-library(phytools)
-library(tidyr)
 library(readr)
 library(magrittr)
 library(dplyr)
 
 #### Variable setting ####
+
 # Path to serovar data
 serovar_data <- "output/UoW_Salmonella/sistr/serovars.csv"
 # Path to kraken data
 kraken_data <- "output/UoW_Salmonella/kraken2/kraken2_report.txt"
 
 # Path to wd()
-workdir <-
+#workdir <-
+
 # Path to serovar data
-serovar_data <-
+serovar_data <- "output/UoW_Salmonella/sistr/serovars.csv"
 # Path to kraken data
-kraken_data <-
+kraken_data <- "output/UoW_Salmonella/kraken2/kraken2_report.txt"
 
 # Define our 'not in' command
 '%nin%' <- Negate('%in%')
@@ -152,12 +151,77 @@ write_csv(non_salmonellae, "delims/non_salmonellae.csv")
 
 # Write Salmonella pass qc table
 write_csv(genus_pass_table, "delims/genus_pass_table")
-=======
                 "genome" = name_file)
 
-# Join kraken and serovar data
-IDs <- left_join(IDs, serovars_simple, by = "name_file")
+# Produce simple
 
-# Pull out our Salmonella
-salmonellae <-
+# Pull out our Salmonella which passed QC
+salmonellae_pass <-
         IDs %>% filter(!grepl("WARNING|FAIL", qc_status), Genus == "Salmonella")
+
+# Pull out our non-Salmonella
+non_salmonellae <-
+        IDs %>% filter(Genus != "Salmonella")
+
+# Pull out our Salmonella which failed QC or had warnings
+fail_salmonellae <-
+        IDs %>% filter(grepl("WARNING|FAIL", qc_status), Genus == "Salmonella")
+
+# Create a table listing serovar counts
+serovar_table <-
+        salmonellae_pass %>% group_by(serovar_cgmlst, strain_source) %>% summarise(counts = n()) %>% arrange(desc(counts))
+
+# Create a list of files for us to move to salmonella only folder
+salmonella_names <- paste0("output/UoW_Salmonella/shovill/final_assemblies/", salmonellae_pass$genome,".fasta")
+
+
+
+
+genus_pass_table <- non_salmonellae %>% group_by(Genus) %>% summarise(counts = n())
+
+genus_pass_table <- rbind(genus_pass_table, c("Salmonella", "145"))
+genus_pass_table <- rbind(genus_pass_table, c("Salmonella*", "7"))
+
+serovar_count_table <- salmonellae_pass %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+gull_serovars <- salmonellae_pass %>% filter(strain_source == "Gull") %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+human_serovars <- salmonellae_pass %>% filter(strain_source == "Human") %>% group_by(serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(desc(counts))
+
+overlap <- human_serovars$serovar_cgmlst[human_serovars$serovar_cgmlst %in% gull_serovars$serovar_cgmlst]
+
+salmonellae_pass %>% filter(serovar_cgmlst %in% overlap) %>% group_by(strain_source, serovar_cgmlst) %>% summarise(counts = n()) %>% arrange(serovar_cgmlst)
+
+if(!dir.exists("output/UoW_Salmonella/shovill/salmonella")){
+        dir.create("output/UoW_Salmonella/shovill/salmonella")
+}
+
+if(!file.exists(salmonella_names[1])){
+        #Move these Salmonella genomes over
+        message("Found ",length(salmonella_names)," Salmonella which met qc controls")
+        message("Copying them to output/UoW_Salmonella/shovill/salmonella")
+        
+        file.copy(from = salmonella_names,
+                  to = "output/UoW_Salmonella/shovill/salmonella",
+                  recursive = FALSE,
+                  copy.mode = TRUE)
+}
+
+if(!dir.exists("delims")){
+        dir.create("delims")
+}
+
+#Write CSV table
+write_csv(serovar_table, "delims/serovar_table.csv")
+
+# Write Salmonella pass qc table
+write_csv(salmonellae_pass, "delims/salmonellae_pass.csv")
+
+# Write Salmonella pass qc table
+write_csv(fail_salmonellae, "delims/salmonellae_fail.csv")
+
+# Write Salmonella pass qc table
+write_csv(non_salmonellae, "delims/non_salmonellae.csv")
+
+# Write Salmonella pass qc table
+write_csv(genus_pass_table, "delims/genus_pass_table")
+
+

@@ -2387,5 +2387,17 @@ res_p3 <- gheatmap(
 
 ```
 
+## Figure 1
+
+Note - Figure was edites in Photoshop to add bars highlighting serovars, and include a legend 
+```{r}
+p2 + theme(legend.position = "none")         
+```
 
 
+## Figure 5
+
+Note - Figure was edites in Photoshop to add bars highlighting serovars, and include a legend 
+```{r}
+res_p3           
+```

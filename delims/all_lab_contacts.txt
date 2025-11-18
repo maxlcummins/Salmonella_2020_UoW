@@ -1,0 +1,972 @@
+"Lab_Contact_Lowercase"	"Lab Contact"	"counts"
+"public health england"	"Public Health England"	55345
+"pulsenet next generation subtyping methods unit"	"PulseNet Next Generation Subtyping Methods Unit"	37037
+"fda center for food safety and applied nutrition"	"FDA Center for Food Safety and Applied Nutrition"	25152
+"f.x.weill, institut pasteur"	"F.X.Weill, Institut Pasteur"	21943
+"usda fsis"	"USDA FSIS"	21138
+"centers for disease control and prevention enteric diseases laboratory branch"	"Centers for Disease Control and Prevention Enteric Diseases Laboratory Branch"	18446
+"food and drug administration - center for food safety and applied nutrition (us)"	"Food and Drug Administration - Center for Food Safety and Applied Nutrition (US)"	13286
+"united states department of agriculture, food safety and inspection service"	"United States Department of Agriculture, Food Safety and Inspection Service"	12393
+"the wellcome trust sanger institute"	"The Wellcome Trust Sanger Institute"	10179
+"m. achtman"	"M. Achtman"	9839
+"national microbiology laboratory"	"National Microbiology Laboratory"	9647
+"d. brown (scotland)"	"D. Brown (Scotland)"	6383
+"public health england - gastrointestinal bacteria reference unit"	"Public Health England - Gastrointestinal Bacteria Reference Unit"	4119
+"gastrointestinal bacteria reference unit, public health england"	"Gastrointestinal Bacteria Reference Unit, Public Health England"	4043
+"ei"	"EI"	4025
+"anthony smith, nicd"	"Anthony Smith, NICD"	3495
+"fda/cfsan"	"FDA/CFSAN"	3051
+"fda-cvm"	"FDA-CVM"	2881
+"microbiological diagnostics unit"	"Microbiological Diagnostics Unit"	2838
+"centers for disease control and prevention - pulsenet"	"Centers for Disease Control and Prevention - PulseNet"	2288
+"fda"	"FDA"	2131
+"public health agency of canada"	"Public Health Agency of Canada"	1745
+"federal institute for risk assessment (bfr)"	"FEDERAL INSTITUTE FOR RISK ASSESSMENT (BFR)"	1596
+"food and drug administration (us)"	"Food and Drug Administration (US)"	1574
+"university of california davis - 100k genome project"	"University of California Davis - 100K Genome Project"	1297
+"department of agriculture - food safety and inspection service (us)"	"Department of Agriculture - Food Safety and Inspection Service (US)"	1279
+"wellcome sanger institute"	"Wellcome Sanger Institute"	1152
+"cfsan"	"CFSAN"	1013
+"statens serum institut"	"STATENS SERUM INSTITUT"	938
+"university hospital galway"	"University Hospital Galway"	918
+"sc"	"SC"	915
+"pulsenet"	"PulseNet"	910
+"centre for genomic epidemiology, national food institute, technical university of denmark (dtu), denmark"	"Centre for Genomic Epidemiology, National Food Institute, Technical University of Denmark (DTU), Denmark"	847
+"center for diease control and prevention - enteric diseases laboratory branch (us)"	"Center for Diease Control and Prevention - Enteric Diseases Laboratory Branch (US)"	832
+"anses"	"ANSES"	767
+"ny state dept. of health, wadsworth center"	"NY State Dept. of Health, Wadsworth Center"	682
+"christian medical college"	"CHRISTIAN MEDICAL COLLEGE"	678
+"quadram institute bioscience"	"Quadram Institute Bioscience"	610
+"unietar"	"UNIETAR"	578
+"pulsenet"	"Pulsenet"	530
+"apha"	"APHA"	514
+"centers for disease control, taiwan"	"Centers for Disease Control, Taiwan"	509
+"fondation merieux"	"Fondation Merieux"	484
+"istituto zooprofilattico sperimentale delle venezie"	"ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLE VENEZIE"	477
+"public health agency of canada"	"Public Health Agency Of Canada"	476
+"institute of environmental science and research"	"Institute of Environmental Science and Research"	456
+"national institute of infectious diseases - japan"	"National Institute of Infectious Diseases - Japan"	454
+"the new mexico state university food safety laboratory genometrakr submission group"	"The New Mexico State University Food Safety Laboratory GenomeTrakr submission group"	445
+"nsw health pathology - cidm-ph, icpmr"	"NSW Health Pathology - CIDM-PH, ICPMR"	436
+"georgia department of public health lab"	"Georgia Department of Public Health Lab"	414
+"niph"	"NIPH"	413
+"texas a&m university, college of veterinary medicine and biomedical sciences"	"Texas A&M University, College of Veterinary Medicine and Biomedical Sciences"	402
+"cornell university"	"Cornell University"	396
+"robert koch-institute"	"ROBERT KOCH-INSTITUTE"	392
+"us food and drug administration"	"US Food and Drug Administration"	365
+"university of california at davis 100k pathogen genome project"	"University of California at Davis 100K Pathogen Genome Project"	363
+"laboratory for foodborne zoonoses"	"Laboratory for Foodborne Zoonoses"	347
+"pulsenet next generation subtyping"	"PulseNet Next Generation Subtyping"	347
+"university of new south wales"	"University of New South Wales"	339
+"technical university of denmark"	"Technical University of Denmark"	338
+"dudleylab|pennstateuniversity"	"DudleyLab|PennStateUniversity"	309
+"senasica"	"SENASICA"	308
+"the german federal institute for risk assessment (bfr)"	"The German Federal Institute for Risk Assessment (BfR)"	298
+"niph czechia"	"NIPH Czechia"	296
+"p. alba"	"P. Alba"	282
+"joy waite-cusic"	"Joy Waite-Cusic"	281
+"cdc"	"CDC"	265
+"university of washington, department of microbiology, miller laboratory"	"University of Washington, Department of Microbiology, Miller Laboratory"	264
+"uc san diego"	"UC San Diego"	263
+"usda animal plant health inspection service-national veterinary services laboratories - dbpl"	"USDA Animal Plant Health Inspection Service-National Veterinary Services Laboratories - DBPL"	256
+"wencheng zhang"	"wencheng Zhang"	250
+"qld health"	"QLD Health"	245
+"california department of public health"	"California Department of Public Health"	244
+"keri norman's shared submissions"	"Keri Norman's shared submissions"	240
+"public health england (m.chattaway)"	"Public Health England (M.Chattaway)"	235
+"thomas denes"	"Thomas Denes"	232
+"lshtm"	"LSHTM"	230
+"national institute of public health - national institute of hygiene"	"National Institute of Public Health - National Institute of Hygiene"	214
+"egle kudirkiene (university of copenhagen)"	"Egle Kudirkiene (University of Copenhagen)"	211
+"pasteur"	"PASTEUR"	211
+"laboratoire national de sant�"	"Laboratoire National de Sant�"	197
+"university of copenhagen"	"UNIVERSITY OF COPENHAGEN"	197
+"university of liverpool"	"University of Liverpool"	196
+"charlotte chan"	"Charlotte Chan"	193
+"agricultural research service, united states department of agriculture"	"Agricultural Research Service, United States Department of Agriculture"	191
+"bavarian health and food safety authority"	"Bavarian Health and Food Safety Authority"	191
+"usda"	"USDA"	186
+"canadian food inspection agency"	"Canadian Food Inspection Agency"	184
+"yangzhou university"	"YANGZHOU UNIVERSITY"	184
+"animal and plant health agency (apha)"	"Animal and Plant Health Agency (APHA)"	183
+"nvri"	"NVRI"	182
+"mark holmes"	"Mark Holmes"	177
+"zhejiang university"	"Zhejiang University"	176
+"naga"	"Naga"	174
+"qinning wang, cidm-public health, icpmr, nsw health pathology"	"Qinning Wang, CIDM-Public Health, ICPMR, NSW Health Pathology"	172
+"food safety and inspection service (us)"	"Food Safety and Inspection Service (US)"	168
+"robert koch institute"	"ROBERT KOCH INSTITUTE"	166
+"dr liljana petrovska"	"Dr Liljana Petrovska"	165
+"shea fanning, ucd"	"Shea Fanning, UCD"	163
+"anses lsal"	"ANSES LSAL"	160
+"central research institute for epidemiology"	"Central Research Institute for Epidemiology"	159
+"genometrakr project: sdsu veterinary & biomedical sciences"	"GenomeTrakr Project: SDSU Veterinary & Biomedical Sciences"	156
+"nsslrl"	"NSSLRL"	155
+"norwegian institute of public health"	"NORWEGIAN INSTITUTE OF PUBLIC HEALTH"	151
+"tokyo univetsity of agriculture"	"Tokyo Univetsity of Agriculture"	150
+"m. cummins (uts, sydney)"	"M. Cummins (UTS, Sydney)"	149
+"university of liverpool"	"UNIVERSITY OF LIVERPOOL"	147
+"jay hinton"	"Jay Hinton"	145
+"laboratoire de sante publique du quebec"	"Laboratoire de sante publique du Quebec"	145
+"izsler"	"IZSLER"	143
+"public health england (m. chattaway)"	"Public Health England (M. Chattaway)"	143
+"sichuan university"	"Sichuan University"	140
+"craig parker, usda ars"	"Craig Parker, USDA ARS"	137
+"utrecht university"	"UTRECHT UNIVERSITY"	135
+"genometrakr project: thakur molecular epidemiology laboratory, nc state university"	"GenomeTrakr Project: Thakur Molecular Epidemiology Laboratory, NC State University"	133
+"dudley lab"	"Dudley Lab"	131
+"microbiological diagnostic unit public health laboratory"	"Microbiological Diagnostic Unit Public Health Laboratory"	130
+"food and drug administration, center for food safety and applied nutrition"	"FOOD AND DRUG ADMINISTRATION, CENTER FOR FOOD SAFETY AND APPLIED NUTRITION"	129
+"netherlands food and consumer product safety authority"	"Netherlands Food and Consumer Product Safety Authority"	129
+"university of helsinki"	"University of Helsinki"	128
+"food and drug administration-college park"	"Food and Drug Administration-College Park"	124
+"national institute of health dr. ricardo jorge"	"NATIONAL INSTITUTE OF HEALTH DR. RICARDO JORGE"	123
+"ciad"	"CIAD"	122
+"national institute of health"	"National Institute of Health"	122
+"microbiological diagnostic unit"	"Microbiological Diagnostic Unit"	121
+"nkuchia mikanatha"	"Nkuchia Mikanatha"	118
+"vet-lirn: cornell university, ithaca, ny"	"Vet-LIRN: Cornell University, Ithaca, NY"	118
+"centers for disease control and prevention (cdc)"	"Centers for Disease Control and Prevention (CDC)"	116
+"carlos"	"Carlos"	115
+"massey university"	"MASSEY UNIVERSITY"	115
+"friedrich-loeffler-institut"	"Friedrich-Loeffler-Institut"	114
+"central research institute of epidemiology"	"Central Research Institute of Epidemiology"	112
+"usda animal plant health inspection service-national veterinary services laboratories - dbl"	"USDA Animal Plant Health Inspection Service-National Veterinary Services Laboratories - DBL"	112
+"animal health laboratory uofg submission group"	"Animal Health Laboratory UofG submission group"	111
+"colorado state university"	"Colorado State University"	111
+"the university of melbourne"	"The University of Melbourne"	111
+"university of bath"	"University of Bath"	110
+"nestle research center"	"Nestle Research Center"	106
+"university of georgia, food safety center, dr. deng's lab"	"University of Georgia, Food Safety Center, Dr. Deng's Lab"	106
+"abdurrahman h. jibril"	"Abdurrahman H. Jibril"	105
+"genometrakr project: ohio department of agriculture | animal disease diagnostic laboratory"	"GenomeTrakr Project: Ohio Department of Agriculture | Animal Disease Diagnostic Laboratory"	105
+"laboratory for foodborne zoonoses, public health agency of canada"	"Laboratory for Foodborne Zoonoses, Public Health Agency of Canada"	104
+"vet-lirn project: ohio department of agriculture | animal disease diagnostic laboratory"	"Vet-LIRN Project: Ohio Department of Agriculture | Animal Disease Diagnostic Laboratory"	104
+"vet-lirn project: sdsu veterinary & biomedical sciences/ doh south dakota"	"Vet-LIRN Project: SDSU Veterinary & Biomedical Sciences/ DOH South Dakota"	104
+"amrid"	"AMRID"	103
+"fda/cfsan/ny_state"	"FDA/CFSAN/NY_State"	103
+"institut pasteur"	"Institut Pasteur"	103
+"mohammed"	"Mohammed"	103
+"mrcg"	"MRCG"	102
+"e. litrup (ssi)"	"E. Litrup (SSI)"	101
+"vitali sintchenko (westmead)"	"Vitali Sintchenko (Westmead)"	100
+"university of oxford"	"UNIVERSITY OF OXFORD"	99
+"national microbiology laboratory at guelph"	"National Microbiology Laboratory at Guelph"	98
+"animal and plant health agency"	"ANIMAL AND PLANT HEALTH AGENCY"	97
+"dele ogunremi"	"Dele Ogunremi"	97
+"nanyang technological university"	"Nanyang Technological University"	95
+"sciensano"	"Sciensano"	92
+"university of sydney"	"UNIVERSITY OF SYDNEY"	90
+"vet-lirn: washington  state university, animal disease diagnostic laboratory"	"Vet-LIRN: Washington  State University, Animal Disease Diagnostic Laboratory"	90
+"s. simon (rki)"	"S. Simon (RKI)"	89
+"university of connecticut"	"University of Connecticut"	89
+"hpa"	"HPA"	87
+"z zhou"	"Z Zhou"	87
+"naomi"	"Naomi"	86
+"institut de biologie integrative et des systemes"	"Institut de Biologie Integrative et des Systemes"	83
+"national public health laboratory"	"National Public Health Laboratory"	82
+"agricultural research service"	"Agricultural Research Service"	81
+"genometrakr project: sdsu veterinary & biomedical sciences/ doh south dakota"	"GenomeTrakr Project: SDSU Veterinary & Biomedical Sciences/ DOH South Dakota"	81
+"university of minnesota"	"University of Minnesota"	81
+"thakur lab"	"Thakur lab"	80
+"jiangsu key laboratory of zoonosis in yangzhou university, jiangsu (china)"	"Jiangsu Key laboratory of Zoonosis in Yangzhou University, Jiangsu (China)"	79
+"doherty institute"	"Doherty Institute"	78
+"hhs greater glasgow & clyde"	"HHS Greater Glasgow & Clyde"	76
+"public health agency canada"	"Public Health Agency Canada"	76
+"anses lsal"	"ANSES LSAl"	74
+"rivm - national institute for public health and the environment"	"RIVM - National Institute for Public Health and the Environment"	74
+"lncc"	"LNCC"	73
+"louisiana animal disease diagnostics laboratory"	"Louisiana Animal Disease Diagnostics Laboratory"	73
+"university of cambrdge"	"University of Cambrdge"	73
+"none"	"None"	72
+"gurjeetkohli@ntu.edu.sg"	"gurjeetkohli@ntu.edu.sg"	71
+"izs plv"	"IZS PLV"	71
+"edlb-cdc"	"EDLB-CDC"	70
+"new york state genometrakr"	"New York State GenomeTrakr"	70
+"sichuan university"	"SICHUAN UNIVERSITY"	70
+"dr. james herrick"	"Dr. James Herrick"	69
+"abdurrahman hassan jibril"	"Abdurrahman Hassan Jibril"	68
+"cfs"	"CFS"	68
+"the genome center at washington university school of medicine in st. louis"	"The Genome Center at Washington University School of Medicine in St. Louis"	68
+"kaunda yamba, zambia"	"Kaunda Yamba, Zambia"	66
+"centers for disease control and prevention"	"Centers for Disease Control and Prevention"	65
+"yujie hu"	"Yujie Hu"	64
+"l. bonifait; l. baugé"	"L. Bonifait; L. Baugé"	63
+NA	NA	63
+"national centre for infectious diseases"	"National Centre for Infectious Diseases"	62
+"nd dept of health"	"ND Dept of Health"	60
+"usda-ars-usmarc"	"USDA-ARS-USMARC"	60
+"qhfss"	"QHFSS"	59
+"food and drug administration and national center for toxicological research"	"Food and Drug Administration and National Center for Toxicological Research"	58
+"irena.meistere@bior.lv"	"irena.meistere@bior.lv"	58
+"istituto zooprofilattico sperimentale delle venezie"	"Istituto Zooprofilattico Sperimentale delle Venezie"	58
+"shlomo sela lab"	"Shlomo Sela lab"	57
+"embl"	"EMBL"	56
+"university of muenster"	"University of Muenster"	56
+"chinese pla center for disease control and prevention"	"Chinese PLA Center for Disease Control and Prevention"	54
+"marguerite.e.m. nikiema/université joseph ki-zerbo"	"Marguerite.E.M. Nikiema/Université Joseph Ki-Zerbo"	54
+"u.s. food and drug administration"	"U.S. Food and Drug Administration"	54
+"chien-shun (cdc, taiwan)"	"Chien-Shun (CDC, Taiwan)"	53
+"fda/cfsan/mdh"	"FDA/CFSAN/MDH"	53
+"fss"	"FSS"	53
+"l.bonifait_hqpap unit_anses ploufragan france"	"L.Bonifait_HQPAP Unit_ANSES Ploufragan France"	53
+"max cummins, university of technology, sydney"	"Max Cummins, University of Technology, Sydney"	53
+"new york vetlirn submission group"	"New York VetLIRN Submission Group"	53
+"european centre for disease prevention and control"	"European Centre for Disease Prevention and Control"	52
+"texas a&m university"	"Texas A&M University"	52
+"li' lab"	"Li' lab"	51
+"jose"	"Jose"	50
+"ikhimiukor odion"	"Ikhimiukor Odion"	49
+"jiangsu key lab of zoonosis"	"Jiangsu key Lab of zoonosis"	48
+"rachel hodgeman"	"Rachel Hodgeman"	48
+"texas tech university icfie food safety research lab"	"Texas Tech University ICFIE Food Safety Research Lab"	48
+"university of rwanda"	"University of Rwanda"	48
+"uppsala university"	"Uppsala University"	48
+"e litrup"	"E Litrup"	47
+"brigham & women's hospital"	"Brigham & Women's Hospital"	46
+"china cdc"	"China CDC"	46
+"curtin university"	"Curtin University"	46
+"institute for food safety and hygiene university of zurich"	"Institute for Food Safety and Hygiene University of Zurich"	46
+"iow state university"	"Iow State University"	46
+"fda center for veterinary medicine"	"FDA Center for Veterinary Medicine"	45
+"national veterinary institute (sva)"	"NATIONAL VETERINARY INSTITUTE (SVA)"	45
+"afrims"	"AFRIMS"	44
+"cfsa"	"CFSA"	44
+"shenzhen centre for disease control and prevention, shenzhen, china"	"Shenzhen Centre for Disease Control and Prevention, Shenzhen, China"	44
+"university of birmingham"	"UNIVERSITY OF BIRMINGHAM"	44
+"brenda noble"	"Brenda Noble"	43
+"hazem ramadan: faculty of veterinary medicine, mansoura university, mansoura-egypt & us national poultry research center, usda-ars, athens, georgia-usa"	"Hazem Ramadan: Faculty of Veterinary Medicine, Mansoura University, Mansoura-Egypt & US National Poultry Research center, USDA-ARS, Athens, Georgia-USA"	43
+"vitor.borges@insa.min-saude.pt"	"vitor.borges@insa.min-saude.pt"	43
+"785-532-1299"	"785-532-1299"	42
+"bundesinstitut f??�r risikobewertung (bfr)"	"Bundesinstitut f??�r Risikobewertung (BfR)"	42
+"dtu-ge"	"DTU-GE"	42
+"forensic and scientific services"	"Forensic and Scientific Services"	42
+"french agency for food, environmental and occupational health & safety (anses)"	"French Agency for Food, Environmental and Occupational Health & Safety (ANSES)"	42
+"babdalhamid@unmc.edu"	"babdalhamid@unmc.edu"	41
+"scelse, nanyang technological university, singapore"	"SCELSE, Nanyang Technological University, Singapore"	41
+"twincore"	"TWINCORE"	41
+"zhejiang university"	"Zhejiang university"	41
+"american university of beirut"	"American University of Beirut"	39
+"dtu-cfb"	"DTU-CfB"	39
+"m. torpdahl (ssi, denmark)"	"M. Torpdahl (SSI, Denmark)"	39
+"moon"	"Moon"	39
+"sfda"	"SFDA"	39
+"south dakota adrdl"	"South Dakota ADRDL"	38
+"nih"	"NIH"	37
+"scau vet"	"SCAU Vet"	37
+"sichuan university"	"sichuan university"	37
+"university of birmingham"	"University of Birmingham"	37
+"university of zurich"	"University of Zurich"	37
+"a"	"A"	36
+"european bioinformatics institute"	"European Bioinformatics Institute"	36
+"kritchai"	"kritchai"	36
+"phe, m.chattaway"	"PHE, M.Chattaway"	36
+"university of maryland"	"University of Maryland"	36
+"l. bonifait -anses ploufragan - hqpap unit"	"L. Bonifait -Anses Ploufragan - HQPAP Unit"	35
+"louisiana state university"	"Louisiana State University"	35
+"national veterinary research institute"	"NATIONAL VETERINARY RESEARCH INSTITUTE"	35
+"0"	"0"	34
+"7062964077"	"7062964077"	34
+"certis"	"Certis"	34
+"fpiras@uniss.it"	"fpiras@uniss.it"	34
+"montana dphhs"	"Montana DPHHS"	34
+"nctr"	"NCTR"	34
+"state of alaska public health laboratory"	"State of Alaska Public Health Laboratory"	34
+"university of nebraska-lincoln"	"University of Nebraska-Lincoln"	34
+"center for disease control and prevention"	"Center for Disease Control and Prevention"	32
+"mapa"	"mapa"	31
+"nyc dohmh"	"NYC DOHMH"	31
+"technical university of denmark�"	"Technical University of Denmark�"	31
+"christian kornschober"	"Christian Kornschober"	30
+"friedrich-loeffler-institut (fli) institute for bacterial infections and zoonoses (ibiz)"	"FRIEDRICH-LOEFFLER-INSTITUT (FLI) Institute for Bacterial Infections and Zoonoses (IBIZ)"	30
+"gihe(gyeonggi-do institute of health & environment)"	"GIHE(Gyeonggi-do Institute of Health & Environment)"	30
+"paudyal_narayan@hotmail.com"	"paudyal_narayan@hotmail.com"	30
+"uc davis narms submission group"	"UC Davis NARMS submission group"	30
+"european food safety authority"	"European Food safety authority"	29
+"gm"	"GM"	29
+"jyhyeon1205@gmail.com"	"jyhyeon1205@gmail.com"	29
+"tgen north"	"TGen North"	29
+"university of washington - department of microbiology, miller laboratory"	"University of Washington - Department of Microbiology, Miller Laboratory"	29
+"food and drug administration, center for food safety and applied nutrition"	"Food and Drug Administration, Center for Food Safety and Applied Nutrition"	28
+"technical university of denmark - centre for genomic epidemiology, national food institute"	"Technical University of Denmark - Centre for Genomic Epidemiology, National Food Institute"	28
+"northern arizona university"	"Northern Arizona University"	27
+"statens serum institut"	"Statens Serum Institut"	27
+"esr"	"ESR"	26
+"itacyl"	"ITACyL"	26
+"izslt (istituto zooprofilattico sperimentale del lazio e la toscana)"	"IZSLT (Istituto Zooprofilattico Sperimentale del Lazio e la Toscana)"	26
+"murdoch university"	"Murdoch University"	26
+"national veterinary institute (sva)"	"National Veterinary Institute (SVA)"	26
+"scientific institute of public health (wiv-isp)"	"Scientific Institute of Public Health (WIV-ISP)"	26
+"instituto adolfo lutz"	"Instituto Adolfo Lutz"	25
+"jufalcao@fcfrp.usp.br"	"jufalcao@fcfrp.usp.br"	25
+"rki"	"RKI"	25
+"central research institute of epidemiology (russia) and  amc (amsterdam, the netherlands)"	"Central Research Institute of Epidemiology (Russia) and  AMC (Amsterdam, The Netherlands)"	24
+"institute of tropical medicine"	"Institute of Tropical Medicine"	24
+"moon tay"	"Moon Tay"	24
+"national taiwan university"	"National Taiwan University"	24
+"alba"	"Alba"	23
+"mahidol university"	"Mahidol University"	23
+"mkhitar mkrtchyan"	"Mkhitar Mkrtchyan"	23
+"wm"	"WM"	23
+"fda cvm narms-ohio state university"	"FDA CVM NARMS-Ohio State University"	22
+"huazhong agricultural university"	"Huazhong Agricultural university"	22
+"izs plva"	"IZS PLVA"	22
+"l. bonifait- anses ploufragan - hqpap unit"	"L. Bonifait- Anses Ploufragan - HQPAP Unit"	22
+"michigan department of community health"	"Michigan Department of Community Health"	22
+"national center for biotechnology information"	"National Center for Biotechnology Information"	22
+"p.alba"	"P.Alba"	22
+"veterinary research institute"	"Veterinary Research Institute"	22
+"iowa state university narms-wgs group"	"Iowa State University NARMS-WGS group"	21
+"labovet"	"labovet"	21
+"national university of singapore and genome institute of singapore"	"National University of Singapore and Genome Institute of Singapore"	21
+"translational genomics research institute north"	"Translational Genomics Research Institute North"	21
+"ucph"	"UCPH"	21
+"university of california, berkeley"	"University of California, Berkeley"	21
+"yuanmeng"	"yuanmeng"	21
+"bojan papic"	"Bojan Papic"	20
+"child health research foundation"	"Child Health Research Foundation"	20
+"earlham institute"	"Earlham Institute"	20
+"inta_argentina"	"INTA_Argentina"	20
+"korea centers for disease control & prevention (kcdc)"	"Korea Centers for Disease Control & Prevention (KCDC)"	20
+"l. bonifait - anses ploufragan - hqpap unit"	"L. Bonifait - Anses Ploufragan - HQPAP Unit"	20
+"sheba medical center"	"Sheba Medical Center"	20
+"the university of sydney"	"The University of Sydney"	20
+"l. bonifait, l. baugé"	"L. Bonifait, L. Baugé"	19
+"national centre for food safety risk assessment (china)"	"National Centre for Food Safety Risk Assessment (China)"	19
+"national institute of health, portugal"	"National Institute of Health, Portugal"	19
+"c. kornschober (austria)"	"C. Kornschober (Austria)"	18
+"cdphe"	"CDPHE"	18
+"e. cohen"	"E. Cohen"	18
+"fda cvm narms - texas tech university"	"FDA CVM NARMS - Texas Tech University"	18
+"ocean university of china"	"Ocean University of China"	18
+"robert koch institute"	"Robert Koch Institute"	18
+"university of california at davis"	"University of California at Davis"	18
+"vermont department of health laboratory"	"Vermont Department of Health Laboratory"	18
+"veterinary faculty"	"Veterinary Faculty"	18
+"catherine ragimbeau, lns luxembourg"	"Catherine Ragimbeau, LNS Luxembourg"	17
+"izs pb"	"IZS PB"	17
+"pennsylvania state university"	"Pennsylvania State University"	17
+"t.wołkowicz"	"T.Wołkowicz"	17
+"ucd-100k"	"UCD-100K"	17
+"usda agricultural research service"	"USDA Agricultural Research Service"	17
+"wadsworth center / nysdoh"	"Wadsworth Center / NYSDOH"	17
+"emiliano"	"Emiliano"	16
+"fda cvm narms-kansas state university"	"FDA CVM NARMS-Kansas State University"	16
+"genometrakr project: michigan department of agriculture and rural development | geagley laboratory"	"GenomeTrakr Project: Michigan Department of Agriculture and Rural Development | Geagley Laboratory"	16
+"j.p. falcao"	"J.P. Falcao"	16
+"lili li"	"Lili Li"	16
+"public health england - salmonella reference unit"	"Public Health England - Salmonella Reference Unit"	16
+"salmonella reference section,phe,colindale,u.k"	"Salmonella Reference Section,PHE,Colindale,U.K"	16
+"south dakota state university"	"South Dakota State University"	16
+"health canada"	"Health Canada"	15
+"icdc"	"ICDC"	15
+"maanshan cdc"	"MAANSHAN CDC"	15
+"robert koche institute"	"Robert Koche Institute"	15
+"ximin zeng"	"Ximin Zeng"	15
+"d. gavacova (nrc for salmonella, slovakia)"	"D. Gavacova (NRC for Salmonella, Slovakia)"	14
+"dalian university of technology"	"Dalian University of Technology"	14
+"king abdullah university of science and technology"	"King Abdullah University of Science and Technology"	14
+"lcsp"	"LCSP"	14
+"mr. trung"	"Mr. Trung"	14
+"sokoine university of agriculture"	"SOKOINE UNIVERSITY OF AGRICULTURE"	14
+"tim johnson"	"Tim Johnson"	14
+"washington university school of medicine - genome center (st. louis)"	"Washington University School of Medicine - Genome Center (St. Louis)"	14
+"annaleise"	"Annaleise"	13
+"cas key laboratory of pathogenic microbiology and immunology, institute of microbiology, chinese academy of sciences"	"CAS Key Laboratory of Pathogenic Microbiology and Immunology, Institute of Microbiology, Chinese Academy of Sciences"	13
+"eelcofranz"	"eelcofranz"	13
+"indiana university"	"Indiana University"	13
+"institute of clinical pathology and medical research, westmead hospital"	"Institute of Clinical Pathology and Medical Research, Westmead Hospital"	13
+"massey university"	"Massey University"	13
+"norwegian veterinary institute"	"Norwegian Veterinary Institute"	13
+"phe"	"PHE"	13
+"post graduate institute of medical education and research"	"Post Graduate Institute of Medical Education and Research"	13
+"texas department of state health service"	"Texas Department of State Health Service"	13
+"virginia division of consolidated laboratory services sequencing submission group"	"Virginia Division of Consolidated Laboratory Services Sequencing Submission Group"	13
+"wittum laboratory sequence data group"	"Wittum laboratory sequence data group"	13
+"ye feng"	"Ye Feng"	13
+"zhejiang university school of medicine"	"Zhejiang University School of Medicine"	13
+"andrew greenhill"	"Andrew Greenhill"	12
+"animal disease prevention and food safety key laboratory of sichuan province"	"Animal Disease Prevention and Food Safety Key Laboratory of Sichuan Province"	12
+"basel university"	"Basel University"	12
+"claudia coipan, rivm"	"Claudia Coipan, RIVM"	12
+"ebi"	"EBI"	12
+"faesru"	"FAESRU"	12
+"fisabio - public health"	"FISABIO - Public Health"	12
+"genometrakr project: florida department of agriculture"	"GenomeTrakr Project: Florida Department of Agriculture"	12
+"juanjo gonzález"	"Juanjo González"	12
+"l fabre, institut pasteur"	"L Fabre, Institut Pasteur"	12
+"l. fabre, institut pasteur"	"L. Fabre, Institut Pasteur"	12
+"los alamos national laboratory"	"Los Alamos National Laboratory"	12
+"r. karpiskova (vri brno)"	"R. Karpiskova (VRI BRNO)"	12
+"salmonella reference section,phe,colindale,u.k, m.chattaway"	"Salmonella Reference Section,PHE,Colindale,U.K, M.Chattaway"	12
+"sophie octavia"	"Sophie Octavia"	12
+"university of copenhagen, faculty of health and medical sciences"	"University of Copenhagen, Faculty of Health and Medical Sciences"	12
+"university of georgia"	"University of Georgia"	12
+"university of maryland institute for genome sciences"	"University of Maryland Institute for Genome Sciences"	12
+"usda-ars"	"USDA-ARS"	12
+"china national centre for food safety risk assessment"	"China National Centre for Food Safety Risk Assessment"	11
+"eelco franz"	"Eelco Franz"	11
+"james herrick"	"James Herrick"	11
+"l. bonifait"	"L. Bonifait"	11
+"p. alba"	"P. alba"	11
+"t. johnson"	"T. Johnson"	11
+"uc berkeley"	"UC Berkeley"	11
+"brown et al"	"Brown et al"	10
+"bundesinstitut fuer risikobewertung (bfr)"	"Bundesinstitut fuer Risikobewertung (BfR)"	10
+"ohio department of agriculture"	"Ohio Department of Agriculture"	10
+"r. helmuth"	"R. Helmuth"	10
+"technical university of denmark�?�"	"Technical University of Denmark�?�"	10
+"university of sfax, faculty of medicin sfax"	"University of Sfax, Faculty of Medicin Sfax"	10
+"wyoming public health laboratory"	"Wyoming Public Health Laboratory"	10
+"zhang junjun(xianyang center for disease control and prevention)"	"Zhang Junjun(XianYang Center for Disease Control and Prevention)"	10
+"+86"	"+86"	9
+"centro de ciencias genomicas - unam"	"Centro de Ciencias Genomicas - UNAM"	9
+"chenyang cao"	"Chenyang Cao"	9
+"federation university australia"	"Federation University Australia"	9
+"imi ul mf"	"IMI UL MF"	9
+"l. bonifait; anses ploufragan, hqpap unit"	"L. Bonifait; Anses Ploufragan, HQPAP Unit"	9
+"pulsenet next generation subtypng methods unit"	"PulseNet Next Generation Subtypng Methods Unit"	9
+"qib"	"QIB"	9
+"shenzhen nanshan cdc"	"SHENZHEN NANSHAN CDC"	9
+"t_duodu@hotmail.com"	"t_duodu@hotmail.com"	9
+"thakur lab"	"Thakur Lab"	9
+"united states department of agriculture, agricultural research service"	"United States Department of Agriculture, Agricultural Research Service"	9
+"universidad de la republica -instituto de higiene (uruguay)"	"Universidad de la Republica -Instituto de Higiene (Uruguay)"	9
+"university of copenhagen"	"University of Copenhagen"	9
+"university of nebraska medical center"	"University of Nebraska Medical Center"	9
+"visavet"	"Visavet"	9
+"washington state department of agriculture fs&cs lab"	"Washington State Department of Agriculture FS&CS Lab"	9
+"cas key laboratory of pathogenic microbiology and immunology, institute of microbiology"	"CAS Key Laboratory of Pathogenic Microbiology and Immunology, Institute of Microbiology"	8
+"craig parker, ars.usda"	"Craig Parker, ARS.USDA"	8
+"dr s. le hello"	"Dr S. Le Hello"	8
+"fda cvm narms-north carolina state university"	"FDA CVM NARMS-North Carolina State University"	8
+"hart/kariuki"	"Hart/Kariuki"	8
+"institute of clinical pathology and medical research"	"Institute of Clinical Pathology and Medical Research"	8
+"korea centers for disease control & prevention"	"Korea Centers for Disease Control & Prevention"	8
+"l. bonifait; l. baugé; anses ploufragan"	"L. Bonifait; L. Baugé; Anses Ploufragan"	8
+"marguerite.e.m. nikiema/universitã© joseph ki-zerbo"	"Marguerite.E.M. Nikiema/UniversitÃ© Joseph Ki-Zerbo"	8
+"mghanem@umd.edu"	"mghanem@umd.edu"	8
+"narms project: thakur molecular epidemiology laboratory, nc state university"	"NARMS Project: Thakur Molecular Epidemiology Laboratory, NC State University"	8
+"trinity college dublin"	"Trinity College Dublin"	8
+"university college dublin"	"University College Dublin"	8
+"visavet health surveillance centre (ucm)"	"visavet health surveillance centre (ucm)"	8
+"1"	"1"	7
+"aga khan university hospital"	"Aga Khan University Hospital"	7
+"baniga"	"Baniga"	7
+"beca-ilri"	"BecA-ILRI"	7
+"chattaway, phe"	"Chattaway, PHE"	7
+"fera"	"Fera"	7
+"gil@sund.ku.dk"	"GIL@SUND.KU.DK"	7
+"instituto nacional de salud"	"Instituto Nacional de Salud"	7
+"johannes krause, max planck institute for the science of human history, jena, germany"	"Johannes Krause, Max Planck Institute for the Science of Human History, Jena, Germany"	7
+"laboratoire national de santé"	"Laboratoire National de Santé"	7
+"lee harrison"	"Lee Harrison"	7
+"lex leong"	"Lex Leong"	7
+"national institute for communicable diseases"	"National Institute for Communicable Diseases"	7
+"silvia herrera-leon"	"Silvia Herrera-Leon"	7
+"south dakota dept. of health/sdsu"	"South Dakota Dept. of Health/SDSU"	7
+"timothy johnson, college of veterinary medicine, university of minnesota"	"Timothy Johnson, College of Veterinary Medicine, University of Minnesota"	7
+"university of melbourne"	"University of Melbourne"	7
+"university of saskatchewan"	"University of Saskatchewan"	7
+"university of technology sydney"	"University of Technology Sydney"	7
+"vkozyreva"	"vkozyreva"	7
+"yangzhou university"	"Yangzhou University"	7
+"785-770-5551"	"785-770-5551"	6
+"dc phl"	"DC PHL"	6
+"department of agriculture - agricultural research service (us)"	"Department of Agriculture - Agricultural Research Service (US)"	6
+"department of agriculture - agricultural research service, meat animal research center (us)"	"Department of Agriculture - Agricultural Research Service, Meat Animal Research Center (US)"	6
+"food-borne pathogen omics research center, forc"	"Food-borne Pathogen Omics Research Center, FORC"	6
+"imperial college london"	"Imperial College London"	6
+"mass public health"	"mass public health"	6
+"roskilde university"	"Roskilde University"	6
+"seoul national university"	"Seoul National University"	6
+"ul mf imi"	"UL MF IMI"	6
+"universite laval"	"Universite Laval"	6
+"university college cork (f. boyd)"	"University College Cork (F. Boyd)"	6
+"university of california, irvine"	"University of California, Irvine"	6
+"university of sao paulo"	"University of Sao Paulo"	6
+"w. rabsch (robert koch-institut, wernigerode)"	"W. Rabsch (Robert Koch-Institut, Wernigerode)"	6
+"yujie"	"Yujie"	6
+"ahvla"	"AHVLA"	5
+"bundesinstitut f�r risikobewertung"	"Bundesinstitut f�r Risikobewertung"	5
+"cardiff university, kirsty sands, timothy walsh"	"Cardiff University, Kirsty Sands, Timothy Walsh"	5
+"cheng-hsun chiu"	"Cheng-Hsun Chiu"	5
+"finnish institute for health and welfare"	"Finnish Institute for Health and Welfare"	5
+"iowa state university college of veterinary medicine"	"Iowa State University College of Veterinary Medicine"	5
+"istituto superiore di sanità"	"Istituto Superiore di Sanità"	5
+"istituto zooprofilattico sperimentale della lombardia e dell'emilia romagna"	"Istituto Zooprofilattico Sperimentale della Lombardia e dell'Emilia Romagna"	5
+"joel mossong"	"Joel Mossong"	5
+"ken sanderson"	"Ken Sanderson"	5
+"narms project - state of kansas"	"NARMS Project - State of Kansas"	5
+"national institute of infectious diseases (japan)"	"National Institute of Infectious Diseases (Japan)"	5
+"nc slph"	"NC SLPH"	5
+"new jersey department of agriculture"	"New Jersey Department of Agriculture"	5
+"penn state university"	"Penn State University"	5
+"salmonella reference section,phe,colindale,u.k, m. chattaway"	"Salmonella Reference Section,PHE,Colindale,U.K, M. Chattaway"	5
+"shanghai jiao tong university"	"Shanghai Jiao Tong University"	5
+"welfare, department of infectious diseas"	"WELFARE, DEPARTMENT OF INFECTIOUS DISEAS"	5
+"zheng(jscdc)"	"ZHENG(JSCDC)"	5
+"animal and plant quarantine agency"	"Animal and Plant Quarantine Agency"	4
+"animal health and veterinary laboratories agency"	"ANIMAL HEALTH AND VETERINARY LABORATORIES AGENCY"	4
+"berlin center for genomics in biodiversity research"	"Berlin Center for Genomics in Biodiversity Research"	4
+"c. ragimbeau, lns luxembourg"	"C. Ragimbeau, LNS Luxembourg"	4
+"ceneters for disease control and prevention"	"Ceneters for Disease Control and Prevention"	4
+"cttctt@outlook.com"	"cttctt@outlook.com"	4
+"fda cvm narms - iowa state university"	"FDA CVM NARMS - Iowa State University"	4
+"fsis srcamb"	"FSIS SRCAMB"	4
+"fss"	"fss"	4
+"herricjb@jmu.edu"	"herricjb@jmu.edu"	4
+"institut pasteur  guadeloupe"	"Institut Pasteur  Guadeloupe"	4
+"institute for research in molecular medicine (informm)"	"Institute for Research in Molecular Medicine (INFORMM)"	4
+"instituto tecnologico agrario de castilla y leon"	"Instituto Tecnologico Agrario de Castilla y Leon"	4
+"instituto tecnologico agrario de castilla y leon (itacyl)"	"Instituto Tecnologico Agrario de Castilla y Leon (ITACyL)"	4
+"instituto tecnológico agrario de castilla y leon (itacyl)"	"Instituto Tecnológico Agrario de Castilla y Leon (ITACyL)"	4
+"l. bonifait_ anses ploufragan - hqpap unit - france"	"L. Bonifait_ Anses Ploufragan - HQPAP Unit - France"	4
+"l. bonifait, anses ploufragan, hqpap unit, france"	"L. Bonifait, Anses Ploufragan, HQPAP Unit, FRANCE"	4
+"laetitia bonifait - anses ploufragan - hqpap unit"	"Laetitia Bonifait - Anses Ploufragan - HQPAP Unit"	4
+"map"	"map"	4
+"mapa"	"Mapa"	4
+"mapa"	"MAPA"	4
+"minnesota department of health"	"Minnesota Department of Health"	4
+"national institutes of health (us)"	"National Institutes of Health (US)"	4
+"national university of ireland, galway"	"NATIONAL UNIVERSITY OF IRELAND, GALWAY"	4
+"ncbi"	"NCBI"	4
+"new york state dept. of health - wadsworth center"	"New York State Dept. of Health - Wadsworth Center"	4
+"nin"	"NIN"	4
+"ning-xia.fang@health.qld.gov.au"	"ning-xia.fang@health.qld.gov.au"	4
+"nrl"	"NRL"	4
+"nvri, magdalena zając"	"NVRI, Magdalena Zając"	4
+"oxford university clinical research unit, viet nam"	"Oxford University Clinical Research Unit, Viet Nam"	4
+"p. alba (izslt)"	"P. Alba (IZSLT)"	4
+"public health cuhk"	"Public Health CUHK"	4
+"qinning wang, cidmls, icpmr, westmead hospital"	"Qinning Wang, CIDMLS, ICPMR, Westmead Hospital"	4
+"sabrina diemert"	"Sabrina Diemert"	4
+"salmonella reference section,phe,colindale,u.k (m.chattaway)"	"Salmonella Reference Section,PHE,Colindale,U.K (M.Chattaway)"	4
+"sheba medical center"	"Sheba medical center"	4
+"south china agricultural university"	"South China Agricultural University"	4
+"southwest university for nationalities"	"Southwest University for Nationalities"	4
+"texas tech university"	"Texas Tech University"	4
+"the ohio state university"	"The Ohio State University"	4
+"universidad nacional autanoma de mexico - instituto de biotecnologia"	"Universidad Nacional Autanoma de Mexico - Instituto de Biotecnologia"	4
+"university of adelaide"	"University of Adelaide"	4
+"usda ars"	"USDA ARS"	4
+"30962833"	"30962833"	3
+"673219736@qq.com"	"673219736@qq.com"	3
+"a"	"a"	3
+"ajou university"	"Ajou University"	3
+"ariel university"	"Ariel University"	3
+"c. carrillo (cfia)"	"C. Carrillo (CFIA)"	3
+"c. lofstrom (national food institute, technical university of denmark)"	"C. Lofstrom (National Food Institute, Technical University of Denmark)"	3
+"catherine.carrillo@canada.ca"	"catherine.carrillo@canada.ca"	3
+"catherine.carrillo@inspection.gc.ca"	"Catherine.Carrillo@inspection.gc.ca"	3
+"centers for disease control and prevention"	"Centers for disease control and prevention"	3
+"central public health laboratories"	"Central Public Health Laboratories"	3
+"china"	"China"	3
+"craig parker, usda ars, albany ca 94710"	"Craig Parker, USDA ARS, Albany CA 94710"	3
+"egle kudirkiene, university of copenhagen"	"Egle Kudirkiene, University of Copenhagen"	3
+"enteric diseases laboratory branch, centers for disease control and prevention"	"Enteric Diseases Laboratory Branch, Centers for Disease Control and Prevention"	3
+"federal ministry of agriculture & rural development"	"Federal Ministry of Agriculture & Rural Development"	3
+"food and environment research agency (us)"	"Food and Environment Research Agency (US)"	3
+"fss phm"	"FSS PHM"	3
+"german federal institute for risk assessment"	"German Federal Institute for Risk Assessment"	3
+"heike claus"	"Heike Claus"	3
+"henczko.judit@nnk.gov.hu"	"henczko.judit@nnk.gov.hu"	3
+"joël mossong, lns"	"Joël Mossong, LNS"	3
+"lapoa-federal university of paraiba (ufpb)"	"LAPOA-Federal University of Paraiba (UFPB)"	3
+"mark odea"	"Mark ODea"	3
+"mr.trung"	"Mr.Trung"	3
+"nankai university"	"Nankai University"	3
+"national reference center belgium"	"National Reference Center Belgium"	3
+"nestle research"	"Nestle Research"	3
+"nilton lincopan"	"Nilton Lincopan"	3
+"nrc belgium, sciensano"	"NRC Belgium, Sciensano"	3
+"queensland department of health"	"Queensland Department of Health"	3
+"robert koch-institut"	"Robert Koch-Institut"	3
+"s. simon"	"S. Simon"	3
+"s.simon"	"S.Simon"	3
+"sassari university fpiras@uniss.it"	"Sassari University fpiras@uniss.it"	3
+"scientific insitute of public health"	"Scientific Insitute of Public Health"	3
+"sss"	"sss"	3
+"su, lin-hui"	"Su, Lin-Hui"	3
+"university of bern"	"University of Bern"	3
+"university of regina"	"University of Regina"	3
+"yanmeiying@icdc.cn"	"yanmeiying@icdc.cn"	3
+"+86-029-82229105"	"+86-029-82229105"	2
+"07 3096 2833"	"07 3096 2833"	2
+"123"	"123"	2
+"96896132424"	"96896132424"	2
+"a. coffey (cit)"	"A. Coffey (CIT)"	2
+"a. szmolka (institute for veterinary medical research)"	"A. Szmolka (Institute for Veterinary Medical Research)"	2
+"amanda kidsley university of adelaide"	"Amanda Kidsley University of Adelaide"	2
+"anses"	"Anses"	2
+"ark genomics"	"Ark Genomics"	2
+"assaf rokney (moh)"	"Assaf Rokney (MOH)"	2
+"az genometrakr submission group at tgen north"	"AZ GenomeTrakr submission group at TGen North"	2
+"balaji v"	"Balaji V"	2
+"banerji s"	"Banerji S"	2
+"basespace"	"BaseSpace"	2
+"bdjeghout@uniss.it"	"bdjeghout@uniss.it"	2
+"beijing institute of biotechnology"	"Beijing Institute of Biotechnology"	2
+"biotechnology research institute"	"Biotechnology Research Institute"	2
+"cantab"	"CANTAB"	2
+"catherine.carrillo@inspection.gc.ca"	"catherine.carrillo@inspection.gc.ca"	2
+"centers for disease control, r.o.c (taiwan)"	"Centers for Disease Control, R.O.C (Taiwan)"	2
+"china agricultural university"	"China Agricultural University"	2
+"christian medical college"	"Christian Medical College"	2
+"cidm-ph, icpmr, westmead hospital"	"CIDM-PH, ICPMR, Westmead Hospital"	2
+"clc bio"	"CLC BIO"	2
+"e. trost"	"E. Trost"	2
+"edgar mendieta"	"EDGAR MENDIETA"	2
+"epb"	"EPB"	2
+"faculdade de ciencias farmaceuticas de ribeirao preto"	"Faculdade de Ciencias Farmaceuticas de Ribeirao Preto"	2
+"farvet s.a.c."	"FARVET S.A.C."	2
+"fli"	"FLI"	2
+"food-borne pathogen omics research center"	"Food-borne Pathogen Omics Research Center"	2
+"gifu university - graduate school of medicine"	"Gifu University - Graduate School of Medicine"	2
+"gil@sund.ku.dk"	"gil@sund.ku.dk"	2
+"harbin medical university"	"Harbin Medical University"	2
+"institute of food safety and nutrition"	"Institute of Food Safety and Nutrition"	2
+"istituto zooprofilattico sperimentale del piemonte liguria e valle d'aosta"	"Istituto Zooprofilattico Sperimentale del Piemonte Liguria e Valle d'Aosta"	2
+"izsam batteriologia"	"IZSAM Batteriologia"	2
+"j. wain (hpa, colindale)"	"J. Wain (HPA, Colindale)"	2
+"jinan centers for disease control and prevention"	"Jinan Centers for Disease Control and Prevention"	2
+"kerry cooper"	"Kerry Cooper"	2
+"king abdullah international medical research center (kaimrc)"	"King Abdullah International Medical Research Center (KAIMRC)"	2
+"krause"	"Krause"	2
+"kritchai poonchareon"	"kritchai Poonchareon"	2
+"laboratoire national de santé"	"Laboratoire national de Santé"	2
+"lnr cps"	"LNR CPS"	2
+"m_mkrtchyan@mb.sci.am"	"m_mkrtchyan@mb.sci.am"	2
+"m. cormican (nsrl, galway)"	"M. Cormican (NSRL, Galway)"	2
+"mariapilar.cortes@uab.cat"	"mariapilar.cortes@uab.cat"	2
+"mark holmes, university of cambridge"	"Mark Holmes, University of Cambridge"	2
+"meiying yan(china cdc)"	"Meiying Yan(China CDC)"	2
+"mia torpdahl"	"Mia Torpdahl"	2
+"ministry of food and drug safety"	"Ministry of Food and Drug Safety"	2
+"mohammed"	"mOHAMMED"	2
+"n. r. thomson"	"N. R. Thomson"	2
+"national institute of food and drug safety evaluation"	"National Institute of Food and Drug Safety Evaluation"	2
+"nico wenner"	"Nico Wenner"	2
+"nnaemeka nnadi"	"Nnaemeka Nnadi"	2
+"north dakota state university"	"North Dakota State University"	2
+"nrl"	"nrl"	2
+"ohad.gal-mor@sheba.health.gov.il"	"Ohad.Gal-Mor@sheba.health.gov.il"	2
+"p. antunes, bact_drugs - ucibio/requimte.uporto"	"P. Antunes, BacT_Drugs - UCIBIO/REQUIMTE.UPorto"	2
+"pangbo@icdc.cn"	"pangbo@icdc.cn"	2
+"robert söderlund"	"Robert Söderlund"	2
+"ruiting lan"	"Ruiting Lan"	2
+"scau vet"	"scau vet"	2
+"school of agriculture and biology, shanghai jiao tong university"	"School of Agriculture and Biology, Shanghai Jiao Tong University"	2
+"severance hospital, yonsei university college of medicine"	"Severance Hospital, Yonsei University College of Medicine"	2
+"shaanxi provincial center for disease prevention and control"	"Shaanxi Provincial Center for disease prevention and control"	2
+"silvia herrera-león"	"Silvia Herrera-León"	2
+"tasmanian health service"	"Tasmanian Health Service"	2
+"terence"	"Terence"	2
+"thaku lab"	"Thaku lab"	2
+"the center of disease control and prevention of pla"	"The Center of Disease Control and Prevention of PLA"	2
+"ths"	"THS"	2
+"universidad andres bello"	"Universidad Andres Bello"	2
+"universiti sains malaysia"	"Universiti Sains Malaysia"	2
+"university hospital basel"	"University Hospital Basel"	2
+"university of maryland - institute for genome sciences"	"University of Maryland - Institute for Genome Sciences"	2
+"university of pennyslvania"	"university of pennyslvania"	2
+"university of tennessee"	"University of Tennessee"	2
+"university of tennessee, ximin zeng"	"University of Tennessee, Ximin Zeng"	2
+"university of westminster"	"University of Westminster"	2
+"university pf regina"	"University pf Regina"	2
+"usda food safety and inspection service"	"USDA Food Safety and Inspection Service"	2
+"usfda"	"USFDA"	2
+"vbc"	"VBC"	2
+"wangweiwsw@cfsa.net.cn"	"wangweiwsw@cfsa.net.cn"	2
+"wanzhou cdc klh"	"Wanzhou CDC KLH"	2
+"wuyarong525@126.com"	"wuyarong525@126.com"	2
+"yang xiaojuan guangdong institute of microbiology"	"Yang Xiaojuan Guangdong Institute of Microbiology"	2
+"zhang junjun,xianyangcdc"	"Zhang Junjun,XianyangCDC"	2
+"zhejiang academy of agricultural sciences"	"Zhejiang Academy of Agricultural Sciences"	2
+"+55 11 3091 7296"	"+55 11 3091 7296"	1
+"028-85589023"	"028-85589023"	1
+"037585680"	"037585680"	1
+"15271872722"	"15271872722"	1
+"38862607@qq.com"	"38862607@qq.com"	1
+"60924416"	"60924416"	1
+"785-77005551"	"785-77005551"	1
+"785532-1299"	"785532-1299"	1
+"86"	"86"	1
+"8613699700899"	"8613699700899"	1
+"923339278471"	"923339278471"	1
+"96824705740"	"96824705740"	1
+"a. janowicz (izsam)"	"A. Janowicz (IZSAM)"	1
+"a. van den bossche"	"A. Van den Bossche"	1
+"aarhus university"	"Aarhus University"	1
+"aarhus university, denmark"	"Aarhus University, Denmark"	1
+"animal and plant health agency (uk)"	"Animal and Plant Health Agency (UK)"	1
+"ankara university faculty of veterinary medicine"	"Ankara University Faculty of Veterinary Medicine"	1
+"anna aspán"	"Anna Aspán"	1
+"anses_lsal"	"ANSES_LSAL"	1
+"apha"	"APHa"	1
+"assaf.rokney@moh.gov.il"	"assaf.rokney@moh.gov.il"	1
+"battisti (izslt)"	"Battisti (IZSLT)"	1
+"bavo verhaegen"	"Bavo Verhaegen"	1
+"beijing university of agricluture"	"Beijing University of Agricluture"	1
+"belgian nuclear research center (sck-cen)"	"BELGIAN NUCLEAR RESEARCH CENTER (SCK-CEN)"	1
+"biao kan"	"Biao Kan"	1
+"bior"	"BIOR"	1
+"brasilia university"	"Brasilia University"	1
+"burkhard malorny, federal institute for risk assessment"	"Burkhard Malorny, Federal Institute for Risk Assessment"	1
+"c. ragimbeau, lns luxembourg"	"C. ragimbeau, LNS Luxembourg"	1
+"carla"	"Carla"	1
+"carrillo"	"Carrillo"	1
+"cas key laboratory of pathogenic microbiology and immunology institute of microbiology chinese academy of sciences"	"CAS Key Laboratory of Pathogenic Microbiology and Immunology Institute of Microbiology Chinese Academy of Sciences"	1
+"catherine carrillo"	"Catherine Carrillo"	1
+"catherine ragimbeau"	"Catherine Ragimbeau"	1
+"catherine ragimbeau, lns luxembour"	"Catherine Ragimbeau, LNS Luxembour"	1
+"catherine.ragimbeau@lms.etat.lu"	"catherine.ragimbeau@lms.etat.lu"	1
+"catherine.ragimbeau@lns.etat.lu"	"catherine.ragimbeau@lns.etat.lu"	1
+"cc"	"CC"	1
+"cenasa"	"CENASA"	1
+"center for disease control and prevention - enteric diseases laboratory branch (us)"	"Center for Disease Control and Prevention - Enteric Diseases Laboratory Branch (US)"	1
+"center for infectious diseases and microbiology"	"Center for Infectious Diseases and Microbiology"	1
+"central research institute of epidemiology, moscow, russia"	"Central Research Institute of Epidemiology, Moscow, Russia"	1
+"centre for diease control and prevention - enteric diseases laboratory branch"	"Centre for Diease Control and Prevention - Enteric Diseases Laboratory Branch"	1
+"centro nacional de metrologia"	"Centro Nacional de Metrologia"	1
+"charl"	"cHARL"	1
+"china national center for food safety and risk assessment"	"China National Center For Food Safety and Risk Assessment"	1
+"china national center for food safety risk assessment"	"China National Center for Food Safety Risk Assessment"	1
+"chinese pla general hospital"	"Chinese PLA general hospital"	1
+"christian medical college hospital"	"Christian Medical College Hospital"	1
+"christian medical college, vellore"	"Christian Medical College, Vellore"	1
+"cm"	"CM"	1
+"copenhagen university hospital hvidovre"	"Copenhagen University Hospital Hvidovre"	1
+"cphl"	"CPHL"	1
+"cunni4me@dukes.jmu.edu"	"cunni4me@dukes.jmu.edu"	1
+"cz biohub, ucsf"	"CZ Biohub, UCSF"	1
+"david gordon"	"David Gordon"	1
+"dele o."	"Dele O."	1
+"department of agriculture (us)"	"Department of Agriculture (US)"	1
+"department of bacteriology i, national institute of infectious diseases"	"Department of Bacteriology I, National Institute of Infectious Diseases"	1
+"dle ogunremi"	"Dle Ogunremi"	1
+"doe joint genome institute"	"DOE Joint Genome Institute"	1
+"dongguan"	"Dongguan"	1
+"dr try"	"Dr Try"	1
+"dr. antonio lozano, institute of applied microbiology- asmecruz, galicia, spain"	"Dr. Antonio Lozano, Institute of Applied Microbiology- ASMECRUZ, Galicia, Spain"	1
+"dsmz"	"DSMZ"	1
+"e. litrup"	"E. Litrup"	1
+"edgar mendieta"	"Edgar Mendieta"	1
+"eelco.franz@rivm.nl"	"eelco.franz@rivm.nl"	1
+"eelco.franz@rivm.nl"	"Eelco.franz@rivm.nl"	1
+"enrique delgado suarez"	"Enrique Delgado Suarez"	1
+"etz tilburg"	"ETZ Tilburg"	1
+"f. boyd"	"F. Boyd"	1
+"faculty of health and medical sciences, university of copenhagen"	"Faculty of Health and Medical Sciences, University of Copenhagen"	1
+"fcf/usp"	"FCF/USP"	1
+"fda-cfsan genometrakr submission group"	"FDA-CFSAN GenomeTrakr submission group"	1
+"federal institute for risk assessment"	"Federal Institute for Risk Assessment"	1
+"federal university of sao carlos"	"Federal University of Sao Carlos"	1
+"fli"	"fli"	1
+"food-borne pathogen omics research"	"Food-borne Pathogen Omics Research"	1
+"food-borne pathogen omics research center (china)"	"Food-borne Pathogen Omics Research Center (China)"	1
+"food-borne pathogen omics research center,forc"	"Food-borne Pathogen Omics Research Center,FORC"	1
+"g. jones"	"G. Jones"	1
+"genome center"	"Genome Center"	1
+"gifu_med"	"GIFU_MED"	1
+"h. ochman"	"H. Ochman"	1
+"harbin medical university - genomics research center"	"Harbin Medical University - Genomics Research Center"	1
+"hefei cdc"	"Hefei CDC"	1
+"henczko.juditvnnk.gov.hu"	"henczko.juditvnnk.gov.hu"	1
+"hncdc"	"HNCDC"	1
+"huyujie@cfsa.net.cn"	"huyujie@cfsa.net.cn"	1
+"icmr-national institute of cholera and enteric diseases"	"ICMR-National Institute of Cholera and Enteric Diseases"	1
+"ikhimiukor oidon"	"Ikhimiukor Oidon"	1
+"ini adebiyi uch, ibadan"	"Ini Adebiyi UCH, Ibadan"	1
+"iniav"	"INIAV"	1
+"institute adolfo lutz"	"Institute Adolfo Lutz"	1
+"institute for microbiology and epizootics, freie university berlin"	"Institute for Microbiology and Epizootics, Freie University Berlin"	1
+"institute of food research"	"INSTITUTE OF FOOD RESEARCH"	1
+"institute of microbiology"	"Institute of Microbiology"	1
+"institute of microbiology, chinese academy of sciences"	"Institute of Microbiology, Chinese Academy of Sciences"	1
+"instituto de pesquisa pele pequeno principe"	"Instituto de Pesquisa Pele Pequeno Principe"	1
+"j.p.falcao"	"J.P.Falcao"	1
+"james b. herrick"	"James B. Herrick"	1
+"jamil-ur-rahman center for genome research"	"Jamil-ur-Rahman Center for Genome Research"	1
+"jiangsu"	"Jiangsu"	1
+"jiangsu key laboratory of zoonosis"	"Jiangsu Key Laboratory of Zoonosis"	1
+"jinan centers for disease control and prevention"	"Jinan centers for Disease Control and Prevention"	1
+"jinan centres for disease control and prevention"	"Jinan Centres for Disease Control and Prevention"	1
+"jinli"	"jinli"	1
+"jinyafang"	"jinyafang"	1
+"jo"	"Jo"	1
+"jo?�l mossong, lns"	"Jo?�l Mossong, LNS"	1
+"johannes krause, max plank institute for the science of human history, jena, germany"	"Johannes Krause, Max Plank Institute for the Science of Human History, Jena, Germany"	1
+"joint research centre, european commission"	"Joint Research Centre, European Commission"	1
+"jose"	"jose"	1
+"juan diaz"	"Juan Diaz"	1
+"julie.shay@canada.ca"	"julie.shay@canada.ca"	1
+"kimron"	"kimron"	1
+"korea research institute of bioscience and biotechnology"	"Korea Research Institute of Bioscience and Biotechnology"	1
+"ky dept. for public health lab services"	"KY Dept. for Public Health Lab Services"	1
+"l bonifait; l. baugé - anses ploufragan"	"L Bonifait; L. Baugé - ANSES Ploufragan"	1
+"l. bonifait, anses ploufragan, hqpap unit, france"	"L. Bonifait, Anses Ploufragan, HQPAP Unit, France"	1
+"l. moreno"	"L. Moreno"	1
+"l.bonifait_hqpap unit_anses ploufragan france"	"L.Bonifait_HQPAP Unit_ANSES Ploufragan FRANCE"	1
+"l.bonifait-anses ploufragan -unit?� hqpap-france"	"L.Bonifait-ANSES Ploufragan -Unit?� HQPAP-France"	1
+"l.bonifait-anses ploufragan -unité hqpap-france"	"L.Bonifait-ANSES Ploufragan -Unité HQPAP-France"	1
+"l.bonifait, l. baugé"	"L.Bonifait, L. Baugé"	1
+"laboratoire national de sant�?�"	"Laboratoire National de Sant�?�"	1
+"laboratory of bacterial genomics, pathogen genomics center, national institute of infectious diseases"	"Laboratory of Bacterial Genomics, Pathogen Genomics Center, National Institute of Infectious Diseases"	1
+"lanzhou veterinary research institute"	"Lanzhou Veterinary Research Institute"	1
+"leon university"	"Leon University"	1
+"lexleong"	"LexLeong"	1
+"lili li"	"Lili LI"	1
+"liu yahong`"	"Liu Yahong`"	1
+"liujiang(hncdc)"	"Liujiang(HNCDC)"	1
+"lmu munich"	"LMU Munich"	1
+"lrec"	"LREC"	1
+"ma"	"Ma"	1
+"maaike van den beld"	"Maaike van den Beld"	1
+"maansan cdc"	"maansan CDC"	1
+"maanshan cdc"	"maanshan CDC"	1
+"macquarie university"	"Macquarie University"	1
+"magaly toro"	"Magaly Toro"	1
+"magdalena zaj?�c, nvri"	"Magdalena Zaj?�c, NVRI"	1
+"maria laura casaux (uruguay)"	"Maria Laura Casaux (Uruguay)"	1
+"mathieu.gand@wiv-isp.be"	"mathieu.gand@wiv-isp.be"	1
+"mattheus"	"Mattheus"	1
+"max rubner-institut, mbt kiel, mr. fiedler"	"Max Rubner-Institut, MBT Kiel, Mr. Fiedler"	1
+"mcmaster university"	"McMaster University"	1
+"me"	"me"	1
+"meiying yan(chian cdc)"	"Meiying Yan(Chian CDC)"	1
+"mgi"	"MGI"	1
+"ministry of health"	"Ministry of Health"	1
+"mississippi state university"	"Mississippi State University"	1
+"mkhitar mrktchyan"	"Mkhitar Mrktchyan"	1
+"moh"	"MOH"	1
+"mohammed"	"MOHAMMED"	1
+"mohammedsd4"	"MohammedSD4"	1
+"nanjing agricultural university"	"Nanjing Agricultural University"	1
+"national biodefense analysis and countermeasures center (us)"	"National Biodefense Analysis and Countermeasures Center (US)"	1
+"national institute for communanthony smith, nicdicable diseases"	"National Institute for CommunAnthony Smith, NICDicable Diseases"	1
+"national institute of environmental research"	"National Institute of Environmental Research"	1
+"national institute of infectious diseases"	"National Institute of Infectious Diseases"	1
+"national institute of technology and evaluation"	"National Institute of Technology and Evaluation"	1
+"national institutes for food and drug control (nifdc)"	"National Institutes for food and drug Control (NIFDC)"	1
+"national laboratory for health, environment and food"	"National Laboratory for Health, Environment and food"	1
+"national laboratory for health, environment and food"	"National Laboratory for Health, Environment and Food"	1
+"national reference center, sciensano, belgium"	"National Reference Center, Sciensano, Belgium"	1
+"national veterinary research institute"	"National Veterinary Research Institute"	1
+"ncsu"	"NCSU"	1
+"nick petronella"	"Nick Petronella"	1
+"niph"	"niph"	1
+"niph ceechia"	"NIPH Ceechia"	1
+"niph czech"	"NIPH Czech"	1
+"niph_czechia"	"NIPH_Czechia"	1
+"niphczechia-"	"NIPHCzechia-"	1
+"north west university potchefstroom"	"North West University Potchefstroom"	1
+"northwest a&f univ"	"Northwest A&F univ"	1
+"nvri, m.zając"	"NVRI, M.Zając"	1
+"okinawa institute of advanced sciences"	"Okinawa Institute of Advanced Sciences"	1
+"p. gymoese (statens serum institut, denmark)"	"P. Gymoese (Statens Serum Institut, Denmark)"	1
+"pathwest laboratory medicine wa"	"PathWest Laboratory Medicine WA"	1
+"patricia-r-f@hotmail.com"	"patricia-r-f@hotmail.com"	1
+"plateau state university, bokkos"	"Plateau State University, Bokkos"	1
+"pte medical microbiology"	"PTE Medical Microbiology"	1
+"public health agency of sweden"	"Public Health Agency of Sweden"	1
+"public health england, marie chattaway"	"Public Health England, Marie Chattaway"	1
+"qilu university of technology"	"Qilu University of Technology"	1
+"qinning wang"	"Qinning Wang"	1
+"quadram institute"	"Quadram Institute"	1
+"r graham"	"R Graham"	1
+"r. karpiskova (vri brno)"	"R. Karpiskova (VRI Brno)"	1
+"r.r.vandenberg@nvwa.nl"	"r.r.vandenberg@nvwa.nl"	1
+"rachel hodgdeman"	"Rachel Hodgdeman"	1
+"rajat dhakal"	"Rajat Dhakal"	1
+"renato orsi"	"Renato Orsi"	1
+"richard goater"	"Richard Goater"	1
+"robert koch insitute"	"Robert Koch Insitute"	1
+"s. kim (nifds, korea)"	"S. Kim (NIFDS, Korea)"	1
+"s. porwollik"	"S. Porwollik"	1
+"s. simon, rki"	"S. Simon, RKI"	1
+"s. strain (afbini)"	"S. Strain (AFBINI)"	1
+"s.simon (rki)"	"S.Simon (RKI)"	1
+"s.simon, rki"	"S.Simon, RKI"	1
+"salmonella reference section,phe,colindale,u.k m.chattaway"	"Salmonella Reference Section,PHE,Colindale,U.K M.Chattaway"	1
+"salmonella reference section,phe,colindale,u.k(m.chattaway)"	"Salmonella Reference Section,PHE,Colindale,U.K(M.Chattaway)"	1
+"samir saha/child health research foundation"	"Samir Saha/Child Health Research Foundation"	1
+"sanger nctc3000"	"Sanger NCTC3000"	1
+"sassari university, fpiras@uniss.it"	"Sassari university, fpiras@uniss.it"	1
+"sela"	"Sela"	1
+"shandong academy of agricultural sciences"	"Shandong academy of agricultural sciences"	1
+"shanghai east hospital"	"Shanghai East Hospital"	1
+"shlomo blum"	"Shlomo Blum"	1
+"shlomo sela lab"	"Shlomo sela lab"	1
+"sichuan"	"sichuan"	1
+"sichuan"	"SICHUAN"	1
+"sichuan unicersity"	"SICHUAN UNICERSITY"	1
+"sichun university"	"SICHUN UNIVERSITY"	1
+"simon, sandra rki"	"Simon, Sandra RKI"	1
+"simons@rki.de"	"SimonS@rki.de"	1
+"singapore nphl"	"Singapore NPHL"	1
+"ssi"	"SSI"	1
+"ssss"	"ssss"	1
+"suchuan university"	"SUCHUAN UNIVERSITY"	1
+"sun yat-sen university"	"Sun Yat-sen University"	1
+"tapfumanei mashe"	"Tapfumanei Mashe"	1
+"terence.lee@murdoch.edu.au"	"Terence.lee@murdoch.edu.au"	1
+"test"	"test"	1
+"thaku rlab"	"Thaku rlab"	1
+"thakue lab"	"Thakue lab"	1
+"the broad institute of mit and harvard"	"The Broad Institute of MIT and Harvard"	1
+"the first affiliated hospital college of medicine zhejiang university"	"The First Affiliated Hospital College of Medicine Zhejiang University"	1
+"the forth affiliated hospital of guangzhou medical university"	"The forth affiliated hospital of Guangzhou medical university"	1
+"the hong kong polytechnic university"	"The Hong Kong Polytechnic University"	1
+"the ithree institute"	"The ithree institute"	1
+"third military medical university"	"Third Military Medical University"	1
+"thomas gilbert"	"Thomas Gilbert"	1
+"tianjin centers for disease control and prevention"	"Tianjin Centers for Disease Control and Prevention"	1
+"ubp-cnrs"	"UBP-CNRS"	1
+"ufmg"	"UFMG"	1
+"ufpr"	"UFPR"	1
+"unicamp"	"UNICAMP"	1
+"universidad de chile"	"Universidad de Chile"	1
+"universidad de los andes"	"Universidad de los Andes"	1
+"universidad nacional del litoral"	"Universidad Nacional del Litoral"	1
+"universidade federal de sao paulo"	"Universidade Federal de Sao Paulo"	1
+"universidade federal do rio grande do sul"	"Universidade Federal do Rio Grande do Sul"	1
+"university of brescia"	"University of Brescia"	1
+"university of california"	"University of California"	1
+"university of colroado anschutz medical campus"	"University of Colroado Anschutz Medical Campus"	1
+"university of east anglia, uk"	"UNIVERSITY OF EAST ANGLIA, UK"	1
+"university of exeter"	"University of Exeter"	1
+"university of otago"	"University of Otago"	1
+"university of oviedo"	"University of Oviedo"	1
+"university of oxford"	"University of Oxford"	1
+"university of pennsylvania"	"University of Pennsylvania"	1
+"university of pittsburgh"	"University of Pittsburgh"	1
+"university of pretoria"	"University of Pretoria"	1
+"university of são paulo"	"University of São Paulo"	1
+"university of tulsa"	"University of Tulsa"	1
+"vidanovic@yahoo.com"	"vidanovic@yahoo.com"	1
+"virginia tech"	"Virginia Tech"	1
+"vitor"	"Vitor"	1
+"vitor.borges@insa.min-saude.p"	"vitor.borges@insa.min-saude.p"	1
+"w. yamazaki univ. of miyazaki"	"W. Yamazaki Univ. of Miyazaki"	1
+"wadsworth center - nys doh"	"Wadsworth Center - NYS DOH"	1
+"walter reed army institute of research"	"Walter Reed Army Institute of Research"	1
+"wangwiwsw@cfsa.net.cn"	"wangwiwsw@cfsa.net.cn"	1
+"wanzhou cdc klh 1012998435@qq.com"	"Wanzhou CDC KLH 1012998435@qq.com"	1
+"washington state university college of veterinary medicine"	"Washington State University College of Veterinary Medicine"	1
+"washington university, genome sequencing center"	"Washington University, Genome Sequencing Center"	1
+"weill cornell medicine"	"Weill Cornell Medicine"	1
+"wolf-dietrich hardt"	"Wolf-Dietrich Hardt"	1
+"wuhan"	"Wuhan"	1
+"wuhan university"	"Wuhan University"	1
+"x. huijsden (rivm)"	"X. Huijsden (RIVM)"	1
+"y.farnoushi"	"Y.Farnoushi"	1
+"yangzhou unviersity"	"Yangzhou Unviersity"	1
+"yong-xiang wang"	"Yong-xiang Wang"	1
+"yonsei univ"	"Yonsei univ"	1
+"yonsei univ"	"Yonsei Univ"	1
+"yuanmeng"	"Yuanmeng"	1
+"yujie hu"	"YUJIE HU"	1
+"z. jaradat (just, jordan)"	"Z. Jaradat (JUST, Jordan)"	1
+"zheng（jscdc）"	"ZHENG（JSCDC）"	1
+"zskzsk@uga.edu"	"zskzsk@uga.edu"	1

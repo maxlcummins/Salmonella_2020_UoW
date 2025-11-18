@@ -1,0 +1,14 @@
+Efflux	Chloramphenicol/Florfenicol	Sulfonamide	Fosfomycin	Quinolone	Beta-lactamase_(not_ESBL_or_carbapenemase)	Tetracycline	Streptomycin	Trimethoprim	Chloramphenicol	Gentamicin/Tobramycin/Apramycin	Other_aminoglycoside_resistance_(non-RMT)	ESBL_(AmpC_type)	Gentamicin	Macrolide	ESBL	Colistin	Carbapenemase_(MBL)	Rifamycin	Amikacin/Kanamycin/Tobramycin/Quinolone	Kanamycin	Lincosamides	Other_antimicrobial
+99	1	11	15	11	14	13	12	7	3	1	1	0	5	2	3	1	0	0	0	1	2	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+9	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	0	0	0	5	1	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+5	0	5	0	1	5	4	5	1	0	0	0	0	1	0	0	1	0	0	0	1	0	0
+5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+26	0	1	0	1	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+23	1	5	2	4	6	6	6	5	3	1	1	0	2	2	2	0	0	0	0	0	2	0

@@ -1,0 +1,192 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=90;
+	taxlabels
+	Env_Outbreak__A_SRR3476835[&!color=#676e0b]
+	Env_Outbreak__A_SRR3476836[&!color=#676e0b]
+	Env_Outbreak__M_SRR3476837[&!color=#00566e]
+	Env_Outbreak__M_SRR3476838[&!color=#00566e]
+	Env_Outbreak__M_SRR3476839[&!color=#00566e]
+	Env_Outbreak__M_SRR3476840[&!color=#00566e]
+	Env_Outbreak__M_SRR3476841[&!color=#00566e]
+	Env_Outbreak__M_SRR3476842[&!color=#00566e]
+	Env_Outbreak__M_SRR3476843[&!color=#00566e]
+	Env_Outbreak__M_SRR3476845[&!color=#00566e]
+	'MD_6_A11'[&!color=#80000f]
+	'MD_6_A8'[&!color=#80000f]
+	'MD_6_A9'[&!color=#80000f]
+	'MD_6_B11'[&!color=#80000f]
+	'MD_6_B9'[&!color=#80000f]
+	'MD_6_D11'[&!color=#80000f]
+	'MD_6_G10'[&!color=#80000f]
+	'MD_6_G8'[&!color=#80000f]
+	'MD_6_G9'[&!color=#80000f]
+	'MD_6_H11'[&!color=#80000f]
+	'MD_7_A1'[&!color=#80000f]
+	'MD_7_A2'[&!color=#80000f]
+	'MD_7_C2'[&!color=#80000f]
+	Outbreak_A_SRR3476790[&!color=#007049]
+	Outbreak_A_SRR3476791[&!color=#007049]
+	Outbreak_A_SRR3476792[&!color=#007049]
+	Outbreak_A_SRR3476793[&!color=#007049]
+	Outbreak_A_SRR3476794[&!color=#007049]
+	Outbreak_A_SRR3476795[&!color=#007049]
+	Outbreak_A_SRR3476796[&!color=#007049]
+	Outbreak_A_SRR3476797[&!color=#007049]
+	Outbreak_A_SRR3476798[&!color=#007049]
+	Outbreak_A_SRR3476801[&!color=#007049]
+	Outbreak_A_SRR3476802[&!color=#007049]
+	Outbreak_A_SRR3476803[&!color=#007049]
+	Outbreak_A_SRR3476804[&!color=#007049]
+	Outbreak_A_SRR3476805[&!color=#007049]
+	Outbreak_A_SRR3476806[&!color=#007049]
+	Outbreak_A_SRR3476808[&!color=#007049]
+	Outbreak_A_SRR3476822[&!color=#007049]
+	Outbreak_A_SRR3476833[&!color=#007049]
+	Outbreak_A_SRR3476844[&!color=#007049]
+	Outbreak_A_SRR3476847[&!color=#007049]
+	Outbreak_A_SRR3476848[&!color=#007049]
+	Outbreak_A_SRR3476849[&!color=#007049]
+	Outbreak_M_SRR3476817[&!color=#08306e]
+	Outbreak_M_SRR3476818[&!color=#08306e]
+	Outbreak_M_SRR3476819[&!color=#08306e]
+	Outbreak_M_SRR3476820[&!color=#08306e]
+	Outbreak_M_SRR3476821[&!color=#08306e]
+	Outbreak_M_SRR3476823[&!color=#08306e]
+	Outbreak_M_SRR3476824[&!color=#08306e]
+	Outbreak_M_SRR3476825[&!color=#08306e]
+	Outbreak_M_SRR3476826[&!color=#08306e]
+	Outbreak_M_SRR3476827[&!color=#08306e]
+	Outbreak_M_SRR3476828[&!color=#08306e]
+	Outbreak_M_SRR3476829[&!color=#08306e]
+	Reference
+	'SRR14143097'
+	'SRR14143696'
+	'SRR3323018'
+	'SRR3476812'
+	'SRR4419664'
+	'SRR4419666'
+	'SRR4419667'
+	'SRR4419669'
+	'SRR4419674'
+	'SRR4419677'
+	'SRR4419679'
+	'SRR4419684'
+	'SRR4419686'
+	'SRR4419689'
+	'SRR4419690'
+	'SRR4419691'
+	'SRR4419692'
+	'SRR5631610'
+	'SRR8715615'
+	Sporadic_SRR3476788[&!color=#5b006e]
+	Sporadic_SRR3476789[&!color=#5b006e]
+	Sporadic_SRR3476799[&!color=#5b006e]
+	Sporadic_SRR3476809[&!color=#5b006e]
+	Sporadic_SRR3476810[&!color=#5b006e]
+	Sporadic_SRR3476811[&!color=#5b006e]
+	Sporadic_SRR3476814[&!color=#5b006e]
+	Sporadic_SRR3476816[&!color=#5b006e]
+	Sporadic_SRR3476830[&!color=#5b006e]
+	Sporadic_SRR3476831[&!color=#5b006e]
+	Sporadic_SRR3476832[&!color=#5b006e]
+	Sporadic_SRR3476834[&!color=#5b006e]
+	Sporadic_SRR3476846[&!color=#5b006e]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('MD_6_A11':8.1E-5,((((('MD_6_A8':2.0E-6,'MD_6_D11':2.0E-6)[&label=92]:4.1E-5,((('SRR14143696':0.00105,'SRR5631610':4.1E-5)[&label=94]:8.1E-5,'SRR8715615':1.22E-4)[&label=99]:1.22E-4,'SRR4419666':1.62E-4)[&label=53]:2.0E-6)[&label=29]:2.0E-6,(((('MD_6_A9':0.0,'MD_6_G10':0.0):0.0,'MD_6_B9':0.0):0.0,'MD_6_G8':0.0):0.0,Sporadic_SRR3476832:0.0):2.0E-6)[&label=10]:2.0E-6,((('MD_6_B11':2.0E-6,(('MD_6_H11':8.1E-5,'SRR14143097':1.22E-4)[&label=27]:2.0E-6,((Sporadic_SRR3476816:2.0E-6,Sporadic_SRR3476846:2.0E-6)[&label=96]:8.1E-5,'SRR4419686':1.62E-4)[&label=32]:2.0E-6)[&label=10]:2.0E-6)[&label=9]:2.0E-6,((('MD_7_A1':4.1E-5,'MD_7_C2':2.0E-6)[&label=93]:4.1E-5,(((Sporadic_SRR3476811:2.0E-6,'SRR4419689':2.0E-6)[&label=91]:2.0E-6,'SRR4419667':2.42E-4)[&label=89]:4.1E-5,((('SRR4419664':0.0,'SRR4419692':0.0):2.0E-6,'SRR4419684':2.0E-6)[&label=73]:2.0E-6,'SRR4419690':5.25E-4)[&label=91]:4.1E-5)[&label=22]:2.0E-6)[&label=3]:2.0E-6,(Reference:0.027977,'SRR4419677':2.01E-4)[&label=22]:2.0E-6)[&label=8]:2.0E-6)[&label=6]:2.0E-6,(('MD_6_G9':4.1E-5,Sporadic_SRR3476834:2.83E-4)[&label=26]:2.0E-6,(('MD_7_A2':1.62E-4,'SRR3323018':2.43E-4)[&label=28]:2.0E-6,'SRR4419669':1.22E-4)[&label=16]:2.0E-6)[&label=13]:2.0E-6)[&label=6]:2.0E-6)[&label=18]:2.0E-6,((((((((((((((((((((((Sporadic_SRR3476788:0.0,Sporadic_SRR3476810:0.0):0.0,Outbreak_A_SRR3476802:0.0):0.0,Outbreak_A_SRR3476803:0.0):0.0,Outbreak_A_SRR3476795:0.0):0.0,Outbreak_A_SRR3476794:0.0):0.0,Outbreak_A_SRR3476848:0.0):0.0,Outbreak_A_SRR3476793:0.0):0.0,Sporadic_SRR3476799:0.0):0.0,'SRR4419674':0.0):0.0,Outbreak_A_SRR3476792:0.0):0.0,Outbreak_A_SRR3476804:0.0):0.0,Outbreak_A_SRR3476822:0.0):0.0,Outbreak_A_SRR3476801:0.0):0.0,Outbreak_A_SRR3476797:0.0):0.0,Outbreak_A_SRR3476808:0.0):0.0,Sporadic_SRR3476809:0.0):0.0,Env_Outbreak__A_SRR3476836:0.0):0.0,Outbreak_A_SRR3476833:0.0):2.0E-6,Outbreak_A_SRR3476791:2.0E-6)[&label=23]:2.0E-6,((Sporadic_SRR3476789:8.1E-5,(((((((((Outbreak_A_SRR3476796:0.0,Outbreak_A_SRR3476847:0.0):0.0,Outbreak_A_SRR3476849:0.0):0.0,Env_Outbreak__A_SRR3476835:0.0):0.0,Outbreak_A_SRR3476805:0.0):0.0,'SRR3476812':0.0):0.0,Outbreak_A_SRR3476806:0.0):2.0E-6,Outbreak_A_SRR3476798:2.0E-6)[&label=95]:4.1E-5,((Outbreak_M_SRR3476819:2.0E-6,Outbreak_M_SRR3476829:2.0E-6)[&label=82]:2.0E-6,(Outbreak_M_SRR3476820:4.1E-5,Outbreak_M_SRR3476825:8.1E-5)[&label=36]:2.0E-6)[&label=72]:2.0E-6)[&label=41]:4.1E-5,(((((Outbreak_M_SRR3476817:4.1E-5,Outbreak_M_SRR3476827:0.00101)[&label=23]:2.0E-6,Env_Outbreak__M_SRR3476837:4.1E-5)[&label=19]:2.0E-6,(((((((((Outbreak_M_SRR3476818:0.0,Env_Outbreak__M_SRR3476842:0.0):0.0,Env_Outbreak__M_SRR3476843:0.0):0.0,Env_Outbreak__M_SRR3476839:0.0):0.0,Env_Outbreak__M_SRR3476838:0.0):0.0,Outbreak_M_SRR3476823:0.0):0.0,Env_Outbreak__M_SRR3476845:0.0):0.0,Outbreak_M_SRR3476826:0.0):0.0,Env_Outbreak__M_SRR3476841:0.0):2.0E-6,(Outbreak_M_SRR3476821:2.0E-6,(Outbreak_M_SRR3476828:8.1E-5,'SRR4419679':4.1E-5)[&label=45]:2.0E-6)[&label=24]:2.0E-6)[&label=26]:2.0E-6)[&label=20]:2.0E-6,Env_Outbreak__M_SRR3476840:4.1E-5)[&label=22]:2.0E-6,Outbreak_M_SRR3476824:2.43E-4)[&label=62]:2.0E-6)[&label=67]:4.1E-5)[&label=27]:2.0E-6,(Outbreak_A_SRR3476790:4.1E-5,Sporadic_SRR3476814:4.1E-5)[&label=40]:2.0E-6)[&label=12]:2.0E-6)[&label=39]:2.0E-6,Outbreak_A_SRR3476844:4.1E-5)[&label=78]:8.1E-5,(Sporadic_SRR3476830:2.0E-6,Sporadic_SRR3476831:2.0E-6)[&label=95]:8.1E-5)[&label=18]:2.0E-6)[&label=27]:2.0E-6,'SRR4419691':7.27E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

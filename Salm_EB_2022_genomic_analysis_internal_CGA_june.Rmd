@@ -1,0 +1,2391 @@
+---
+title: "Salm_EB_2022_genomic_analysis_internal_CGA_jun"
+author: "Max Cummins"
+date: "20/07/22"
+output:
+    html_document:
+        theme: spacelab
+        toc: true
+        toc_float: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Read in our packages
+library(tidyverse)
+library(abricateR)
+library(dplyr)
+library(ggplot2)
+library(ggtree)
+library(pheatmap)
+library(phytools)
+library(plotly)
+library(readr)
+library(readxl)
+library(paletteer)
+library(grid)
+library(gridExtra)
+library(hrbrthemes)
+library(cowplot)
+#library(plasmidmapR)
+library(viridis)
+
+#Define our not in function
+`%nin%` <- Negate(`%in%`)
+
+```
+
+## Outline
+
+Check that duplicates havent changed as they are hard coded now
+```{r}
+duplicates <-  c('Seagull_18_117_2_S22',
+                 'Seagull_18_190_2_S43',
+                 'Seagull_18_132_2_S30',
+                 'Seagull_18_90_2_S10',
+                 'Seagull_18_163_2_S38',
+                 'Seagull_18_100_2_S17',
+                 'Seagull_18_117_3_S23',
+                 'Seagull_18_96_2_S15',
+                 'Seagull_18_240_2_S59')
+```
+
+
+## File summary
+
+A GitHub repository available at
+<https://github.com/maxlcummins/Salmonella_EB_2022> contains all scripts
+and files required to rerun analysis detailed in this document.
+
+Below are the files associated with this research project and report.
+
+    File tree TBD
+
+```{r echo=FALSE}
+#Load paths to files needed for the script
+abricate_path <- file.path(getwd(), "analysis/genotype.txt")
+pointfinder_path <- file.path(getwd(), "analysis/pointfinder.txt")
+pMLST_path <- file.path(getwd(), "analysis/pMLST.txt")
+mlst_path <- file.path(getwd(), "analysis/mlst.txt")
+bracken_path <- file.path(getwd(), "analysis/bracken_report.txt")
+SPI_path <- file.path(getwd(), "analysis/spi_report.txt")
+abritamr_path <- file.path(getwd(), "analysis/abritamr_resistance.txt")
+
+tree_path <- file.path(getwd(), "analysis/trees/Internal_only_nodupe_no_SIML_dupe_2024_CGA_snp_sites.contree")
+
+metadata_path <- "delims/cohort_enterobase.txt"
+
+#Read in our tree
+tree <- read.tree(tree_path)
+
+#Midpoint root our tree
+tree <- midpoint.root(tree)
+
+#Provide output names
+output_name <- "Salm_EB_2022"
+
+#Provide output directory name
+output_dir <- "output"
+
+#Create an output directory
+dir.create(file.path(getwd(), "output"), showWarnings = FALSE)
+```
+
+```{r quiet_abricate, echo=FALSE,include=FALSE}
+#Run AbricateR to summarise genomic data
+abricateR::abricateR(
+        abricate_in = abricate_path,
+        output = output_name,
+        output_directory = output_dir,
+        identity = 90,
+        length = 90,
+        writecsv = FALSE,
+        pointfinder_data = pointfinder_path,
+        #pMLST_data = pMLST_path
+)
+
+#Filter our collection
+Salm_EB_2022_simple_summary_N90L90 <- Salm_EB_2022_simple_summary_N90L90 %>% filter(name %in% tree$tip.label)
+Salm_EB_2022.N90.L90.PASS <- Salm_EB_2022.N90.L90.PASS %>% filter(name %in% tree$tip.label)
+Salm_EB_2022.N90.L90.FAIL <- Salm_EB_2022.N90.L90.FAIL %>% filter(name %in% tree$tip.label)
+Salm_EB_2022_co_occurence_N90L90 <- Salm_EB_2022_co_occurence_N90L90 %>% filter(name %in% tree$tip.label)
+
+#Read in our filtered metadata
+metadata <- read_delim(metadata_path, delim = "\t", show_col_types = FALSE)
+
+#Create a new column to deal with names inhereted from both Name column and Accession No:
+metadata <- metadata %>% mutate(name = if_else(is.na(Accession_No), Name, Accession_No))
+
+#Filter our metadata to our tree
+metadata <- metadata %>% filter(name %in% tree$tip.label)
+
+#Bind our genotypic data and metadata
+df_large <- left_join(metadata, Salm_EB_2022_simple_summary_N90L90, by = "name") %>% as.data.frame()
+
+#Move our working name to the start
+df_large <- df_large %>% select(name, everything())
+
+#Make a directory for our serovar subsets
+#dir.create(file.path(getwd(), "serovars"), showWarnings = FALSE)
+
+#Write a list of 
+#df_large %>% group_by(SISTR1_Serovar) %>% select(name) %>% group_walk(~ write_csv(.x, #paste0("serovars/",.y$SISTR1_Serovar, "_names.csv"), col_names = FALSE))
+
+#Apply our names as rownames
+rownames(df_large) <- df_large$name
+```
+
+## Collection breakdown
+
+We will start by producing some figures relating to the collection
+composition:
+
+1.  What years are the samples from?
+2.  What countries are the samples from?
+3.  What kinds of sources are our samples from?
+4.  What are the primary serovars we see in the collection?
+
+### Breakdown by year
+
+```{r year_breakdown, echo=FALSE}
+library(ggplot2)
+library(magrittr)
+
+df2 <- metadata %>% group_by(Collection_Year) %>% summarise(counts = n(), .groups = "keep")
+
+#ggplot(df2, aes(x=Collection_Year, y=counts, fill=Collection)) +
+#  geom_bar() + theme(axis.text.x = element_text(angle=90)) + xlab("Collection Year") + ylab("Count")
+
+metadata$Collection_Year[metadata$Collection_Year == "NA"] <- NA
+
+years <- min(unique(sort(metadata$Collection_Year))):max(unique(sort(metadata$Collection_Year)))
+
+cols_fun <- colorRampPalette(c("blue", "red"))
+year_cols <- cols_fun(length(years))
+
+names(year_cols) <- years
+
+ylimit <- max(df2$counts) + (max(df2$counts) * 0.1)
+
+#Treemap
+year_dist_plot <- ggplot(metadata, aes(x = Collection_Year, fill = as.character(Collection_Year))) +
+        geom_bar(stat = "count") +
+        scale_fill_manual(
+                name = "Collection Year",
+                aesthetics = c("colour", "fill"),
+                values = year_cols,
+                na.value = 'grey'
+        ) +
+        theme(axis.text.x = element_text(angle = 90)) +
+        xlab("Collection Year") +
+        ylab("Count") +
+        scale_y_continuous(expand = c(0, 0),
+                           limits = c(0, ylimit)
+                           ) +
+        scale_x_continuous(expand = c(0, 0),
+                           limits = c(min(years)-1, max(years)+1),
+                           labels = (min(years)-1):(max(years)+1),
+                           breaks = (min(years)-1):(max(years)+1)
+                           ) 
+
+year_dist_plot
+```
+
+```{r sankey_library, include=FALSE, echo=FALSE}
+#Separate library calls to suppress the high charter message
+library(highcharter)
+library(htmlwidgets)
+library(dplyr)
+```
+
+### Collection breakdown - HC5, Serovar, Source Niche and Source Details
+
+```{r sankey_1, echo=FALSE}
+
+df <- metadata
+
+df <- df %>% mutate(Source_Details = tolower(Source_Details))
+
+df$Source_Details <- gsub("stools", "stool", df$Source_Details)
+df$Source_Details <- gsub("faecal sample", "stool", df$Source_Details)
+
+df$Source_Details <- gsub("^homo sapiens; human$", "human", df$Source_Details)
+df$Source_Details <- gsub("^human$", "human", df$Source_Details)
+df$Source_Details <- gsub("^homo sapiens$", "human", df$Source_Details)
+df$Source_Details <- gsub("homo sapiens", "human", df$Source_Details)
+
+
+df <- df %>%
+        mutate(SISTR1_Serovar_other = fct_lump_n(SISTR1_Serovar, n = 10))
+
+df <- df %>%
+        mutate(Source_Niche_other = fct_lump_min(Source_Niche, min = 10))
+
+df <- df %>%
+        mutate(Source_Details_other = fct_lump_min(Source_Details, min = 5))
+
+df <- df %>%
+        mutate(Country_other = fct_lump_min(Country, min = 7))
+
+df <- df %>%
+        mutate(HC5_other = fct_lump_min(as.character(HC5), min = 10))
+
+sankey1 <- df %>% select(SISTR1_Serovar_other, HC5_other, Source_Niche_other)
+
+sankey1 <- apply(sankey1,
+                 2,
+                 FUN = function(x) paste0(x,
+                                          " (",
+                                          as.data.frame(table(x)[x])[,2],
+                                          "/",
+                                          as.character(nrow(metadata)),
+                                          ")",
+                                          " ",
+                                          scales::percent(
+                                                  as.data.frame(
+                                                          table(x)[x])[,2]/nrow(metadata),
+                                                  accuracy = 0.1
+                                                  )
+                                          )
+                 )
+
+sankey1 <- as.data.frame(sankey1)
+
+sankey1_plot <- hchart(data_to_sankey(sankey1), "sankey", name = "Collection Breakdown")  %>%
+        hc_plotOptions(series = list(dataLabels = list(style = list(fontSize = "10px")))) %>% suppressWarnings()
+
+sankey1_plot
+
+```
+
+```{r table_top10_serovar, echo=FALSE}
+#Create a table of serovars
+
+serovar_table <- df %>% group_by(SISTR1_Serovar_other) %>% summarise(Count = n()) %>% arrange(desc(Count))
+
+no_other <- serovar_table %>% filter(SISTR1_Serovar_other != "Other")
+other <- serovar_table %>% filter(SISTR1_Serovar_other == "Other")
+
+serovar_table <- bind_rows(no_other, other) %>% rename(Serovar = SISTR1_Serovar_other)
+
+serovar_table$Percent <- scales::percent(serovar_table$Count/sum(serovar_table$Count), accuracy = 0.1)
+
+knitr::kable(serovar_table, align = 'c')
+```
+
+```{r serovars_by_group, echo=FALSE}
+#Create a table of serovars
+
+
+all_serovar_table <-
+        df %>% group_by(SISTR1_Serovar, Source_Niche) %>% summarise(Count = n()) %>% arrange(desc(Count))
+
+all_serovar_table <-
+        all_serovar_table %>% mutate(Source_Niche = str_replace(Source_Niche, "Wild Animal", "Gull"))
+
+all_serovar_table <-
+        all_serovar_table %>% pivot_wider(names_from = Source_Niche, values_from = Count)
+
+all_gull_serovar_ST_table <-
+        df %>% filter(Source_Niche == "Wild Animal") %>% group_by(SISTR1_Serovar) %>% summarise("Gull STs" = paste0(unique(ST), collapse = ", "))
+
+all_human_serovar_ST_table <-
+        df %>% filter(Source_Niche == "Human") %>% group_by(SISTR1_Serovar) %>% summarise("Human STs" = paste0(unique(ST), collapse = ", "))
+
+all_serovar_table <-
+        full_join(all_serovar_table, all_gull_serovar_ST_table) %>% full_join(all_human_serovar_ST_table) %>% select(SISTR1_Serovar, Gull, `Gull STs`, Human, `Human STs`) %>% rename('Serovar' = SISTR1_Serovar)
+
+all_serovar_table <-
+        all_serovar_table %>%
+        mutate(Gull = replace_na(Gull, replace = 0)) %>%
+        mutate(Human = replace_na(Human, replace = 0)) %>%
+        mutate(`Gull STs` = replace_na(`Gull STs`, replace = "")) %>%
+        mutate(`Human STs` = replace_na(`Human STs`, replace = ""))
+
+write_delim(x = all_serovar_table, file = "STs_by_source_illawara.txt", delim = "\t")
+
+knitr::kable(all_serovar_table, align = 'c')
+```
+
+
+## Phylogenetic tree
+
+Here is a core genomic tree (panaroo derived) we will use as the base
+for some genotypic tables:
+
+```{r base_tree, echo=FALSE}
+
+df_large <- df_large %>%
+        mutate(SISTR1_Serovar_other = fct_lump_n(SISTR1_Serovar, n = 10))
+
+df_large <- df_large %>%
+        mutate(Source_Niche_other = fct_lump_min(Source_Niche, min = 10))
+
+df_large <- df_large %>%
+        mutate(Country_other = fct_lump_min(Country, min = 7))
+
+#Define colours
+#Generate the list of unique values for SISTR_Serovar_other
+SISTR1_Serovar_other_names <- df_large$SISTR1_Serovar_other %>% unique() %>% sort()
+#Make a list of colours for the serovars
+SISTR1_Serovar_other_cols <- paletteer_d("ggsci::springfield_simpsons")[1:length(SISTR1_Serovar_other_names)]
+#Bind our names to our colours
+names(SISTR1_Serovar_other_cols) <- SISTR1_Serovar_other_names
+
+source_names <- df_large %>% mutate(Source_Niche = na_if(Source_Niche, "ND")) %>% pull(Source_Niche) %>% unique() %>% sort()
+source_cols <- rev(paletteer_d("ggsci::legacy_tron"))
+names(source_cols) <- source_names
+
+#Combine cols lists
+mycolslist <- c(SISTR1_Serovar_other_cols, source_cols)
+
+#Build tree
+p1 <- ggtree(tree, layout = 'circular') %<+%
+        df_large +
+        geom_tiplab(size = 2.5,
+                    align = TRUE,
+                    linesize = 0.15,
+                    offset = 0.05,
+                    color = "black",
+                    aes(label = paste0("ST",ST))) +
+        geom_tiplab(size = 3,
+                    align = TRUE,
+                    offset = 0.15,
+                    linetype = NULL,
+                    aes(color = as.factor(SISTR1_Serovar_other), label = Collection_Year)
+                    )+
+        geom_tippoint(size = 1,
+                      aes(colour = Source_Niche_other)
+                      ) +
+        scale_fill_manual(
+                        values = mycolslist,
+                        na.value = 'grey',
+                        guide = "none"
+                        ) +
+        scale_color_manual(
+                        values = mycolslist,
+                        na.value = 'grey'
+                        ) 
+
+#Build tree
+p1_linear <- ggtree(tree) %<+%
+        df_large +
+        geom_tiplab(size = 2,
+                    align = TRUE,
+                    linesize = 0.15,
+                    color = "black",
+                    aes(label = paste0("ST",ST))) +
+        geom_tiplab(size = 2,
+                    align = TRUE,
+                    offset = 0.15,
+                    linetype = NULL,
+                    aes(color = as.factor(SISTR1_Serovar_other), label = Collection_Year)
+                    )+
+        geom_tippoint(size = 0.75,
+                      aes(colour = Source_Niche_other)
+                      ) +
+        scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = mycolslist,
+                        na.value = 'grey'
+                        )
+
+p1_notip <- ggtree(tree) %<+%
+        df_large +
+        geom_tiplab(size = 0.5,
+                    align = TRUE,
+                    linesize = 0.15,
+                    aes(color = "white")
+                ) +
+        geom_tippoint(size = 0.2,
+                      aes(colour = Source_Niche_other)
+                )
+
+serovar_coord <- fortify(p1$data) %>%
+        filter(isTip == TRUE) %>%
+        select(label, SISTR1_Serovar_other, y) %>%
+        arrange(y) %>%
+        group_by(SISTR1_Serovar_other) %>%
+        summarise(
+                firstocc = first(label),
+                lastocc = last(label),
+                count = n()
+        )
+
+#Bind our colours and names
+Serovar_cols_df <- suppressWarnings(as.data.frame(cbind(SISTR1_Serovar_other_cols, as.character(SISTR1_Serovar_other_names))))
+
+#Rename our coloumns
+Serovar_cols_df <- Serovar_cols_df %>% rename(color = SISTR1_Serovar_other_cols, SISTR1_Serovar_other = V2)
+
+#Join our df of coordinates for our annotations with our colours for our annotations
+serovar_coord <- left_join(serovar_coord, Serovar_cols_df, by = "SISTR1_Serovar_other")
+
+strip_fontsize <- 3
+strip_offset <- 0.225
+strip_text_offset <- -0.0005
+strip_barsize <- 2
+strip_text_hjust <- 1
+
+#Plot our core tree
+p2 <- p1 + geom_strip(
+                serovar_coord$firstocc[1],
+                serovar_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = serovar_coord$color[1],
+                #label = serovar_coord$SISTR1_Serovar_other[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                serovar_coord$firstocc[2],
+                serovar_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = serovar_coord$color[2],
+                #label = serovar_coord$SISTR1_Serovar_other[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[3],
+                serovar_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = serovar_coord$color[3],
+                #label = serovar_coord$SISTR1_Serovar_other[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip( ## Hide this one because this serovar is within the typhimurium clade
+                serovar_coord$firstocc[4], 
+                serovar_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = serovar_coord$color[4],
+                #label = serovar_coord$SISTR1_Serovar_other[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[5],
+                serovar_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = serovar_coord$color[5],
+                #label = serovar_coord$SISTR1_Serovar_other[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[6],
+                serovar_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = serovar_coord$color[6],
+                #label = serovar_coord$SISTR1_Serovar_other[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[7],
+                serovar_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = serovar_coord$color[7],
+                #label = serovar_coord$SISTR1_Serovar_other[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[8],
+                serovar_coord$lastocc[8],
+                barsize = strip_barsize,
+                color = serovar_coord$color[8],
+                #label = serovar_coord$SISTR1_Serovar_other[8],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[9],
+                serovar_coord$lastocc[9],
+                barsize = strip_barsize,
+                color = serovar_coord$color[9],
+                #label = serovar_coord$SISTR1_Serovar_other[9],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[10],
+                serovar_coord$lastocc[10],
+                barsize = strip_barsize,
+                color =  serovar_coord$color[10],
+                #label = serovar_coord$SISTR1_Serovar_other[10],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[11],
+                serovar_coord$lastocc[11],
+                barsize = strip_barsize,
+                color =  serovar_coord$color[11],
+                #label = serovar_coord$SISTR1_Serovar_other[11],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(3, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) 
+p2 + theme(legend.position = "none")
+
+```
+
+The outgroup at the bottom is our single diarizonae subspecies strain
+`SIML_2019_03` sourced from a human.
+
+### HC tallies
+
+```{r HC_tallies, echo=FALSE, include=FALSE}
+
+HC_cols <- metadata %>% select(starts_with("HC")) %>% colnames()
+
+HCs_counted <- c()
+count_of_HCs <- c()
+
+for(col in HC_cols){
+    gull_HCs <- metadata %>% filter(Source_Details == "Gull") %>% select(.dots = col) %>% pull(.dots)
+    assign(x = paste0("Gull_", col), value = gull_HCs)
+}
+
+df_large <- df_large %>% mutate(HC0_gull_overlap = if_else(HC0 %in% Gull_HC0, TRUE, FALSE), HC2_gull_overlap = if_else(HC2 %in% Gull_HC2, TRUE, FALSE), HC5_gull_overlap = if_else(HC5 %in% Gull_HC5, TRUE, FALSE), HC10_gull_overlap = if_else(HC10 %in% Gull_HC10, TRUE, FALSE), HC20_gull_overlap = if_else(HC20 %in% Gull_HC20, TRUE, FALSE), HC50_gull_overlap = if_else(HC50 %in% Gull_HC50, TRUE, FALSE))
+
+#.dots = col is to convert the list of column names to a variable that can be used in dplyrs select.
+for(col in HC_cols){
+  count_of_HC <- metadata %>%
+    select(.dots = col)%>% group_by(.dots) %>% summarise(counts = n()) %>% as.data.frame() %>% filter(counts > 1) %>% colSums() %>% as.data.frame() %>% t() %>% as.data.frame() %>% pull(counts)
+  
+  count_of_HCs <- c(count_of_HCs, count_of_HC)
+}
+
+subtract_me <- c(0,count_of_HCs[1:(length(count_of_HCs)-1)])
+
+count_of_HCs_adjusted <- count_of_HCs - subtract_me
+
+count_of_HCs_adjusted <- c(count_of_HCs_adjusted,1)
+
+HC_df <- count_of_HCs_adjusted %>% as.data.frame() %>% rename(count = ".")
+
+HC_df$HC_match <- c(HC_cols, "None")
+
+HC_df$HC_match <- factor(HC_df$HC_match, levels=unique(HC_df$HC_match))
+
+count_of_gull_matching_HCs <- c()
+
+#.dots = col is to convert the list of column names to a variable that can be used in dplyrs select.
+for(col in HC_cols){
+  gull_HCs <- metadata %>% filter(Source_Details == "Gull") %>% select(.dots = col) %>% pull(.dots)
+
+  count_of_HC <- metadata %>% filter(Source_Details != "Gull")  %>% select(.dots = col) %>% select(.dots) %>% filter(.dots %in% gull_HCs) %>% group_by(.dots) %>% summarise(counts = n()) %>% as.data.frame() %>% colSums() %>% as.data.frame() %>% t() %>% as.data.frame() %>% pull(counts)
+  
+  count_of_gull_matching_HCs <- c(count_of_gull_matching_HCs, count_of_HC)
+}
+
+subtract_me_gull <- c(0,count_of_gull_matching_HCs[1:(length(count_of_gull_matching_HCs)-1)])
+
+count_of_gull_HCs_adjusted <- count_of_gull_matching_HCs - subtract_me_gull
+
+count_of_gull_HCs_adjusted <- c(count_of_gull_HCs_adjusted,1)
+
+HC_df$gull_matches_from_nongulls <- count_of_gull_HCs_adjusted
+
+#Treemap
+HC_overlap_non_gull_to_gull <- ggplot(HC_df, aes(x = HC_match, y = gull_matches_from_nongulls)) +
+        geom_bar(stat = "identity", fill = "#be000a") +
+  geom_text(aes(label=gull_matches_from_nongulls), vjust=-1) +
+  theme(text = element_text(size=16)) +
+  ggtitle("HC grouping among non-human isolates") + # for the main title
+  xlab("Nearest HC gull relative") + # for the x axis label
+  ylab("Count of strains")
+
+#Treemap
+HC_overlap_total <- ggplot(HC_df, aes(x = HC_match, y = count)) +
+        geom_bar(stat = "identity", fill = "#bebeda") +
+  geom_text(aes(label=count), vjust=-1)+
+  theme(text = element_text(size=16)) +
+  ggtitle("HC grouping among all isolates") + # for the main title
+  xlab("Level of core genomic similarity") + # for the x axis label
+  ylab("Count of strains")
+
+```
+
+Below is a figure visualising the count of strains with a match at a
+given HC level.
+
+**Again, note all figures on this page include only internal strains.**
+
+If a strain has a relative with which it shares an HC0 group, this is
+considered its closest relative and it is not added to the tally for the
+HC2 group, and so on. For example, there are 64 strains which have an
+HC0 match, and 24 which have an HC2 match but no HC0 matches. One
+strain is different at the HC2850 level as it is a different subspecies
+of *Salmonella*, and it is listed in the final column ("None").
+
+```{r HC_overlap, echo=FALSE, fig.width=12, fig.height=8}
+HC_overlap_total
+```
+
+Here I have filtered out the gull isolates and only counted strains
+which share an HC group with our gull isolates. 
+
+```{r HC_overlap_gull, echo=FALSE, fig.width=12, fig.height=8}
+HC_overlap_non_gull_to_gull
+```
+
+### HC tallies by group, not strain
+
+Lets do the same again but determine the number of groups rather than strains which match at a given level.
+
+```{r HC_tallies, echo=FALSE, include=FALSE}
+
+HC_cols <- metadata %>% select(starts_with("HC")) %>% colnames()
+
+overlap_groups <- list()
+overlap_counts <- list()
+
+metadata_to_filter <- metadata
+
+for(HC_level in HC_cols){
+        f <- c('Source_Details', HC_level)
+        g <- HC_level
+        pre_summarised <- metadata_to_filter %>%
+                group_by(across(all_of(f))) %>%
+                summarise(counts = n(), .groups = 'keep')
+        summarised <- pre_summarised %>%
+                ungroup() %>%
+                group_by_at(g) %>%
+                summarise(counts = n(), .groups = 'keep') %>%
+                filter(counts == 2) %>% as.data.frame()
+        HCs_to_rm <- summarised %>% dplyr::select_at(g) %>% pull()
+        overlap_groups<- append(overlap_groups, as.character(HC_level))
+        overlap_counts <- append(overlap_counts, nrow(summarised))
+        
+        if(nrow(summarised) != 0){
+                metadata_to_filter <- metadata_to_filter %>% filter(across(g, ~ . %nin% HCs_to_rm))
+        }
+        }
+
+
+
+overlap_dataframe <- cbind(overlap_groups, overlap_counts) %>% as.data.frame() %>% mutate(overlap_counts = as.numeric(overlap_counts)) %>% mutate(overlap_groups = factor(overlap_groups, levels = overlap_groups))
+
+rm(overlap_groups, overlap_counts)
+
+print("still need to work out how to remove strains already seen. I had been doing it by creating a list of HC groups hit but it would just be easier to save the strain names and filter them out...")
+
+#Treemap
+HC_overlap_total <- ggplot(overlap_dataframe, aes(x = overlap_groups, y = overlap_counts)) +
+        geom_bar(stat = "identity", fill = "#be000a")  +
+  geom_text(aes(label=overlap_counts), vjust=-1)+
+  theme(text = element_text(size=16)) +
+  ggtitle("HC grouping among all isolates") + # for the main title
+  xlab("Level of core genomic similarity") + # for the x axis label
+  ylab("Count of HC groups")
+
+```
+
+
+Do we see carriage of Serovars, STs or cgMLST HCs across time?
+
+```{r repeats_time, echo=FALSE, include=FALSE}
+
+
+
+#Isolate only internal strains
+internal_gull_only <- df_large %>% filter(!grepl("SRR|ERR", name)) %>% filter(Source_Details == "Gull")
+
+internal_gull_SISTR1_Serovar_by_source <- internal_gull_only %>% group_by(Collection_Year, SISTR1_Serovar) %>% summarise(counts = n())
+
+SISTR1_Serovars_multiple_years <- internal_gull_only %>% group_by(Collection_Year, SISTR1_Serovar) %>% summarise(counts = n()) %>% group_by(SISTR1_Serovar) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(SISTR1_Serovar)
+
+repeat_year_internal_gull_SISTR1_Serovar_by_source <- internal_gull_SISTR1_Serovar_by_source %>% filter(SISTR1_Serovar %in% SISTR1_Serovars_multiple_years)
+
+
+#Define colours
+#Generate the list of unique values for SISTR_Serovar_other
+Gull_Serovar_repeat_names <- repeat_year_internal_gull_SISTR1_Serovar_by_source$SISTR1_Serovar %>% unique() %>% sort()
+#Make a list of colours for the serovars
+Gull_Serovar_repeat_cols <- paletteer_d("ggsci::springfield_simpsons")[1:length(Gull_Serovar_repeat_names)]
+#Bind our names to our colours
+names(Gull_Serovar_repeat_cols) <- Gull_Serovar_repeat_names
+
+repeat_serovars <- ggplot(
+  repeat_year_internal_gull_SISTR1_Serovar_by_source,
+  aes(
+    x = as.factor(Collection_Year),
+    y = SISTR1_Serovar,
+    size = counts,
+    color = SISTR1_Serovar
+  )
+) +
+  geom_point(stat = 'identity') +
+  scale_size_continuous(breaks = c(1, 5, 10, 15, 20, 25, 30),
+                        limits = c(0, 30)) +
+  scale_fill_manual(
+    aesthetics = c("colour", "fill"),
+    values = Gull_Serovar_repeat_cols,
+    na.value = 'grey'
+  ) 
+
+
+#Isolate only internal strains
+internal_gull_ST_by_source <- internal_gull_only %>% group_by(Collection_Year, ST) %>% summarise(counts = n())
+
+STs_multiple_years <- internal_gull_only %>% group_by(Collection_Year, ST) %>% summarise(counts = n()) %>% group_by(ST) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(ST)
+
+repeat_year_internal_gull_ST_by_source <- internal_gull_ST_by_source %>% filter(ST %in% STs_multiple_years)
+
+repeat_year_internal_gull_ST_by_source <- internal_gull_only %>% select(ST, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_gull_ST_by_source, by = "ST")
+
+
+repeat_STs <- ggplot(repeat_year_internal_gull_ST_by_source, aes(x=as.factor(Collection_Year), y=as.factor(ST), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Gull_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        ) 
+
+
+#Isolate only internal strains
+internal_gull_HC20_by_source <- internal_gull_only %>% group_by(Collection_Year, HC20) %>% summarise(counts = n())
+
+HC20s_multiple_years <- internal_gull_only %>% group_by(Collection_Year, HC20) %>% summarise(counts = n()) %>% group_by(HC20) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC20)
+
+repeat_year_internal_gull_HC20_by_source <- internal_gull_HC20_by_source %>% filter(HC20 %in% HC20s_multiple_years)
+
+repeat_year_internal_gull_HC20_by_source <- internal_gull_only %>% select(HC20, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_gull_HC20_by_source, by = "HC20")
+
+
+repeat_HC20s <- ggplot(repeat_year_internal_gull_HC20_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC20), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Gull_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+
+#Isolate only internal strains
+internal_gull_HC10_by_source <- internal_gull_only %>% group_by(Collection_Year, HC10) %>% summarise(counts = n())
+
+HC10s_multiple_years <- internal_gull_only %>% group_by(Collection_Year, HC10) %>% summarise(counts = n()) %>% group_by(HC10) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC10)
+
+repeat_year_internal_gull_HC10_by_source <- internal_gull_HC10_by_source %>% filter(HC10 %in% HC10s_multiple_years)
+
+repeat_year_internal_gull_HC10_by_source <- internal_gull_only %>% select(HC10, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_gull_HC10_by_source, by = "HC10")
+
+
+repeat_HC10s <- ggplot(repeat_year_internal_gull_HC10_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC10), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Gull_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+
+#Isolate only internal strains
+internal_gull_HC5_by_source <- internal_gull_only %>% group_by(Collection_Year, HC5) %>% summarise(counts = n())
+
+HC5s_multiple_years <- internal_gull_only %>% group_by(Collection_Year, HC5) %>% summarise(counts = n()) %>% group_by(HC5) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC5)
+
+repeat_year_internal_gull_HC5_by_source <- internal_gull_HC5_by_source %>% filter(HC5 %in% HC5s_multiple_years)
+
+repeat_year_internal_gull_HC5_by_source <- internal_gull_only %>% select(HC5, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_gull_HC5_by_source, by = "HC5")
+
+
+repeat_HC5s <- ggplot(repeat_year_internal_gull_HC5_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC5), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Gull_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+```
+
+```{r}
+
+repeat_serovars
+
+repeat_STs
+
+repeat_HC20s
+
+repeat_HC10s
+
+repeat_HC5s
+
+```
+
+Do we see recurrence of human Serovars, STs or cgMLST HCs across time?
+
+```{r repeats_time_human, echo=FALSE, include=FALSE}
+
+
+
+#Isolate only internal strains
+internal_human_only <- df_large %>% filter(!grepl("SRR|ERR", name)) %>% filter(Source_Details == "Human")
+
+internal_human_SISTR1_Serovar_by_source <- internal_human_only %>% group_by(Collection_Year, SISTR1_Serovar) %>% summarise(counts = n())
+
+SISTR1_Serovars_multiple_years <- internal_human_only %>% group_by(Collection_Year, SISTR1_Serovar) %>% summarise(counts = n()) %>% group_by(SISTR1_Serovar) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(SISTR1_Serovar)
+
+repeat_year_internal_human_SISTR1_Serovar_by_source <- internal_human_SISTR1_Serovar_by_source %>% filter(SISTR1_Serovar %in% SISTR1_Serovars_multiple_years)
+
+
+#Define colours
+#Generate the list of unique values for SISTR_Serovar_other
+Human_Serovar_repeat_names <- repeat_year_internal_human_SISTR1_Serovar_by_source$SISTR1_Serovar %>% unique() %>% sort()
+#Make a list of colours for the serovars
+Human_Serovar_repeat_cols <- paletteer_d("ggsci::springfield_simpsons")[1:length(Human_Serovar_repeat_names)]
+#Bind our names to our colours
+names(Human_Serovar_repeat_cols) <- Human_Serovar_repeat_names
+
+repeat_serovars <- ggplot(
+  repeat_year_internal_human_SISTR1_Serovar_by_source,
+  aes(
+    x = as.factor(Collection_Year),
+    y = SISTR1_Serovar,
+    size = counts,
+    color = SISTR1_Serovar
+  )
+) +
+  geom_point(stat = 'identity') +
+  scale_size_continuous(breaks = c(1, 5, 10, 15, 20, 25, 30),
+                        limits = c(0, 30)) +
+  scale_fill_manual(
+    aesthetics = c("colour", "fill"),
+    values = Human_Serovar_repeat_cols,
+    na.value = 'grey'
+  ) 
+
+
+#Isolate only internal strains
+internal_human_ST_by_source <- internal_human_only %>% group_by(Collection_Year, ST) %>% summarise(counts = n())
+
+STs_multiple_years <- internal_human_only %>% group_by(Collection_Year, ST) %>% summarise(counts = n()) %>% group_by(ST) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(ST)
+
+repeat_year_internal_human_ST_by_source <- internal_human_ST_by_source %>% filter(ST %in% STs_multiple_years)
+
+repeat_year_internal_human_ST_by_source <- internal_human_only %>% select(ST, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_ST_by_source, by = "ST")
+
+
+repeat_STs <- ggplot(repeat_year_internal_human_ST_by_source, aes(x=as.factor(Collection_Year), y=as.factor(ST), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        ) 
+
+
+#Isolate only internal strains
+internal_human_HC20_by_source <- internal_human_only %>% group_by(Collection_Year, HC20) %>% summarise(counts = n())
+
+HC20s_multiple_years <- internal_human_only %>% group_by(Collection_Year, HC20) %>% summarise(counts = n()) %>% group_by(HC20) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC20)
+
+repeat_year_internal_human_HC20_by_source <- internal_human_HC20_by_source %>% filter(HC20 %in% HC20s_multiple_years)
+
+repeat_year_internal_human_HC20_by_source <- internal_human_only %>% select(HC20, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_HC20_by_source, by = "HC20")
+
+
+repeat_HC20s <- ggplot(repeat_year_internal_human_HC20_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC20), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+
+#Isolate only internal strains
+internal_human_HC10_by_source <- internal_human_only %>% group_by(Collection_Year, HC10) %>% summarise(counts = n())
+
+HC10s_multiple_years <- internal_human_only %>% group_by(Collection_Year, HC10) %>% summarise(counts = n()) %>% group_by(HC10) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC10)
+
+repeat_year_internal_human_HC10_by_source <- internal_human_HC10_by_source %>% filter(HC10 %in% HC10s_multiple_years)
+
+repeat_year_internal_human_HC10_by_source <- internal_human_only %>% select(HC10, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_HC10_by_source, by = "HC10")
+
+
+repeat_HC10s <- ggplot(repeat_year_internal_human_HC10_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC10), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+
+#Isolate only internal strains
+internal_human_HC5_by_source <- internal_human_only %>% group_by(Collection_Year, HC5) %>% summarise(counts = n())
+
+HC5s_multiple_years <- internal_human_only %>% group_by(Collection_Year, HC5) %>% summarise(counts = n()) %>% group_by(HC5) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC5)
+
+repeat_year_internal_human_HC5_by_source <- internal_human_HC5_by_source %>% filter(HC5 %in% HC5s_multiple_years)
+
+repeat_year_internal_human_HC5_by_source <- internal_human_only %>% select(HC5, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_HC5_by_source, by = "HC5")
+
+
+repeat_HC5s <- ggplot(repeat_year_internal_human_HC5_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC5), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+#Isolate only internal strains
+internal_human_HC2_by_source <- internal_human_only %>% group_by(Collection_Year, HC2) %>% summarise(counts = n())
+
+HC2s_multiple_years <- internal_human_only %>% group_by(Collection_Year, HC2) %>% summarise(counts = n()) %>% group_by(HC2) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC2)
+
+repeat_year_internal_human_HC2_by_source <- internal_human_HC2_by_source %>% filter(HC2 %in% HC2s_multiple_years)
+
+repeat_year_internal_human_HC2_by_source <- internal_human_only %>% select(HC2, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_HC2_by_source, by = "HC2")
+
+
+repeat_HC2s <- ggplot(repeat_year_internal_human_HC2_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC2), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+
+
+#Isolate only internal strains
+internal_human_HC0_by_source <- internal_human_only %>% group_by(Collection_Year, HC0) %>% summarise(counts = n())
+
+HC0s_multiple_years <- internal_human_only %>% group_by(Collection_Year, HC0) %>% summarise(counts = n()) %>% group_by(HC0) %>% summarise(counts = n()) %>% filter(counts > 1) %>% pull(HC0)
+
+repeat_year_internal_human_HC0_by_source <- internal_human_HC0_by_source %>% filter(HC0 %in% HC0s_multiple_years)
+
+repeat_year_internal_human_HC0_by_source <- internal_human_only %>% select(HC0, SISTR1_Serovar) %>% unique() %>% right_join(repeat_year_internal_human_HC0_by_source, by = "HC0")
+
+
+repeat_HC0s <- ggplot(repeat_year_internal_human_HC0_by_source, aes(x=as.factor(Collection_Year), y=as.factor(HC0), size=counts, color = SISTR1_Serovar)) + 
+  geom_point(stat='identity') + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30)) +
+  scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = Human_Serovar_repeat_cols,
+                        na.value = 'grey'
+                        )
+#Save our images
+ggsave("images/human_repeats/repeat_serovars.pdf", repeat_serovars, device = "pdf")
+ggsave("images/human_repeats/repeat_STs.pdf", repeat_STs, device = "pdf")
+ggsave("images/human_repeats/repeat_HC20s.pdf", repeat_HC20s, device = "pdf")
+ggsave("images/human_repeats/repeat_HC10s.pdf", repeat_HC10s, device = "pdf")
+ggsave("images/human_repeats/repeat_HC5s.pdf", repeat_HC5s, device = "pdf")
+ggsave("images/human_repeats/repeat_HC2s.pdf", repeat_HC2s, device = "pdf")
+ggsave("images/human_repeats/repeat_HC0s.pdf", repeat_HC0s, device = "pdf")
+
+```
+
+```{r}
+
+repeat_serovars
+
+repeat_STs
+
+repeat_HC20s
+
+repeat_HC10s
+
+repeat_HC5s
+
+repeat_HC2s
+
+repeat_HC0s
+
+```
+
+```{r}
+counts_repeat_STs_by_year_source <- repeat_year_internal_gull_ST_by_source %>% mutate(Source = "Gull") %>%  bind_rows(repeat_year_internal_human_ST_by_source) %>% mutate(across(Source, ~ replace_na(.x, "Human")))
+
+ggplot(counts_repeat_STs_by_year_source, aes(x=as.factor(Collection_Year), y=paste0(SISTR1_Serovar, " ST", ST))) + 
+  geom_point(stat='identity', aes(shape=Source, color=Source, size=counts)) + 
+  scale_size_continuous(
+        breaks = c(1, 5, 10, 15, 20, 25, 30),
+        limits = c(0, 30), guide = ) +
+    scale_shape_manual(values = c(22L, 24L)) +
+        scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = c("Gull" = "#F79D1EFF", "Human" = "#748AA6FF"),
+                        na.value = 'grey'
+                        ) 
+
+```
+
+
+## Genomic analysis
+
+### Salmonella Pathogenicity Islands
+
+Salmonella pathogenicity islands, as the name implies, are mobile
+genetic elements associated with pathogenicity in Salmonella!
+
+Particular serovars tend to carry a similar suite of conserved SPIs,
+while some others can vary based on sublineages. That can be seen in the
+figure below, where you will notice, for example, that Typhimurium is
+quite rich in SPIs 1-5 and SPI-14, with some other SPIs variably present
+within strains. Wangata and Agona serovars also have quite distinct
+patterns, but this is probably just more apparent as their are more of
+these Serovars in our collection.
+
+```{r SPI_finder, echo=FALSE, include=FALSE, fig.width=12, fig.height=8}
+#Read in our SPI data
+spifinder <- read_delim(SPI_path, 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE,
+    show_col_types = FALSE)
+
+spifinder$spi_present <- 1
+
+spifinder <- spifinder %>% filter(Identity > 95)
+
+spifinder_simple <- reshape2::dcast(data = spifinder,
+                                    name ~ SPI,
+                                    value.var = "spi_present",
+                                    drop = FALSE,
+                                    fun.aggregate = length)
+
+spifinder_names <- spifinder_simple$name
+
+spifinder_simple <- spifinder_simple %>% select(-name)
+
+#Reorder our columns
+spifinder_simple <- spifinder_simple %>%
+        select(CS54_island,
+               `SPI-1`,
+               `SPI-2`,
+               `SPI-3`,
+               `SPI-4`,
+               `SPI-5`,
+               `SPI-6`,
+               `SPI-8`,
+               `SPI-9`,
+               `SPI-10`,
+               `SPI-11`,
+               `SPI-12`,
+               `SPI-13`,
+               `SPI-14`
+               )
+
+spifinder_simple[spifinder_simple > 1] <- 1
+
+spi_colsums <- colSums(spifinder_simple)
+
+spifinder_simple[spifinder_simple == 1] <- "SPI_present"
+spifinder_simple[spifinder_simple == 0] <- "SPI_absent"
+
+#Rename our CS54_island column
+spifinder_simple <- spifinder_simple %>% rename(CS54 = CS54_island)
+
+#Add percentages to colnames
+colnames(spifinder_simple) <- paste0(colnames(spifinder_simple),
+                                     " ",
+                                     spi_colsums,
+                                     "/",
+                                     nrow(spifinder_simple),
+                                     " (",
+                                     scales::percent(
+                                             spi_colsums/nrow(spifinder_simple),
+                                             accuracy = 1
+                                             ),
+                                     ")"
+                                     )
+
+#Reassign our rownames
+rownames(spifinder_simple) <- spifinder_names
+
+#Define our colors for SPI elements
+SPI_genotype_vars <- c("SPI_present", "SPI_absent")
+SPI_colors <- c("black", "white")
+names(SPI_colors) <- SPI_genotype_vars
+
+spi_p3 <- gheatmap(
+        p = p2,
+        data = spifinder_simple,
+        colnames_offset_y = 0.5,
+        font.size = 3,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.001,
+        width = 2,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(mycolslist, SPI_colors),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(mycolslist, SPI_colors),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 300)
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r plot_SPIs, echo=FALSE, fig.height=8, fig.width=12}
+
+spi_p3
+```
+
+### Antibiotic resistance genes
+
+The figure below shows the AMR gene carriage within our collection.
+
+The general take away here is that most strains under investigation are low in
+AMR gene carriage, however some are extensively drug resistant. This is I think
+what we were expecting.
+
+```{r card, echo=FALSE, include=FALSE, fig.width=12, fig.height=8}
+
+#Read in abritamr data
+abritamr <- read_delim(abritamr_path, 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE,
+    show_col_types = FALSE)
+
+#Filter out samples not in the tree
+abritamr<- abritamr %>% filter(name %in% tree$tip.label)
+
+#Prepend abritamr cols with ABRITAMR
+colnames(abritamr) <- gsub("^", "ABRITAMR.", colnames(abritamr))
+
+#Get rid of spaces from column names
+colnames(abritamr) <- gsub(" ", "_", colnames(abritamr))
+
+#Clean up 'name' column name for joining
+abritamr <- abritamr %>% rename("name" = "ABRITAMR.name")
+
+#Replace NAs with zeroes
+resistance <- abritamr %>%
+        select(-name) %>%
+        #mutate(across(everything(), ~ gsub("[^,]+\\*", "", .x))) %>%
+        #mutate(across(everything(), ~ gsub(",$*", "", .x))) %>% 
+        #mutate(across(everything(), ~ gsub("^,*", "", .x))) %>% 
+        #mutate(across(everything(), ~ gsub("^$", "0", .x))) %>% 
+        #as.data.frame() %>%
+        mutate(across(everything(), ~ replace_na(.x, "0"))) %>%
+        mutate(across(everything(), ~ if_else(grepl("^0$", .x), "0", "1"))) %>%
+        mutate(name = abritamr$name) %>%
+        select(name, everything())
+
+#Remove prefix for colnames and get rid of spaces from colnames
+resistance <- resistance %>%
+        setNames(gsub("ABRITAMR.", "", names(.))) %>%
+        setNames(gsub(" ", "_", names(.))) 
+
+#Convert to data frame type
+resistance <- resistance %>% as.data.frame()
+
+#Assign rownames
+rownames(resistance) <- resistance$name
+
+#Remove name column
+resistance <- resistance %>% select(-name)
+
+#Set names for binary resistance categories
+resnames <- c("0", "1")
+
+#Set colours for binary resistance categories
+rescols <- c('white', '#bebeda')
+
+#Combine resistance category names and colours
+names(rescols) <- resnames
+
+#Plot our heatmap of card genes
+res_p3 <- gheatmap(
+        p = p1_linear,
+        data = resistance,
+        colnames_offset_y = 0.5,
+        font.size = 3,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.05,
+        width = 5,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(1, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) +
+        scale_fill_manual(
+                values = c(mycolslist, rescols),
+                na.value = 'grey'
+                ) +
+        scale_color_manual(
+                values = c(mycolslist, rescols),
+                na.value = 'grey',
+                guide = "none"
+                ) +
+        ylim(NA, 300) 
+#        geom_tiplab(
+#                aes(label = myextralab),
+#                align = TRUE,
+#                linetype = NULL,
+#                offset = 0.00575,
+#                size = 0.5
+#                ) +
+#        
+```
+
+```{r plot_card, echo=FALSE, fig.height=8, fig.width=12}
+res_p3
+
+#library(ggtreeExtra)
+#library(ggstar)
+#library(treeio)
+#library(ggnewscale)
+#
+#p3 + 
+#      new_scale_fill() + geom_fruit(data = heatmap_df,
+#                geom=geom_tile,
+#                mapping=aes(y=Y, x=X),
+#                pwidth=0.15,
+#                axis.params=list(axis="x", # add axis text of the layer.
+#                                 text.angle=-45, # the text angle of x-axis.
+#                                 hjust=0  # adjust the horizontal position of text of axis.
+#                                 )
+#      )
+
+
+#Separate a list of names, serovars and sources from our large dataframe
+names_sero_source <- df_large %>% filter(name %in% tree$tip.label) %>% select(name, SISTR1_Serovar_other, Source_Details)
+
+#Change to numeric
+resistance <- resistance %>% mutate(across(everything(), ~ as.numeric(.x)))
+
+#Rebind our names column back in and reorder
+resistance <- resistance %>% mutate(name = rownames(resistance)) %>% select(name, everything())
+
+```
+
+```{r}
+#Bind our serovars and sources to our our resfinder data
+resistance_with_metadata <- left_join(resistance, names_sero_source, by = "name")
+
+#Perform a colwise sum after grouping by Serovar and Source
+resistance_colsum_by_group <- resistance_with_metadata %>% select(-name) %>% group_by(SISTR1_Serovar_other, Source_Details) %>% summarise_all(.funs = sum)
+
+#Perform a count of samples after grouping by Serovar and Source
+resistance_counts_by_group <- resistance_with_metadata %>% select(-name) %>% group_by(SISTR1_Serovar_other, Source_Details) %>% summarise(counts = as.numeric(n()))
+
+#Join our count to our colsums
+resistance_colpercs_by_group <- left_join(resistance_counts_by_group, resistance_colsum_by_group, by = c('SISTR1_Serovar_other', 'Source_Details'))
+
+#Convert Serovar to character from factor (residual from fct lump sort)
+resistance_colpercs_by_group <- resistance_colpercs_by_group %>% mutate(SISTR1_Serovar_other = as.character(SISTR1_Serovar_other))
+
+#Count the number of columns in our dataframe
+df_lastcol<- ncol(resistance_colpercs_by_group)
+
+#Filter out the gulls
+gulls_colpercs_by_group <- resistance_colpercs_by_group %>% filter(Source_Details == "Gull")
+
+#Add a row for totals
+gulls_colpercs_by_group_w_total <- gulls_colpercs_by_group %>%
+        #Convert to dataframe to prevent force keep of groups
+        as.data.frame() %>%
+        #Remove groups (Serovar and gull)
+        select(4:26) %>%
+        #Generate colsums
+        colSums() %>%
+        #Bind new rows to original datasheet
+        bind_rows(gulls_colpercs_by_group) %>%
+        #Reorder columns
+        select(SISTR1_Serovar_other, Source_Details, counts, everything()) %>%
+        #Replace NA value in Serovar
+        mutate(across(SISTR1_Serovar_other, ~replace(., is.na(.), "Total"))) %>%
+        #Replace NA value in Source
+        mutate(across(Source_Details, ~replace(., is.na(.), "Gull"))) %>%
+        #Replace NA value in counds column
+        mutate(across(counts, ~replace(., is.na(.), sum(gulls_colpercs_by_group$counts)))) 
+
+#Divide the number of samples with a given resistance trait (as grouped before) by the total number of samples in the group
+gulls_colpercs_by_group_w_total2 <- gulls_colpercs_by_group_w_total %>%
+        as.data.frame() %>% select(4:df_lastcol) / gulls_colpercs_by_group_w_total$counts
+
+#Bind serovar back in
+gulls_colpercs_by_group_w_total2$SISTR1_Serovar_other <- gulls_colpercs_by_group_w_total$SISTR1_Serovar_other
+
+#Bind Source back in
+gulls_colpercs_by_group_w_total2$Source_Details <- gulls_colpercs_by_group_w_total$Source_Details
+
+#Change column order
+gulls_colpercs_by_group_w_total2 <- gulls_colpercs_by_group_w_total2 %>% select(SISTR1_Serovar_other, Source_Details, everything())
+
+rownames(gulls_colpercs_by_group_w_total2) <- paste(gulls_colpercs_by_group_w_total2$SISTR1_Serovar_other, gulls_colpercs_by_group_w_total2$Source_Details, paste0("(n = ", gulls_colpercs_by_group_w_total$counts),")")
+
+gulls_colpercs_by_group_w_total <- as.data.frame(gulls_colpercs_by_group_w_total)
+
+rownames(gulls_colpercs_by_group_w_total) <- paste(gulls_colpercs_by_group_w_total$SISTR1_Serovar_other, gulls_colpercs_by_group_w_total$Source_Details, paste0("(n = ", gulls_colpercs_by_group_w_total$counts),")")
+
+Phenotypic_inference_gull_serovar <- gulls_colpercs_by_group_w_total2 %>% select(-SISTR1_Serovar_other, -Source_Details) %>% pheatmap(dcluster_rows = FALSE, cluster_cols = FALSE, cluster_rows = FALSE, color=colorRampPalette(c("white", "red"))(100))
+
+gulls_colpercs_by_group_w_total %>% select(-counts, -SISTR1_Serovar_other, -Source_Details) %>% as.data.frame() %>% write_delim("delims/gull_counts_AMR_classes.txt", delim = "\t")
+
+ggsave("images/AMR_by_phenotype/Phenotypic_inference_gull_serovar.pdf", Phenotypic_inference_gull_serovar, device = "pdf",  height = 8.27, width = 11.69)
+
+#Filter out the humans
+humans_colpercs_by_group <- resistance_colpercs_by_group %>% filter(Source_Details == "Human")
+
+#Add a row for totals
+humans_colpercs_by_group_w_total <- humans_colpercs_by_group %>%
+        #Convert to dataframe to prevent force keep of groups
+        as.data.frame() %>%
+        #Remove groups (Serovar and human)
+        select(4:26) %>%
+        #Generate colsums
+        colSums() %>%
+        #Bind new rows to original datasheet
+        bind_rows(humans_colpercs_by_group) %>%
+        #Reorder columns
+        select(SISTR1_Serovar_other, Source_Details, counts, everything()) %>%
+        #Replace NA value in Serovar
+        mutate(across(SISTR1_Serovar_other, ~replace(., is.na(.), "Total"))) %>%
+        #Replace NA value in Source
+        mutate(across(Source_Details, ~replace(., is.na(.), "Human"))) %>%
+        #Replace NA value in counds column
+        mutate(across(counts, ~replace(., is.na(.), sum(humans_colpercs_by_group$counts)))) 
+
+#Divide the number of samples with a given resistance trait (as grouped before) by the total number of samples in the group
+humans_colpercs_by_group_w_total2 <- humans_colpercs_by_group_w_total %>%
+        as.data.frame() %>% select(4:df_lastcol) / humans_colpercs_by_group_w_total$counts
+
+#Bind serovar back in
+humans_colpercs_by_group_w_total2$SISTR1_Serovar_other <- humans_colpercs_by_group_w_total$SISTR1_Serovar_other
+
+#Bind Source back in
+humans_colpercs_by_group_w_total2$Source_Details <- humans_colpercs_by_group_w_total$Source_Details
+
+#Change column order
+humans_colpercs_by_group_w_total2 <- humans_colpercs_by_group_w_total2 %>% select(SISTR1_Serovar_other, Source_Details, everything())
+
+rownames(humans_colpercs_by_group_w_total2) <- paste(humans_colpercs_by_group_w_total2$SISTR1_Serovar_other, humans_colpercs_by_group_w_total2$Source_Details, paste0("(n = ", humans_colpercs_by_group_w_total$counts),")")
+
+humans_colpercs_by_group_w_total <- as.data.frame(humans_colpercs_by_group_w_total)
+
+rownames(humans_colpercs_by_group_w_total) <- paste(humans_colpercs_by_group_w_total$SISTR1_Serovar_other, humans_colpercs_by_group_w_total$Source_Details, paste0("(n = ", humans_colpercs_by_group_w_total$counts),")")
+
+Phenotypic_inference_human_serovar <- humans_colpercs_by_group_w_total2 %>% select(-SISTR1_Serovar_other, -Source_Details) %>% pheatmap(dcluster_rows = FALSE, cluster_cols = FALSE, cluster_rows = FALSE, color=colorRampPalette(c("white", "red"))(100))
+
+humans_colpercs_by_group_w_total %>% select(-counts, -SISTR1_Serovar_other, -Source_Details) %>% as.data.frame() %>% write_delim("delims/human_counts_AMR_classes.txt", delim = "\t")
+
+ggsave("images/AMR_by_phenotype/Phenotypic_inference_human_serovar.pdf", Phenotypic_inference_human_serovar, device = "pdf",  height = 8.27, width = 11.69)
+
+#Create a column for Serovar (not serovar other)
+names_serovars <- df_large %>% select(name, SISTR1_Serovar)
+
+#Bind a column for Serovar (not serovar other)
+resistance_with_metadata <- left_join(resistance_with_metadata, names_serovars)
+
+#Reorder columns
+resistance_with_metadata <- resistance_with_metadata %>% select(name, Source_Details, SISTR1_Serovar_other, SISTR1_Serovar_other, everything())
+
+#Add a column for count of AMR classes 
+resistance_with_metadata$res_counts <- resistance_with_metadata %>% select(-name, -Source_Details, -SISTR1_Serovar_other, -SISTR1_Serovar) %>% rowSums()
+
+#Add a column for CIA resistance
+resistance_with_metadata$CIA_resistant <- resistance_with_metadata %>% select(Colistin, ESBL, `Carbapenemase_(MBL)`, Quinolone, Macrolide) %>% rowSums()
+
+#Change CIA resistance to binary
+resistance_with_metadata <- resistance_with_metadata %>% mutate(CIA_resistant = if_else(CIA_resistant > 0, 1, 0))
+
+#Filter out CIA res or most resistant bugs
+notable_salms_amr <- resistance_with_metadata %>% filter(CIA_resistant > 0 | res_counts > 7) %>% arrange(Source_Details, desc(CIA_resistant), res_counts)
+
+#Generate our anntation data
+notable_salms_amr_annodata <- notable_salms_amr %>% select(SISTR1_Serovar, Source_Details, CIA_resistant, res_counts)
+
+#Assign rownames to our annotation data
+rownames(notable_salms_amr_annodata) <- notable_salms_amr$name
+
+#Generate our datavis data
+notable_salms_amr_plotdata <- notable_salms_amr %>% select(-name, -SISTR1_Serovar_other, -SISTR1_Serovar, -Source_Details, -CIA_resistant, -res_counts)
+
+#Assign rownames to our datavis data
+rownames(notable_salms_amr_plotdata) <- notable_salms_amr$name
+
+#
+extra_amr_salms_legend <- pheatmap(notable_salms_amr_plotdata, cluster_rows = FALSE, cluster_cols = FALSE, annotation_row = notable_salms_amr_annodata, colorRampPalette(c("white", "red"))(100))
+
+extra_amr_salms <- pheatmap(notable_salms_amr_plotdata, cluster_rows = FALSE, cluster_cols = FALSE, colorRampPalette(c("white", "red"))(100))
+
+ggsave("images/AMR_by_phenotype/Extra_AMR_Salms_legend.pdf", extra_amr_salms_legend, device = "pdf")
+
+ggsave("images/AMR_by_phenotype/Extra_AMR_Salms.pdf", extra_amr_salms, device = "pdf")
+
+#Pull out serovar data for our extra AMR (CIAR) samples
+metadata %>% filter(name %in% rownames(notable_salms_amr_plotdata)) %>% select(name, SISTR1_Serovar) %>% arrange(match(name, rownames(notable_salms_amr_plotdata)))
+```
+
+# Abritamr by AMR gene
+```{r card, echo=FALSE, include=FALSE, fig.width=12, fig.height=8}
+
+#Read in abritamr data
+abritamr <- read_delim(abritamr_path, 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE,
+    show_col_types = FALSE)
+
+#Create a list of samples in our tree
+sample_names <- tree$tip.label %>% as.data.frame() %>% rename('name' = '.')
+
+#Filter out samples not in the tree, add in those missing from dataframe
+abritamr<- left_join(sample_names, abritamr)
+
+#Prepend abritamr cols with ABRITAMR
+colnames(abritamr) <- gsub("^", "ABRITAMR.", colnames(abritamr))
+
+#Get rid of spaces from column names
+colnames(abritamr) <- gsub(" ", "_", colnames(abritamr))
+
+#Clean up 'name' column name for joining
+abritamr <- abritamr %>% rename("name" = "ABRITAMR.name")
+#Define the columns we wish to split (taking everything other than name)
+#To do this we identify any columns containing a comma
+cols_for_split <-
+        abritamr %>%
+        select(where(~any(grepl(",", .x)))) %>%
+        colnames()
+
+#Split concatenated data (comma separated into columns)
+decat_abritamr <- 
+        splitstackshape::cSplit(
+                indt = abritamr,
+                splitCols = cols_for_split,
+                sep = ",",
+                direction = "wide")
+
+#Clean column names
+decat_abritamr <- decat_abritamr %>%
+        #Remove prefix "ABRITAMR."
+        rename_with(.cols = everything(),
+                    ~str_replace(.x,
+                                pattern = "ABRITAMR\\.",
+                                replacement = ""
+                                   )
+               )
+
+#Next I need to make a list of genes associated with a given antibiotic class:
+gene_by_class_by_sample <-
+        decat_abritamr %>%
+        pivot_longer(!name,
+                     names_to = "Class",
+                     values_to = "Gene",
+                     values_drop_na = TRUE
+                     )
+
+#Clean "Class" column
+gene_by_class_by_sample <- gene_by_class_by_sample %>%
+        #Remove trailing underscore and numbers"
+        mutate(Class = str_replace(Class,
+                                   pattern = "_[0-4]$",
+                                   replacement = ""
+                                   )
+               )
+
+#Remove Class column - we will annotate this later on using 'gene_by_class' df
+gene_by_sample <- gene_by_class_by_sample %>%
+        select(-Class)
+
+#We now want to make a wide dataframe
+gene_by_sample <- gene_by_sample %>%
+        #Make a column indicating gene presence (for pivoting)
+        #0.5 indicates a near perfect match
+        #1.0 indicates a perfect match
+        mutate(Gene_present = if_else(
+                str_detect(
+                        string = Gene,
+                        pattern = "\\*"
+                        ),
+                0.5, 1)) %>%
+        #Remove asterisks which indicate imperfect matches
+        #These are now captured in our vallue column 'Gene_present'
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>% 
+        #Pivot our table wider
+        #Use sum function to handle situations where genes are present at n > 1
+        pivot_wider(names_from = Gene,
+                    values_from = Gene_present,
+                    values_fill = 0,
+                    values_fn = sum)
+
+#Move our name column to be our rownames
+gene_by_sample <- gene_by_sample %>% column_to_rownames(var = "name")
+
+#Replace instances where we have multiple hits (perfect or otherwise)
+#with 1.5
+gene_by_sample <- gene_by_sample %>% mutate(across(everything(), ~if_else(.x > 1.5, 1.5, .x)))
+
+#Remove name column
+gene_by_class <- gene_by_class_by_sample %>%
+        #Remove name column
+        select(-name)
+
+#Generate our list of unique gene names and their associated classes
+gene_by_class <- gene_by_class %>%
+        #Get rid of asterisks in our gene names        
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>%
+        #Remove multiple instances of the same gene
+        unique() %>%
+        #Arrange by Class
+        arrange(Class, Gene)
+
+
+#Set names for binary resistance categories
+rescolfun <- colorRampPalette(c('white', '#bebeda'))
+                              
+#Set colours for binary resistance categories
+rescols2 <- rescolfun(4)
+
+#Assign names for our options to our colours
+names(rescols2) <- c(0, 0.5, 1, 1.5)
+
+#Reorder based on gene by class df
+gene_by_sample <- gene_by_sample %>% select(all_of(gene_by_class$Gene))
+
+#Plot our heatmap of card genes
+res_p3 <- gheatmap(
+        p = p1_linear,
+        data = gene_by_sample,
+        colnames_offset_y = 0.5,
+        font.size = 3,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.05,
+        width = 5,
+        color = rgb(220, 220, 220, max = 255, alpha = 50)
+        ) +
+        scale_color_manual(
+                values = c(mycolslist),
+                na.value = 'grey'
+                ) +
+        scale_fill_gradient(low = "white",
+                            high = "#bebeda", ) +
+        theme(legend.box = "vertical",
+              legend.key.size = unit(1, "mm"),
+              legend.title = element_blank(),
+              legend.text = element_text(size = 8)
+                )+
+        ylim(NA, 250) 
+```
+```{r}
+#Convert gene by class into a dataframe
+gene_by_class <- gene_by_class %>% as.data.frame()
+
+#Assign the gene column as rownames so we can make a dataframe we can use to annotate our pheatmap
+rownames(gene_by_class) <- gene_by_class$Gene
+
+#Remove gene column - this is now stored as rownames
+gene_by_class <- gene_by_class %>% select(-Gene)
+
+#Create a list of the notable salmonellas we identified earlier on
+notable_salms <- notable_salms_amr_annodata %>% rownames()
+
+#Filter abritamr gene carriage data so that only notable salms remain
+notable_salms_amr <- gene_by_sample %>% filter(row.names(gene_by_sample) %in% notable_salms)
+
+#Change gene carriage to binary from imperfect match, perfect match, multiple matches
+notable_salms_amr <- notable_salms_amr %>% mutate(across(everything(), ~if_else(.x >= 0.5, 1, .x)))
+
+#Define our colours for serovars
+serovar_names <- Serovar_cols_df$SISTR1_Serovar_other
+serovar_cols <- Serovar_cols_df$color
+names(serovar_cols) <- serovar_names
+
+#Define our colours for ARG classes
+AMR_class_cols <- list("Chloramphenicol" = "coral", 
+     "Chloramphenicol/Florfenicol" = "coral2",
+     "Sulfonamide" = "aquamarine",
+     "Trimethoprim" = "aquamarine4",
+     "Fosfomycin" = "aliceblue",
+     "Tetracycline" = "beige",
+     "Beta-lactamase_(not_ESBL_or_carbapenemase)" = "goldenrod1",
+     "ESBL_(AmpC_type)" = "darkgoldenrod1",
+     "ESBL" = "darkgoldenrod3",
+     "Carbapenemase_(MBL)" = "darkgoldenrod4",
+     "Macrolide" = "darkolivegreen1",
+     "Lincosamides" = "darkolivegreen3",
+     "Colistin" = "black",
+     "Rifamycin" = "darkslategrey",
+     "Quinolone" = "blue",
+     "Amikacin/Kanamycin/Tobramycin/Quinolone" = "blueviolet",
+     "Gentamicin/Tobramycin/Apramycin" =  "firebrick1",
+     "Gentamicin" = "firebrick2",
+     "Kanamycin" = "firebrick3",
+     "Streptomycin" = "firebrick",
+     "Other_aminoglycoside_resistance_(non-RMT)" = "firebrick4",
+             
+     "Other_antimicrobial" = "deeppink",
+     
+     "Efflux" = "deeppink3"
+)
+
+#Remove unnecessary colours
+AMR_class_cols <- AMR_class_cols[names(AMR_class_cols) %in% gene_by_class$Class]
+
+#### There is currently a problem whereby the colours are assigned to the antibiotic classes
+#rather than the genes. I need to perform some kind of join or something such that the 
+#colours are attached to the genes instead. It must be formatted as a list at the end as well
+
+#Plot our heatmap
+pheatmap(notable_salms_amr, cluster_cols = FALSE, annotation_row = notable_salms_amr_annodata, annotation_col = gene_by_class, annotation_colors = AMR_class_cols)
+```
+
+
+## Determine CIA res status
+```{r count CIA res, echo=FALSE, fig.height=8, fig.width=12}
+
+#Duplicate the table to determine CIA status
+CIA_table <- abritamr
+
+#Select CIA gene columns
+CIA_table <- CIA_table %>% select(name, matches('Quinolone'), matches('[^not_]ESBL'), matches('[^or_]Carbapenemase'), matches('Colistin'), matches('Macrolide'), matches('Lincosamide'))
+
+CIA_table <- CIA_table %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "glpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "uhpT_[^,]+,?",
+                                   ""))) %>%
+        #mutate(across(everything(),
+        #              ~str_replace(.x,
+        #                           "gyrA_[^,]+,?",
+        #                           ""))) %>%
+        #mutate(across(everything(),
+        #              ~str_replace(.x,
+        #                           "parC[^,]+,?",
+        #                           ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "marR_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~na_if(.,"")
+        ))
+
+CIA_table <- CIA_table %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   ".*",
+                                   "1"))) %>%
+        mutate(across(everything(),
+                      ~replace_na(.x,
+                                   "0"))) %>%
+        mutate(across(everything(),
+                      ~as.numeric(.x)))
+
+#
+CIA_res <- CIA_table %>%
+        mutate(CIA_res_status = rowSums(CIA_table)) %>%
+        select(CIA_res_status)  %>%
+        rownames_to_column('label') %>%
+        mutate(CIA_res_status = if_else(CIA_res_status >= 1, "+", "-"))
+
+```
+
+## Determine MDR status
+
+```{r count MDR, echo=FALSE, fig.height=8, fig.width=12}
+
+#Duplicate the table to determine CIA status
+MDR_table <- abritamr %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "glpT_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "uhpT_[^,]+,?",
+                                   ""))) %>%
+        #mutate(across(everything(),
+        #              ~str_replace(.x,
+        #                           "gyrA_[^,]+,?",
+        #                           ""))) %>%
+        #mutate(across(everything(),
+        #              ~str_replace(.x,
+        #                           "parC[^,]+,?",
+        #                           ""))) %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   "marR_[^,]+,?",
+                                   ""))) %>%
+        mutate(across(everything(),
+                      ~na_if(.,"")
+        ))
+
+MDR_table <- MDR_table %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~str_replace(.x,
+                                   ".*",
+                                   "1"))) %>%
+        mutate(across(everything(),
+                      ~replace_na(.x,
+                                   "0")))%>%
+        mutate(across(everything(),
+                      ~as.numeric(.x))) %>%
+        rownames_to_column('name')
+
+#Select Aminoglycoside resistance conferring columns
+MDR_table <- MDR_table %>% rowwise() %>%
+        mutate(Aminoglycoside_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Amikacin/Kanamycin/Tobramycin/Quinolone`,
+                        #`ABRITAMR.Aminoglycosides_(Ribosomal_methyltransferase)`,
+                        #`ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Fosfomycin`,
+                        `ABRITAMR.Gentamicin`,
+                        #`ABRITAMR.Gentamicin/Kanamycin/Tobramycin`,
+                        `ABRITAMR.Gentamicin/Tobramycin/Apramycin`,
+                        `ABRITAMR.Kanamycin`,
+                        `ABRITAMR.Other_aminoglycoside_resistance_(non-RMT)`,
+                        `ABRITAMR.Streptomycin`
+                ))
+        )) %>% 
+        mutate(Betalactam_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Beta-lactamase_(not_ESBL_or_carbapenemase)`,
+                        #`ABRITAMR.Beta-lactamase_(unknown_spectrum)`,
+                        #`ABRITAMR.Carbapenemase`,
+                        #`ABRITAMR.Carbapenemase_(KPC_variant)`,
+                        `ABRITAMR.Carbapenemase_(MBL)`,
+                        `ABRITAMR.ESBL`,
+                        `ABRITAMR.ESBL_(AmpC_type)`,
+                ))
+        )) %>% 
+        mutate(Ansamycin_resistance = sum(
+                c_across(cols = c(
+                        #`ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Rifamycin`,
+                ))
+        )) %>% 
+        mutate(Chloramphenicol_phenicol_resistance = sum(
+                c_across(cols = c(
+                        #`ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Chloramphenicol`,
+                        `ABRITAMR.Chloramphenicol/Florfenicol`,
+                        #`ABRITAMR.Phenicol/Quinolone`,
+                ))
+        )) %>% 
+        mutate(Polymixin_resistance = `ABRITAMR.Colistin`) %>%
+        mutate(Lincosamides_resistance = `ABRITAMR.Lincosamides`) %>% 
+        mutate(Macrolides_resistance = `ABRITAMR.Macrolide`) %>% 
+        mutate(Fluoroquinolone_quinolone_resistance = sum(
+                c_across(cols = c(
+                        `ABRITAMR.Amikacin/Kanamycin/Tobramycin/Quinolone`,
+                        #`ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        #`ABRITAMR.Phenicol/Quinolone`,
+                        `ABRITAMR.Quinolone`
+                ))
+        )) %>% 
+        mutate(Sulfonamide_resistance = `ABRITAMR.Sulfonamide`) %>%
+        mutate(Tetracycline_resistance = sum(
+                c_across(cols = c(
+                        #`ABRITAMR.Ampicillin/Chloramphenicol/Quinolone/Rifampin/Tetracycline`,
+                        `ABRITAMR.Tetracycline`
+                ))
+        )) %>%
+        mutate(Trimethoprim_resistance = `ABRITAMR.Trimethoprim`)
+
+MDR_table <- MDR_table %>%
+        select(name,
+               matches("_resistance"),
+               -`ABRITAMR.Other_aminoglycoside_resistance_(non-RMT)`
+               ) %>%
+        column_to_rownames('name') %>%
+        mutate(across(everything(),
+                      ~if_else(.x >= 1, 1, 0))) %>%
+        mutate(count_AMR_genes = rowSums(.))
+        
+MDR_status <- MDR_table %>%
+        select(count_AMR_genes) %>% 
+        mutate(MDR_status = if_else(count_AMR_genes > 2, "+", "-")) %>%
+        rownames_to_column('label')
+```
+
+```{r}
+
+AMR <- MDR_table %>% rownames_to_column('name') 
+
+AMR_2  <- df_large %>% select(name, SISTR1_Serovar, Source_Niche) %>% full_join(AMR) %>% filter(name %in% tree$tip.label) %>% group_by(SISTR1_Serovar, Source_Niche) %>% add_count() %>% mutate(mean_ARG = round(mean(count_AMR_genes), digits = 2))
+
+df_large %>% select(name, SISTR1_Serovar_other, Source_Niche) %>%
+    full_join(abritamr) %>%
+        mutate(across(matches("ABRITAMR"), ~ gsub("[A-z].*", 1, .))) %>%
+        mutate(across(matches("ABRITAMR"), ~ replace_na(., "0"))) %>%
+        mutate(across(matches("ABRITAMR"), ~ as.numeric(.))) %>%
+    filter(name %in% tree$tip.label) %>%
+    group_by(SISTR1_Serovar_other, Source_Niche) %>%
+    select(-name) %>%
+        mutate(across(starts_with("ABRITAMR"), ~ sum(.) / n(), .names = "{.col}")) %>%
+    arrange(SISTR1_Serovar_other, Source_Niche) %>%
+    unique() %>% 
+    mutate(rownem = paste(SISTR1_Serovar_other, "-", Source_Niche)) %>%
+    column_to_rownames("rownem") %>%
+    select(-SISTR1_Serovar_other, -Source_Niche) %>%
+    mutate(across(everything(), ~ . * 100)) %>%
+    rename_with(~ gsub("ABRITAMR.", "", .), everything()) %>%
+        rename_with(~ gsub("_", " ", .), everything()) %>%
+        select(sort(colnames(.))) %>% 
+        select(-Efflux) %>% 
+    pheatmap(cluster_rows = F, cluster_cols = F, display_numbers = T, color =colorRampPalette(c("white", "blue"))(100), number_format = "%.1f%%")
+
+
+ARG_gene_count <- df_large %>% select(name, SISTR1_Serovar_other, Source_Niche) %>%
+    full_join(abritamr) %>% select(name, matches("ABRITAMR")) %>% pivot_longer(cols = 2:ncol(.), names_to = "resistance", values_to = "resistance_genes")  %>%
+    separate_rows(resistance_genes, sep = ",") %>%
+    filter(!grepl("^mds[A|B].*|^parC.*|^gyrA.*|tetM.*", resistance_genes)) %>%
+    mutate(resistance_genes =  gsub("[A-z].*", 1, resistance_genes)) %>%
+    mutate(resistance_genes =  replace_na(resistance_genes, "0")) %>%
+    mutate(resistance_genes =  as.numeric(resistance_genes)) %>% select(-resistance) %>% group_by(name) %>% summarise(count_of_ARGs = sum(resistance_genes))
+
+df_large %>% select(name, SISTR1_Serovar_other, Source_Niche) %>%
+    full_join(ARG_gene_count) %>%
+    filter(name %in% tree$tip.label) %>%
+    group_by(SISTR1_Serovar_other, Source_Niche) %>%
+    add_count() %>% mutate(mean_ARG = round(mean(count_of_ARGs), digits = 2)) %>%
+    unique() %>%
+    arrange(SISTR1_Serovar_other, Source_Niche) %>%
+    select(SISTR1_Serovar_other, Source_Niche, n, mean_ARG) %>% unique() %>% View()
+
+```
+
+
+# Abritamr by AMR gene
+
+```{r}
+#Define the columns we wish to split (taking everything other than name)
+#To do this we identify any columns containing a comma
+cols_for_split <-
+        abritamr %>%
+        select(where(~any(grepl(",", .x)))) %>%
+        colnames()
+
+#Split concatenated data (comma separated into columns)
+decat_abritamr <- 
+        splitstackshape::cSplit(
+                indt = abritamr,
+                splitCols = cols_for_split,
+                sep = ",",
+                direction = "wide")
+
+#Clean column names
+decat_abritamr <- decat_abritamr %>%
+        #Remove prefix "ABRITAMR."
+        rename_with(.cols = everything(),
+                    ~str_replace(.x,
+                                pattern = "ABRITAMR\\.",
+                                replacement = ""
+                                   )
+               )
+
+#Next I need to make a list of genes associated with a given antibiotic class:
+gene_by_class_by_sample <-
+        decat_abritamr %>%
+        pivot_longer(!name,
+                     names_to = "Class",
+                     values_to = "Gene",
+                     values_drop_na = TRUE
+                     )
+
+#Clean "Class" column
+gene_by_class_by_sample <- gene_by_class_by_sample %>%
+        #Remove trailing underscore and numbers"
+        mutate(Class = str_replace(Class,
+                                   pattern = "_[0-4]$",
+                                   replacement = ""
+                                   )
+               )
+
+#Remove Class column - we will annotate this later on using 'gene_by_class' df
+gene_by_sample <- gene_by_class_by_sample %>%
+        select(-Class)
+
+#We now want to make a wide dataframe
+gene_by_sample <- gene_by_sample %>%
+        #Make a column indicating gene presence (for pivoting)
+        #0.5 indicates a near perfect match
+        #1.0 indicates a perfect match
+        mutate(Gene_present = if_else(
+                str_detect(
+                        string = Gene,
+                        pattern = "\\*"
+                        ),
+                0.5, 1)) %>%
+        #Remove asterisks which indicate imperfect matches
+        #These are now captured in our vallue column 'Gene_present'
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>% 
+        #Pivot our table wider
+        #Use sum function to handle situations where genes are present at n > 1
+        pivot_wider(names_from = Gene,
+                    values_from = Gene_present,
+                    values_fill = 0,
+                    values_fn = sum)
+
+#Add in any missing samples via the tree
+gene_by_sample <- tree$tip.label %>% as.data.frame() %>% rename('name' = '.') %>% full_join(gene_by_sample) %>% column_to_rownames('name') %>% replace(is.na(.), 0) %>% rownames_to_column('name')
+
+#Move our name column to be our rownames
+gene_by_sample <- gene_by_sample %>% column_to_rownames(var = "name")
+
+#Replace instances where we have multiple hits (perfect or otherwise)
+#with 1.5
+gene_by_sample <- gene_by_sample %>% mutate(across(everything(), ~if_else(.x > 1.5, 1.5, .x)))
+
+#Remove name column
+gene_by_class <- gene_by_class_by_sample %>%
+        #Remove name column
+        select(-name)
+
+#Generate our list of unique gene names and their associated classes
+gene_by_class <- gene_by_class %>%
+        #Get rid of asterisks in our gene names        
+        mutate(Gene = str_replace(Gene,
+                                  pattern = "\\*",
+                                  replacement = "")) %>%
+        #Remove multiple instances of the same gene
+        unique() %>%
+        #Arrange by Class
+        arrange(Class, Gene)
+
+
+#Set names for binary resistance categories
+rescolfun <- colorRampPalette(c('white', '#bebeda'))
+                              
+#Set colours for binary resistance categories
+rescols2 <- rescolfun(4)
+
+#Assign names for our options to our colours
+names(rescols2) <- c(0, 0.5, 1, 1.5)
+
+#Reorder based on gene by class df
+gene_by_sample <- gene_by_sample %>% select(all_of(gene_by_class$Gene))
+
+#Define our colours for ARG classes
+AMR_class_order <- c("Sulfonamide",
+                     "Trimethoprim",
+                     "Chloramphenicol", 
+                     "Chloramphenicol/Florfenicol",
+                     "Fosfomycin",
+                     "Tetracycline",
+                     "Beta-lactamase_(not_ESBL_or_carbapenemase)",
+                     "ESBL_(AmpC_type)",
+                     "ESBL",
+                     "Carbapenemase",
+                     "Carbapenemase_(MBL)",
+                     "Macrolide",
+                     "Lincosamides",
+                     "Colistin",
+                     "Phenicol/Quinolone",
+                     "Quinolone",
+                     "Amikacin/Kanamycin/Tobramycin/Quinolone",
+                     "Aminoglycosides_(Ribosomal_methyltransferase)",
+                     "Gentamicin/Kanamycin/Tobramycin",
+                     "Gentamicin/Tobramycin/Apramycin",
+                     "Gentamicin",
+                     "Kanamycin",
+                     "Streptomycin",
+                     "Other_aminoglycoside_resistance_(non-RMT)",
+                     "Rifamycin",
+                     "Other_antimicrobial",
+                     "Efflux")
+
+#Define the order of genes we want for our figure based on AMR class association
+order_of_cols <- AMR_class_order %>% as.data.frame() %>% rename(Class = ".")
+
+#Join our genes and the row order
+gene_by_class_sorted <- gene_by_class %>% arrange(match(Class, order_of_cols$Class))
+
+#Reorder our columns (putting SNPs at the end)
+gene_by_sample <- gene_by_sample %>% select(all_of(gene_by_class_sorted$Gene)) %>% select(-matches("_[A-Z][0-9]+[A-Z]"), matches("_[A-Z][0-9]+[A-Z]"))
+
+#Duplicate our df so we can add gene counts
+gene_by_sample_clone <- gene_by_sample
+
+#Create a binary version of our gene carriage table
+gene_by_sample_clone <- gene_by_sample_clone %>% mutate(across(everything(), ~if_else(.x >= 0.5, 1, .x)))
+
+#Define our function for pasting the sum of carriage of a given gene (And ass.%)
+add_col_sum_perc <- function(x) {
+        new_colnames <- paste0(
+                #Gene name
+                colnames(x),
+                #Number of samples carrying said gene / total number of samples
+                " (n = ", colSums(x),"/", nrow(x),
+                #Percentage of samples carring said gene
+                " [", scales::percent(colSums(x)/nrow(x), accuracy = 2), "])")
+        y <- x
+        colnames(y) <- new_colnames
+        return(y)
+}
+
+#Rename all our columns with our 
+gene_by_sample_clone_wperc <- add_col_sum_perc(gene_by_sample_clone)
+
+# Replace our old colnames with our new ones
+colnames(gene_by_sample) <- colnames(gene_by_sample_clone_wperc)
+
+#Create a dataframe with only binary variables
+#Redundant as this already exists as a variable called gene_by_sample_clone
+#gene_by_sample_binary <- gene_by_sample %>% mutate(across(everything(),
+#                                 ~ case_when(. > 0 ~ 1,
+#                                             . <= 0 ~ 0))) %>%
+#        rowSums() %>%
+#        as.data.frame() %>%
+#        rename('name' = '.')
+
+#Create a table with rowSums for count of ARGs per sample
+ARG_count <- gene_by_sample_clone %>% rowSums() %>% as.data.frame() %>% rename('Count_ARGs' = '.') %>% rownames_to_column('label')
+
+#Add this dataframe to p2's data
+p1_linear$data <- left_join(p1_linear$data, ARG_count, by = 'label')
+
+#Add  res status to p2's data
+p1_linear$data <- left_join(p1_linear$data, MDR_status, by = 'label')
+
+#Add CIA status to p2's data
+p1_linear$data <- left_join(p1_linear$data, CIA_res, by = 'label')
+
+#Define Collection names
+collection_names <- metadata$Source_Details
+
+#Define Collection cols
+collection_cols <- source_cols
+
+#Name our colours
+collection_cols <- names(collection_names)
+
+#Add in missing sample (removed as it had no genes detected)
+gene_by_sample <- gene_by_sample %>% rownames_to_column('name') %>% full_join(sample_names) %>% column_to_rownames('name') %>% mutate(across(everything(), ~ replace_na(., 0)))
+```
+
+
+```{r}
+
+strip_fontsize <- 3
+strip_offset <- -0.5
+
+strip_text_offset <- 0
+strip_barsize <- 2
+strip_text_hjust <- 1
+
+#Build tree
+p1_linear <- ggtree(tree) %<+%
+        df_large +
+        geom_tippoint(size = 0.75,
+                      aes(colour = Source_Niche_other)
+                      ) +
+        scale_fill_manual(
+                        aesthetics = c("colour", "fill"),
+                        values = mycolslist,
+                        na.value = 'grey'
+                        )
+
+#Add this dataframe to p2's data
+p1_linear$data <- left_join(p1_linear$data, ARG_count, by = 'label')
+
+#Add  res status to p2's data
+p1_linear$data <- left_join(p1_linear$data, MDR_status, by = 'label')
+
+#Add CIA status to p2's data
+p1_linear$data <- left_join(p1_linear$data, CIA_res, by = 'label')
+
+
+#Build tree
+p2_lin <- p1_linear +
+        geom_tiplab(size = 1.8,
+                    align = TRUE,
+                    linesize = 0.15,
+                    color = "black",
+                    aes(label = paste0("ST",ST))) +
+        geom_tiplab(size = 1.8,
+                    align = TRUE,
+                    offset = 0.25,
+                    linetype = NULL,
+                    aes(color = as.factor(SISTR1_Serovar_other), label = Collection_Year)
+                    )+ 
+        geom_tiplab(
+            aes(label = as.character(CIA_res_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.5,
+            size = 1.8,
+            hjust = 0.4
+            ) +
+        geom_tiplab(
+            aes(label = as.character(MDR_status)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.6,
+            size = 1.8,
+            hjust = 0.5
+            )+
+        geom_tiplab(
+            aes(label = as.character(Count_ARGs)),
+            align = TRUE,
+            linetype = NULL,
+            offset = 0.7,
+            size = 1.8,
+            hjust = 0.5
+            )
+
+p2_linear <- p2_lin + geom_strip(
+                serovar_coord$firstocc[1],
+                serovar_coord$lastocc[1],
+                barsize = strip_barsize,
+                color = serovar_coord$color[1],
+                #label = serovar_coord$SISTR1_Serovar_other[1],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust) +
+        geom_strip(
+                serovar_coord$firstocc[2],
+                serovar_coord$lastocc[2],
+                barsize = strip_barsize,
+                color = serovar_coord$color[2],
+                #label = serovar_coord$SISTR1_Serovar_other[2],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[3],
+                serovar_coord$lastocc[3],
+                barsize = strip_barsize,
+                color = serovar_coord$color[3],
+                #label = serovar_coord$SISTR1_Serovar_other[3],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip( ## Hide this one because this serovar is within the typhimurium clade
+                serovar_coord$firstocc[4], 
+                serovar_coord$lastocc[4],
+                barsize = strip_barsize,
+                color = serovar_coord$color[4],
+                #label = serovar_coord$SISTR1_Serovar_other[4],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[5],
+                serovar_coord$lastocc[5],
+                barsize = strip_barsize,
+                color = serovar_coord$color[5],
+                #label = serovar_coord$SISTR1_Serovar_other[5],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[6],
+                serovar_coord$lastocc[6],
+                barsize = strip_barsize,
+                color = serovar_coord$color[6],
+                #label = serovar_coord$SISTR1_Serovar_other[6],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[7],
+                serovar_coord$lastocc[7],
+                barsize = strip_barsize,
+                color = serovar_coord$color[7],
+                #label = serovar_coord$SISTR1_Serovar_other[7],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[8],
+                serovar_coord$lastocc[8],
+                barsize = strip_barsize,
+                color = serovar_coord$color[8],
+                #label = serovar_coord$SISTR1_Serovar_other[8],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[9],
+                serovar_coord$lastocc[9],
+                barsize = strip_barsize,
+                color = serovar_coord$color[9],
+                #label = serovar_coord$SISTR1_Serovar_other[9],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[10],
+                serovar_coord$lastocc[10],
+                barsize = strip_barsize,
+                color =  serovar_coord$color[10],
+                #label = serovar_coord$SISTR1_Serovar_other[10],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        ) +
+        geom_strip(
+                serovar_coord$firstocc[11],
+                serovar_coord$lastocc[11],
+                barsize = strip_barsize,
+                color =  serovar_coord$color[11],
+                #label = serovar_coord$SISTR1_Serovar_other[11],
+                fontsize = strip_fontsize,
+                offset = strip_offset,
+                offset.text = strip_text_offset,
+                hjust = strip_text_hjust
+        )+ theme(legend.position = "bottom",
+                legend.box = "vertical",
+                legend.key.size = unit(3, "mm"),
+                legend.title = element_blank(),
+                legend.text = element_text(size = 8)
+                ) 
+
+#Plot our heatmap of card genes
+res_p3 <- gheatmap(
+        p = p2_lin,
+        data = gene_by_sample,
+        colnames_offset_y = 2,
+        font.size = 2.25,
+        colnames_angle = 90,
+        hjust = 0,
+        colnames = TRUE,
+        colnames_position = "top",
+        offset = 0.70,
+        width = 5,
+        color = rgb(0, 0, 0, max = 255, alpha = 150)
+        ) +
+        scale_color_manual(
+                values = c(mycolslist, collection_cols),
+                na.value = 'grey'
+                ) +
+        scale_fill_gradient2(low = "white",
+                            mid = "#bebeda",
+                            high = "red",
+                            midpoint = 1) +
+        theme(legend.position = "none") +
+        ylim(0.4, nrow(gene_by_sample)*1.1) +
+        xlim(c(-0.1,NA))
+
+
+```
+
+
+
